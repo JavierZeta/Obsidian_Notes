@@ -215,3 +215,5 @@ This sets up the **rest of _The Republic_** — the search for the true definiti
     
 
 Everything that follows — the construction of the ideal city, the tripartite soul, and the allegory of the cave — develops from this first clash.
+
+prueba git tetas.
