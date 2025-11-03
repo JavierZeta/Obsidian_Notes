@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"207a3ea9f3ce4418","type":"group","x":200,"y":-780,"width":2660,"height":1480,"label":"Protoestrellas"},
+		{"id":"acb243e071cf0051","type":"group","x":-1380,"y":-1100,"width":1540,"height":1911,"label":"GMC"},
+		{"id":"6eb9703cd79110cd","type":"file","file":"Astrofísica/GMC (Nubes Gigantes Moleculares).md","x":-800,"y":-248,"width":400,"height":400},
+		{"id":"98b7972816a18385","type":"file","file":"Astrofísica/Protoestrellas — fases, tracks y física.md","x":640,"y":-248,"width":440,"height":400},
+		{"id":"5d6283c3df00c5b1","type":"file","file":"Astrofísica/Discos de acreción.md","x":400,"y":369,"width":400,"height":222},
+		{"id":"9a433561ccc730ce","type":"file","file":"Astrofísica/Polvo y gas (medio interestelar.md","x":-800,"y":391,"width":400,"height":400},
+		{"id":"a05990d5ff2af167","type":"text","text":"Las nebulosas se encuentran en los bordes de la GMC","x":-725,"y":-360,"width":250,"height":80},
+		{"id":"44f651941b82856f","type":"file","file":"Astrofísica/Nebulosa/🟥 Nebulosa de emisión (Región H II).md","x":-800,"y":-1080,"width":400,"height":400},
+		{"id":"ca35e49c16e29600","type":"file","file":"Astrofísica/Nebulosa/🟦 Nebulosa de reflexión.md","x":-1360,"y":-1080,"width":400,"height":400},
+		{"id":"11c2ef111911a3d9","type":"file","file":"Astrofísica/Nebulosa/⬛ Nebulosa oscura (de absorción).md","x":-260,"y":-1080,"width":400,"height":400},
+		{"id":"7183b53eb1339060","type":"file","file":"Astrofísica/Hayashi Track.md","x":1080,"y":-760,"width":400,"height":400},
+		{"id":"787d5de183827ca1","type":"file","file":"Astrofísica/Henyey track.md","x":1080,"y":280,"width":400,"height":400},
+		{"id":"f6e8665c949ccc0b","type":"file","file":"Astrofísica/Diferencias de evolución según la masa estelar.md","x":1720,"y":-248,"width":400,"height":400},
+		{"id":"ac7c0a1345287cb9","type":"file","file":"Astrofísica/Jets y flujos bipolares.md","x":2440,"y":-248,"width":400,"height":400},
+		{"id":"19f26611e1d866b4","type":"file","file":"Astrofísica/Procesos que desencadenan el colapso (Inestabilidad y triggers).md","x":220,"y":-248,"width":360,"height":400},
+		{"id":"d5eea3e7f5e213cd","type":"file","file":"Pasted image 20251103192529.png","x":1618,"y":-1480,"width":302,"height":400},
+		{"id":"7593c0f2f3927acb","type":"file","file":"Pasted image 20251103192542.png","x":1218,"y":-1469,"width":400,"height":189},
+		{"id":"eca525f44cf9621c","type":"file","file":"Pasted image 20251103192557.png","x":1946,"y":-1160,"width":347,"height":400},
+		{"id":"8e867fc619642e70","type":"file","file":"Pasted image 20251103192620.png","x":800,"y":-1280,"width":397,"height":400},
+		{"id":"a071dfe7f8dd5999","x":269,"y":-1469,"width":331,"height":400,"type":"file","file":"Pasted image 20251103192657.png"},
+		{"id":"6e34df5f5ba4474f","x":2293,"y":-1498,"width":400,"height":338,"type":"file","file":"Pasted image 20251103192719.png"},
+		{"id":"0af70ec65f8f9dbf","x":2840,"y":-1660,"width":400,"height":286,"type":"file","file":"Pasted image 20251103192740.png"},
+		{"id":"acc9dc4302022e11","x":2120,"y":-2080,"width":400,"height":325,"type":"file","file":"Pasted image 20251103192818.png"}
+	],
+	"edges":[
+		{"id":"b20724717f7030ca","fromNode":"6eb9703cd79110cd","fromSide":"right","toNode":"19f26611e1d866b4","toSide":"left"},
+		{"id":"522332933016aaba","fromNode":"19f26611e1d866b4","fromSide":"right","toNode":"98b7972816a18385","toSide":"left"},
+		{"id":"4ada77e921098449","fromNode":"98b7972816a18385","fromSide":"right","toNode":"7183b53eb1339060","toSide":"left"},
+		{"id":"04ff969d0eeea256","fromNode":"98b7972816a18385","fromSide":"right","toNode":"787d5de183827ca1","toSide":"left"},
+		{"id":"b489883c614d8189","fromNode":"7183b53eb1339060","fromSide":"right","toNode":"f6e8665c949ccc0b","toSide":"left"},
+		{"id":"9e1497507d90ba4b","fromNode":"787d5de183827ca1","fromSide":"right","toNode":"f6e8665c949ccc0b","toSide":"left"},
+		{"id":"4df667afc12012b7","fromNode":"98b7972816a18385","fromSide":"bottom","toNode":"5d6283c3df00c5b1","toSide":"top"},
+		{"id":"b1d35507e79b11c9","fromNode":"6eb9703cd79110cd","fromSide":"top","toNode":"44f651941b82856f","toSide":"bottom"},
+		{"id":"ed59fa5b3399e2c2","fromNode":"6eb9703cd79110cd","fromSide":"top","toNode":"ca35e49c16e29600","toSide":"bottom"},
+		{"id":"553d3b2caec68143","fromNode":"6eb9703cd79110cd","fromSide":"top","toNode":"11c2ef111911a3d9","toSide":"bottom"},
+		{"id":"bd2fe2ee45f7d62d","fromNode":"11c2ef111911a3d9","fromSide":"bottom","toNode":"19f26611e1d866b4","toSide":"top","color":"#000000"},
+		{"id":"fd49019023617985","fromNode":"44f651941b82856f","fromSide":"bottom","toNode":"19f26611e1d866b4","toSide":"top","color":"1"},
+		{"id":"fcf505868dc40b38","fromNode":"6eb9703cd79110cd","fromSide":"bottom","toNode":"9a433561ccc730ce","toSide":"top"},
+		{"id":"608bf1dc57d67858","fromNode":"f6e8665c949ccc0b","fromSide":"right","toNode":"ac7c0a1345287cb9","toSide":"left"}
+	]
+}

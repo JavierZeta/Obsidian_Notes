@@ -1,0 +1,21 @@
+/* Basic colors */
+.red { color: red; }
+.blue { color: blue; }
+.green { color: green; }
+.yellow { color: #ffd700; }
+.orange { color: orange; }
+.purple { color: rgb(141, 51, 141); }
+
+/* Light Purples */
+.light-purple { color: #c8a2c8; }         /* A soft lilac */
+.lighter-purple { color: #d8bfd8; }       /* Even lighter - thistle */
+.pastel-purple { color: #aa86ed; }        /* A nice pastel */
+.lavender { color: #e6e6fa; }             /* Very light lavender */
+.periwinkle { color: #ccccff; }           /* Light blue-purple */
+/* Highlight colors */
+
+.highlight-pink { background-color: pink; }
+.highlight-yellow { background-color: yellow; color: black; }
+
+/* Custom colors using hex codes */
+.custom-color { color: #1e90ff; } /* Dodger blue */

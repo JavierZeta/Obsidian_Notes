@@ -1,0 +1,2 @@
+
+La conservación del momento angular durante el colapso hace que el material forme un disco alrededor de la protoestrella. Dentro del disco, fricción/colisiones entre partículas permiten que parte de la materia pierda momento y acceda a la estrella, mientras otra parte se expulsa.
