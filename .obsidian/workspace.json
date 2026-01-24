@@ -201,12 +201,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estrellas de neutrones.md",
+                "file": "Teoría de las Ideas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Estrellas de neutrones"
+              "title": "Teoría de las Ideas"
+            }
+          },
+          {
+            "id": "36f7472b34644bc1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Socrates/The Republic/Book III.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Book III"
             }
           },
           {
@@ -222,9 +236,163 @@
               "icon": "lucide-file",
               "title": "Agujeros Negros"
             }
+          },
+          {
+            "id": "dd68acdc683e421b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Socrates/The Republic/Book IV.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Book IV"
+            }
+          },
+          {
+            "id": "3a57c555371eaa29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Socrates/Phaedrus.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Phaedrus"
+            }
+          },
+          {
+            "id": "376b3389484c25b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Escuelas de Elis y Eritrea.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Escuelas de Elis y Eritrea"
+            }
+          },
+          {
+            "id": "c484bf978d4817f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Escuela Megárica.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Escuela Megárica"
+            }
+          },
+          {
+            "id": "795db4e4bda4900f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Escuela Cínica.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Escuela Cínica"
+            }
+          },
+          {
+            "id": "5d14186a0c02b10a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Escuela Cirenaica.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Escuela Cirenaica"
+            }
+          },
+          {
+            "id": "c376e37b1ad7d74f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Escuela Cínica.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Escuela Cínica"
+            }
+          },
+          {
+            "id": "e75ce8ae078fe6cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoría de las Ideas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Teoría de las Ideas"
+            }
+          },
+          {
+            "id": "6cab8958be072558",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "cba4a3af8ac4c5ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoría de las Ideas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Teoría de las Ideas"
+            }
+          },
+          {
+            "id": "7945ba29c4299f9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Socrates/Phaedrus.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Phaedrus"
+            }
           }
         ],
-        "currentTab": 13
+        "currentTab": 26
       }
     ],
     "direction": "vertical"
@@ -281,7 +449,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "96a4f70dd22a1c2c",
@@ -369,8 +537,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -386,46 +553,46 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "37d14526383b5c25",
+  "active": "7945ba29c4299f9c",
   "lastOpenFiles": [
-    "Agujeros Negros.md",
-    "Estrellas de neutrones.md",
-    "Astrofísica/CANVAS.canvas",
-    "Pasted image 20251103192818.png",
-    "Pasted image 20251103192740.png",
-    "Pasted image 20251103192719.png",
-    "Pasted image 20251103192657.png",
-    "Pasted image 20251103192638.png",
-    "Pasted image 20251103192620.png",
-    "Pasted image 20251103192557.png",
-    "Pasted image 20251103192556.png",
-    "Pasted image 20251103192542.png",
-    "Pasted image 20251103192529.png",
-    "Supernovas.md",
+    "Socrates/Phaedo.md",
+    "Socrates/The Republic/Book IV.md",
+    "Aristóteles epistemología.md",
+    "Aristotle Metaphysics.md",
+    "Teoría de las Ideas.md",
+    "tfg.md",
     "Untitled.md",
-    "Evolución de estrellas intermedias.md",
-    "Evolución de estrellas de baja masa.md",
-    "Proceso Triple alpha y Flash de Helio.md",
-    "Gigantes rojas y expansión del radio estelar.md",
-    "Envenenamiento por helio y principio del espejo.md",
-    "Dragados (Dredge-up) y Estrellas de Carbono.md",
-    "Pulsación.md",
+    "Escuela Cirenaica.md",
+    "Escuela Cínica.md",
+    "Escuela Megárica.md",
+    "Escuelas de Elis y Eritrea.md",
+    "Socrates/Phaedrus.md",
+    "Socrates/Critias.md",
+    "Socrates/Apología Socrates.md",
+    "Experimento UC-Ozono.md",
+    "Socrates/The Republic/Book I Thrasymachus.md",
+    "Socrates/The Republic/Book III.md",
+    "Astrofísica/CANVAS.canvas",
+    "Astrofísica/Estrellas de neutrones.md",
+    "Astrofísica/Agujeros Negros.md",
+    "Astrofísica/Pasted image 20251103192818.png",
+    "Astrofísica/Pasted image 20251103192740.png",
+    "Astrofísica/Pasted image 20251103192719.png",
+    "Astrofísica/Pasted image 20251103192657.png",
+    "Astrofísica/Pasted image 20251103192638.png",
+    "Astrofísica/Pasted image 20251103192620.png",
+    "Astrofísica/Pasted image 20251103192557.png",
+    "Astrofísica/Pasted image 20251103192556.png",
+    "Astrofísica/Pasted image 20251103192542.png",
+    "Astrofísica/Pasted image 20251103192529.png",
+    "Astrofísica/Supernovas.md",
+    "Astrofísica/Evolución de estrellas intermedias.md",
+    "Astrofísica/Evolución de estrellas de baja masa.md",
+    "Astrofísica/Proceso Triple alpha y Flash de Helio.md",
+    "Astrofísica/Gigantes rojas y expansión del radio estelar.md",
+    "Astrofísica/Envenenamiento por helio y principio del espejo.md",
+    "Astrofísica/Dragados (Dredge-up) y Estrellas de Carbono.md",
     "Untitled",
-    "Tipo Mira.md",
-    "Cefeidas.md",
-    "RR Lyrae.md",
-    "Astrofísica/Polvo y gas (medio interestelar.md",
-    "Astrofísica/Diferencias de evolución según la masa estelar.md",
-    "Astrofísica/Henyey track.md",
-    "Astrofísica/Hayashi Track.md",
-    "Astrofísica/Presión de degeneración (física intuida).md",
-    "Astrofísica/Procesos que desencadenan el colapso (Inestabilidad y triggers).md",
-    "Astrofísica/Discos de acreción.md",
-    "Astrofísica/Dispersión de la luz en el medio interestelar.md",
-    "Astrofísica/Presión de degeneración electrónica.md",
-    "Astrofísica/Nebulosa/⬛ Nebulosa oscura (de absorción).md",
-    "Astrofísica/Nebulosa/🟦 Nebulosa de reflexión.md",
-    "Astrofísica/Nebulosa/🟥 Nebulosa de emisión (Región H II).md",
     "Canvas.canvas",
     "Astrofísica/Nebulosa",
     "Astrofísica",

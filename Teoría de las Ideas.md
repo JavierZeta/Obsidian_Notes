@@ -1,3 +1,162 @@
+Platón frente al escepticismo sofísta pues rechaza las ideas de virtud y justicia de Sócrates.
+
+Relativismo ético a relativismo gnoseológico.
+
+
+
+**1.** Para Leucipo y Demócrito, lo que percibimos como colores, sabores o sonidos son solo apariencias que se explican realmente por la forma, tamaño y movimiento de los átomos.  
+**2.** Conocer es entender cómo esos átomos producen “ídolos” que impactan en nuestros propios átomos del alma, haciendo que toda percepción sea pura interacción material.
+
+Admitió la veracidad de a teoría de la percepción de Protágoras anteriormente discípulo de demócrito(abdera). 
+
+, la percepción es el conocimiento adecuado de lo percibido, pero nun ·u de las cosas mismas
+
+
+Lo que ya no es doctrina de Protágoras es lo consecuencia ulterior de negar en general el ser e identificar los objetos de la percepción con la realidad.(Gorgias)
+
+"Nada existe"; "Si existiese algo no podría conocerse" y "Si el conocimiento del ser fuese posible, no podríamos comunicarlo" (Gorgias).
+
+Socrátes sin embargo utiliza el siguiente procedimiento para llegar a la universilidad de los conceptos:
+Partimos de los casos concretos de la experiencia, 
+Detectamos en ellos aspectos iguales uniformemente repetidos, 
+Destacamos esos rasgos iguales y los reunimos en un concepto.
+
+Contrarresta la relatividad de los sofistas con una definición universalmente válida
+
+A Sócrates -dice Aristóteles- se le han de atribuir con todo derecho los razo nomientos inductivos aunque aún imperfecto y defectuoso
+
+mayeutica como ayuda al parto.
+
+Conecete a tí mismo
+
+
+Sócrates buscaba una definición ge neral partiendo de opiniones y pareceres sobre hechos singulares, admitiendo que n ellos se realizaba una serie de características comunes a muchos de ellos. Para Platón, en cambio, las ideas no dependen, en su ser y en su verdad, de las cosas o hechos sensibles.
+
+Tiene que contestar también a las preguntas de la realidad. 
+
+Junta Parménides-> la verdadera realidad no cambia
+
+Ser eterno e inmutable
+
+Indivisible, puesto que si fuese divisible lo diviria algo diferente al Ser
+
+y Crátilo(Heráclito)-> Todo en constante cambio( lo que conocemos por los sentidos). 
+                    |
+                vvvvvvvvv
+
+Existencia de dos mundos, sensible e inteligible. 
+                    |
+                vvvvvvvvv
+Dualismo antropológico, cuerpo->sensorial,envoltorio y alma-> adquiere características del mundo de las ideas, noble,racional,eterna. Fedón
+
+preexistencia del conocimiento en el alma, teoría de impresiones. 
+
+
+El mundo inteligible muestra las siguientes funciones:
+
+Dar a la ciencia un objeto apropiado y a los valores morales un fundamento seguro
+y 
+dar razón de ser a las cosas concretas del mundo sensible
+
+Mito de la caverna-> la percepción no es suficiente, hace falta intervención del alma.
+
+
+Formas de conocimiento en Platón:
+Sensibles: (En estas acepta a Protágoras.)
+**1. Conjetura (eikasia):** Es cuando solo tienes indicios muy pobres y te basas en impresiones confusas, casi como adivinar.  
+**2. Creencia (pistis):** Es cuando confías en lo que ves y experimentas en el mundo físico, aunque sigue sin ser conocimiento seguro.  
+
+
+**3. Razón discursiva (dianoia):** Es cuando razonamos con ideas claras, como las matemáticas, para entender estructuras y relaciones.  
+**4. Razón intuitiva (noesis):** Es la comprensión directa de las Ideas, la forma más alta de verdad y entendimiento puro. Dialéctica 
+
+
+La dialéctica no parte de axiomas para deducir conclusiones, la dialéctica sube de lo concreto hasta lo universal pasando por la jerarquía. No deduce, discierne
+
+
+Existencia de las cosas -> demiurgo
+
+
+Platón introduce una importante inno vación: otorga a la opinión, en el caso de ser correcta, cierta validez en la escala del conocimiento, recogiendo así en su sistema la doctrina de Protágoras sobre el conocimiento sensible o percepción.
+
+Problemática de los diálogos platónicos.
+
+
+Fases:
+
+Fase acrítica(anteriores a Parménides)
+comienza utilizando **adjetivos** como _lo bello, lo justo, lo bueno que indican una propiedad o cualidad hasta que se trasnforman en **sustantivos**  entendidos como **entidades en sí mismas**, simples, homogéneas y dotadas de realidad propia
+
+Instrumentalismo de las ideas en esta etapa
+
+ **contradicciones** entre expresiones que indican la _inmanencia_ (las Ideas están en las cosas) y otras que señalan su _trascendencia
+ 
+ 
+Fase crítica(Parménides) Sin soluciones 
+
+¿Cuáles son los límites del mundo de las Ideas? - Problema de la extensión. 
+
+¿Cuáles son las relaciones entre el mundo de las Ideas y el mundo sensible? Problema de la participación. 
+Para resolverlo en Timeo crea una cosmogonía entera.
+
+¿Cómo se conocen unas realidades que, por definición, están separa das del mundo empírico? - Problema del conocimiento.
+
+
+Reorganización dialéctica(Sofista, Teeteto)
+Se trata de dar solución a problemas propuestos en Parménides
+
+Fase de proyección Cosmológica(Timeo):
+Continua intentando solucionar los problemas.
+
+
+El concepto de la ciencia de platón no era que la ciencia fuese percepción, ni siquiera opinión verdadera conforme a la razón. El concepto científico necesitaba de las Ideas.
+
+Para que algo fuese falso debía admitir la existencia del no-ser. 
+
+Relación parcial entre ideas como solución al problema del no-ser
+
+La dialéctica como ciencia para conocer que ideas concuerdan entre sí y de que manera.
+
+Reposo y movimiento no se relacionan entre sí por excluyentes, pero sí lo hacen con la Idea de ser, que las reúne (ambas son);
+
+no-ser como algo diferente. la falsedad es la combinación de ciertas Ideas que **son** (Ser, Teeteto, Volar) de una manera que dice **lo diferente** (el No-Ser relativo) a la combinación real de esas Ideas.
+
+
+Todo ser sometido al tiempo tiene como esencia el no-ser
+
+
+La idea de un desajuste turbador entre lo que el hombre es y lo que debiera ser;- 
+
+**Platón rechaza el tiempo y el devenir como "no-ser" o falsa apariencia, pues el único "Ser" verdadero es la Idea inmutable y eterna.**
+
+La sabiduría consiste en que el alma, a través del conocimiento, supere lo temporal para acceder a ese Ser inmutable y así alcanzar la inmortalidad.**
+
+
+
+b) La necesidad de una transformación de la naturaleza humana y de las situaciones sociales que libere al hombre de sus desgracias; 
+
+c) La convicción de que esa transformación no es un asunto exclusivo del individuo sino que depende de un proceso más general en el que el esfuerzo individual ha de quedar inserto; 
+
+
+Siendo tú desgraciado, una simple parte o unidad en el todo, tu papel es el de tender siempre a mirar el conjunto, por muy pequeña que sea esta unidad tuya. Lo que ocurre es que tú no tienes conciencia, en todo este drama, de que nada se hace sino en orden a este.fin, el de asegurar a la vida del universo la permanencia y la felicidad, y que nada se hace para tí, antes tú mismo te haces en orden al universo"
+
+d) La idea de un antagonismo entre fuerzas contrarias como dinámica del proceso de liberación; 
+
+e) La estimación del valor liberador del acceso cognoscitivo a la verdad de ese proceso como itinerario que compete al individuo en esta empresa.
+
+
+
+cíclico, contar la historia es explicar el universo.
+
+La liberación del alma excluye la acción social y el compromiso político. El Bien supremo hay que buscarlo en el mundo suprasensible. El esfuerzo del sabio debe tender a escapar, a huir del mundo, a cerrar los ojos, a morir. Contrario al cristianismo que introdujo el progreso.
+
+
+
+
+
+
+
+
 
 
 
@@ -48,6 +207,152 @@ Pero eso **dividiría la Idea**, y **dejaría de ser una unidad perfecta e indiv
 Platón propone una comparación:  
 Dice que tal vez una Idea sea como **la luz del sol** o **el día**, que puede estar presente en muchos lugares al mismo tiempo sin dividirse.  
 Pero él mismo reconoce que esa explicación es **insuficiente**, porque no aclara realmente el tipo de relación que hay entre una realidad perfecta (la Idea) y una imperfecta (las cosas).
+
+
+## Notación mínima
+
+- Sea `I` una **Idea** (por ejemplo: `I_mesa`).
+    
+- Sea `x` un **particular** (por ejemplo: una mesa concreta).
+    
+- `P(x,I)` := “x **participa** de I” (relación de participación).
+    
+- `F(x)` := “x tiene la propiedad F (p. ej. ‘ser mesa’)”.
+    
+- `I_F` := la Idea correspondiente a la propiedad F.
+    
+
+---
+
+## Premisas básicas (intuitivas, aceptadas por la teoría de las Ideas)
+
+1. **Copia:** Si `x` es F, entonces `x` participa de la Idea `I_F`.  
+    Formal: ∀x (F(x) → P(x, I_F)).
+    
+2. **Origen:** La razón por la cual `x` es F **es** su participación en `I_F`. (La participación explica la propiedad.)
+    
+3. **Unidad de la Idea:** `I_F` es una única entidad (no está dividida en trozos meta-físicos).
+    
+4. **Independencia:** Hay muchas cosas F: ∃x₁, x₂,... tal que F(x₁), F(x₂), ... (multiplicidad de particulares).
+    
+
+---
+
+## El problema, paso a paso (razonamiento deductivo/analítico)
+
+### Paso 1 — ¿Qué significa `P(x,I_F)`?
+
+Hay dos interpretaciones lógicas posibles:
+
+A. **Participación total:** `x` participa de **toda** la Idea: P_total(x,I_F) = “la Idea completa `I_F` está presente en x”.  
+B. **Participación parcial:** `x` participa sólo de **una parte** o “aspecto” de `I_F`: P_part(x,I_F).
+
+### Paso 2 — Consecuencias de A (participación total)
+
+- Si para cada x tal que F(x), P_total(x,I_F) entonces **la misma** Idea `I_F` está presente en muchos lugares/particulares.
+    
+- Eso implica que `I_F` debe poder estar “entera” en muchos sitios sin dividirse.
+    
+- **Pregunta crítica:** ¿Permite esto mantener la **unidad ontológica** de `I_F` y su estatus como modelo único?
+    
+    - Si aceptas que `I_F` puede estar entera en muchas cosas sin perder unidad, introduces una **nueva categoría ontológica** (Ideas como entidades ubicuas).
+        
+    - Si niegas que una entidad pueda estar entera en muchos sitios, A es inconsistente.
+        
+
+### Paso 3 — Consecuencias de B (participación parcial)
+
+- Si cada particular x toma **solo un trozo** de `I_F`, entonces `I_F` está **compuesta** de partes (cada parte “va” a un particular).
+    
+- Eso contradice la premisa 3 (Unidad de la Idea).
+    
+- Además, ¿cómo recuperamos la unidad de `I_F` si está dividida en infinitas porciones? → **Desintegración de la Idea**.
+    
+
+### Paso 4 — La paradoja del “Tercer Hombre” (regresión)
+
+Planteamiento lógico simple:
+
+1. Hay varios particulares F: x₁, x₂, ...
+    
+2. Para explicar su ser F supongamos que existe `I_F` tal que ∀i P(xᵢ,I_F).
+    
+3. Pero ahora `I_F` y los xᵢ **tienen en común** ser F (porque `I_F` es la Idea de F y, por tanto, F(I_F) en el sentido relevante).
+    
+4. Para explicar por qué `I_F` y los xᵢ son ambos F, necesitamos otra Idea `I_{F'}` que explique la similitud entre `I_F` y los xᵢ.
+    
+5. Aplicando el mismo razonamiento obtenemos `I_{F''}`, y así sucesivamente → **regresión infinita**.
+    
+
+Formalmente: si aceptamos
+
+- (i) ∀x (F(x) ↔ P(x,I_F)) y
+    
+- (ii) I_F es también F (F(I_F)),  
+    entonces la explicación exige una Idea adicional para explicar la igualdad F entre I_F y los particulares → cadena infinita.
+    
+
+### Conclusión lógica del problema
+
+Las tres condiciones no compatibles simultáneamente:
+
+- (α) Las Ideas explican la propiedad de los particulares (participación explicativa).
+    
+- (β) Las Ideas son únicas e indivisibles.
+    
+- (γ) Las explicaciones no generan regresiones infinitas ni multiplicaciones incontroladas de entidades.
+    
+
+Al menos una de (α),(β),(γ) debe ceder; si no, la teoría es inconsistente o incompleta.
+
+---
+
+## Opciones lógicas para resolver el problema (y costes filosóficos)
+
+1. **Aceptar Ideas ubicuas (salvar unidad)**
+    
+    - Postulado: `I_F` puede estar entera en muchos particulares sin dividirse (como una propiedad universal abstracta).
+        
+    - **Coste:** Requiere una ontología fuerte de universales (Ideas como entidades no-locales). Pierde la imagen clásica de “modelo separado” que está en un mundo distinto.
+        
+2. **Aceptar Ideas compuestas/divisibles (salvar presencia)**
+    
+    - Postulado: `I_F` tiene partes; cada particular participa de una parte.
+        
+    - **Coste:** Rompe la unidad y perfección de las Ideas; cambia la esencia de la teoría platónica.
+        
+3. **Hacer la participación una relación externa (símil del sol / causalidad externa)**
+    
+    - Postulado: `I_F` no está “en” las cosas; más bien es causa o catálogo que explica por analogía (luz).
+        
+    - **Coste:** Pierde la fuerza explicativa de la participación como vínculo ontológico; puede dar lugar a reduccionismo causal o a que las Ideas se queden sin papel real.
+        
+4. **Trope theory / nominalismo (rechazar Ideas separadas)**
+    
+    - Postulado: No hay Ideas universales separadas; los particulares comparten “tropos” o semejanzas sin instancia de una Idea única.
+        
+    - **Coste:** Rechaza el platonismo; cambia radicalmente la teoría.
+        
+5. **Modificar la lógica de la explicación (evitar regresión)**
+    
+    - Postulado: Impedir que `I_F` sea tratado de la misma manera lógica que los particulares; negar que `I_F` necesite otra Idea para explicar su “F-idad”.
+        
+    - **Coste:** Introduce una asimetría ad hoc o jerarquías explicativas no demostradas.
+        
+
+---
+
+## Evaluación racional: por qué Platón introduce el problema
+
+- Platón (en _Parménides_) no pretende dar solución definitiva; intenta **mostrar que la teoría necesita trabajo**.
+    
+- Racionalmente, el problema evidencia que una teoría que postule **formas separadas** y **participación ontológica** requiere una cuenta muy precisa de:
+    
+    - qué tipo de relación es `P`,
+        
+    - si las Ideas son universales no-locales,
+        
+    - y cómo evitar regresiones explicativas.
 ```  
 
 

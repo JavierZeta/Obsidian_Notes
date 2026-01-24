@@ -52,6 +52,6 @@ The compounded is liable to be decomposed and change, the uncompounded is not li
  to pass into the bodies of asses and other beasts of
  that sort. Do you not think so ?  budismo total
 
-The soul cannot be the harmony that is formed after the body like the harmony of a lyre when its perfectly made with cords and wood, because the sould doesn't follow the body like the harmony of the lyre does, the soul oppose to the body in countless situations. Also the harmony must be perfect always and we know that there are better and worse souls if we accept that the soul is the only ruler of the actions of the body/human.
+The soul cannot be the harmony that is formed after the body like the harmony of a lyre when its perfectly made with cords and wood, because the soul doesn't follow the body like the harmony of the lyre does, the soul oppose to the body in countless situations. Also the harmony must be perfect always and we know that there are better and worse souls if we accept that the soul is the only ruler of the actions of the body/human.
 
 I think i dont get this part, but he says that as soul is life and opposites can't come close to each other, the soul must be inmortal. And when death comes soul is already gone. so there must be something inmortal in us living beings and this one is the soul.
