@@ -4,395 +4,84 @@
     "type": "split",
     "children": [
       {
-        "id": "b46a391345bdfc04",
+        "id": "1c63e7a46488d6cd",
         "type": "tabs",
         "children": [
           {
-            "id": "e91d4e0d98b55614",
+            "id": "d556246f0c69c66c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoría de las Ideas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Teoría de las Ideas"
+            }
+          },
+          {
+            "id": "062e99ec1efaac5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Platón Autenticidad  Cronología y Obras.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Platón Autenticidad  Cronología y Obras"
+            }
+          },
+          {
+            "id": "740e05aebcd18ea7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Antes de leer platón.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Antes de leer platón"
+            }
+          },
+          {
+            "id": "36061782bb824c98",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Astrofísica/CANVAS.canvas",
+                "file": "Canvas.canvas",
                 "viewState": {
-                  "x": 138.28501559002336,
-                  "y": -228.6311061743681,
-                  "zoom": -1.3477148992325525
+                  "x": 1118.9432862976714,
+                  "y": 1580.1093336609279,
+                  "zoom": -1.4073683306245068
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "CANVAS"
+              "title": "Canvas"
             }
           },
           {
-            "id": "4a03dbccc06547df",
+            "id": "d7aa5603aa98bd67",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tipo Mira.md",
+                "file": "Grados del Saber Platón.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tipo Mira"
-            }
-          },
-          {
-            "id": "e3a96af5739c1f58",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RR Lyrae.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "RR Lyrae"
-            }
-          },
-          {
-            "id": "56e7fa2f2ffb4ee3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cefeidas.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cefeidas"
-            }
-          },
-          {
-            "id": "9fd480c20fd4fd8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pulsación.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Pulsación"
-            }
-          },
-          {
-            "id": "db302734de283640",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dragados (Dredge-up) y Estrellas de Carbono.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Dragados (Dredge-up) y Estrellas de Carbono"
-            }
-          },
-          {
-            "id": "1348a2742aa00810",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Envenenamiento por helio y principio del espejo.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Envenenamiento por helio y principio del espejo"
-            }
-          },
-          {
-            "id": "c1e68ad9a01f0f87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gigantes rojas y expansión del radio estelar.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Gigantes rojas y expansión del radio estelar"
-            }
-          },
-          {
-            "id": "ff10299b1b2d09d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Proceso Triple alpha y Flash de Helio.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Proceso Triple alpha y Flash de Helio"
-            }
-          },
-          {
-            "id": "c0cf93ec0324d4bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Evolución de estrellas de baja masa.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Evolución de estrellas de baja masa"
-            }
-          },
-          {
-            "id": "b122e9e85922b594",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Evolución de estrellas intermedias.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Evolución de estrellas intermedias"
-            }
-          },
-          {
-            "id": "5e802ecff9baa911",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "0acfd655956597dd",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Astrofísica/CANVAS.canvas",
-                "viewState": {
-                  "x": 1719.1685729141454,
-                  "y": -860.5674329018564,
-                  "zoom": -1.9681835527383351
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "CANVAS"
-            }
-          },
-          {
-            "id": "37d14526383b5c25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoría de las Ideas.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Teoría de las Ideas"
-            }
-          },
-          {
-            "id": "36f7472b34644bc1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Socrates/The Republic/Book III.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Book III"
-            }
-          },
-          {
-            "id": "b1389466593a981a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Agujeros Negros.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Agujeros Negros"
-            }
-          },
-          {
-            "id": "dd68acdc683e421b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Socrates/The Republic/Book IV.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Book IV"
-            }
-          },
-          {
-            "id": "3a57c555371eaa29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Socrates/Phaedrus.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Phaedrus"
-            }
-          },
-          {
-            "id": "376b3389484c25b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Escuelas de Elis y Eritrea.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Escuelas de Elis y Eritrea"
-            }
-          },
-          {
-            "id": "c484bf978d4817f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Escuela Megárica.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Escuela Megárica"
-            }
-          },
-          {
-            "id": "795db4e4bda4900f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Escuela Cínica.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Escuela Cínica"
-            }
-          },
-          {
-            "id": "5d14186a0c02b10a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Escuela Cirenaica.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Escuela Cirenaica"
-            }
-          },
-          {
-            "id": "c376e37b1ad7d74f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Escuela Cínica.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Escuela Cínica"
-            }
-          },
-          {
-            "id": "e75ce8ae078fe6cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoría de las Ideas.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Teoría de las Ideas"
-            }
-          },
-          {
-            "id": "6cab8958be072558",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "cba4a3af8ac4c5ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teoría de las Ideas.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Teoría de las Ideas"
-            }
-          },
-          {
-            "id": "7945ba29c4299f9c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Socrates/Phaedrus.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Phaedrus"
+              "title": "Grados del Saber Platón"
             }
           }
         ],
-        "currentTab": 26
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -465,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Canvas.canvas",
+                "file": "Grados del Saber Platón.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -475,7 +164,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Canvas"
+              "title": "Backlinks for Grados del Saber Platón"
             }
           },
           {
@@ -532,8 +221,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -541,7 +229,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -550,29 +237,35 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "copilot:Open Copilot Chat": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7945ba29c4299f9c",
+  "active": "d7aa5603aa98bd67",
   "lastOpenFiles": [
-    "Socrates/Phaedo.md",
-    "Socrates/The Republic/Book IV.md",
+    "Teoría de las Ideas.md",
+    "Grados del Saber Platón.md",
+    "Canvas.canvas",
+    "Antes de leer platón.md",
+    "Platón Autenticidad  Cronología y Obras.md",
+    "Biografía Platón Fraile.md",
     "Aristóteles epistemología.md",
     "Aristotle Metaphysics.md",
-    "Teoría de las Ideas.md",
-    "tfg.md",
-    "Untitled.md",
+    "Experimento UC-Ozono.md",
+    "Escuela Megárica.md",
     "Escuela Cirenaica.md",
     "Escuela Cínica.md",
-    "Escuela Megárica.md",
-    "Escuelas de Elis y Eritrea.md",
+    "Astrofísica/CANVAS.canvas",
     "Socrates/Phaedrus.md",
+    "Untitled.md",
+    "Escuelas de Elis y Eritrea.md",
+    "Socrates/The Republic/Book IV.md",
+    "Socrates/The Republic/Book III.md",
+    "Socrates/Phaedo.md",
+    "tfg.md",
     "Socrates/Critias.md",
     "Socrates/Apología Socrates.md",
-    "Experimento UC-Ozono.md",
     "Socrates/The Republic/Book I Thrasymachus.md",
-    "Socrates/The Republic/Book III.md",
-    "Astrofísica/CANVAS.canvas",
     "Astrofísica/Estrellas de neutrones.md",
     "Astrofísica/Agujeros Negros.md",
     "Astrofísica/Pasted image 20251103192818.png",
@@ -587,13 +280,7 @@
     "Astrofísica/Pasted image 20251103192529.png",
     "Astrofísica/Supernovas.md",
     "Astrofísica/Evolución de estrellas intermedias.md",
-    "Astrofísica/Evolución de estrellas de baja masa.md",
-    "Astrofísica/Proceso Triple alpha y Flash de Helio.md",
-    "Astrofísica/Gigantes rojas y expansión del radio estelar.md",
-    "Astrofísica/Envenenamiento por helio y principio del espejo.md",
-    "Astrofísica/Dragados (Dredge-up) y Estrellas de Carbono.md",
     "Untitled",
-    "Canvas.canvas",
     "Astrofísica/Nebulosa",
     "Astrofísica",
     "Socrates/The Republic",

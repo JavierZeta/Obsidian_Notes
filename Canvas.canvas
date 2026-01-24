@@ -1,19 +1,22 @@
 {
 	"nodes":[
 		{"id":"fc2c957d534afb39","type":"group","x":-95,"y":-520,"width":5135,"height":1405,"label":"Presocráticos"},
-		{"id":"69186fe853c0d950","type":"group","x":2540,"y":-500,"width":440,"height":1365,"color":"3","label":"Monismo Estático"},
 		{"id":"d9d847446e420979","type":"group","x":-75,"y":-300,"width":935,"height":965,"color":"4","label":"Mileto"},
+		{"id":"69186fe853c0d950","type":"group","x":2540,"y":-500,"width":440,"height":1365,"color":"3","label":"Monismo Estático"},
 		{"id":"f4c1346690dcc662","type":"file","file":"Presocráticos/Mileto/Tales de Mileto.md","x":440,"y":-17,"width":380,"height":400,"color":"5"},
-		{"id":"8718a3889bb87a42","type":"file","file":"Presocráticos/Mileto/Anaximandro.md","x":-55,"y":245,"width":400,"height":400,"color":"6"},
 		{"id":"c96cfff203503518","type":"file","file":"Presocráticos/Mileto/Anaxímenes.md","x":-55,"y":-280,"width":400,"height":400,"color":"#ffffff"},
 		{"id":"6f9c7c6d49e39817","type":"file","file":"Presocráticos/Eclecticismo/Empédocles.md","x":3120,"y":-80,"width":400,"height":400},
 		{"id":"2c3d6c8631997575","type":"file","file":"Presocráticos/Pluralismo heterogeneo/Anaxágoras.md","x":3640,"y":-80,"width":400,"height":400},
-		{"id":"9ed077dd9aa40b82","type":"file","file":"Presocráticos/Monismo Estático/Zenón de Elea.md","x":2560,"y":-480,"width":400,"height":400},
 		{"id":"34fb3d656d867d39","type":"file","file":"Presocráticos/Monismo Estático/Parménides.md","x":2560,"y":45,"width":400,"height":275},
+		{"id":"8718a3889bb87a42","type":"file","file":"Presocráticos/Mileto/Anaximandro.md","x":-55,"y":245,"width":400,"height":400,"color":"6"},
+		{"id":"cc0dbba6c1035069","type":"file","file":"Presocráticos/Pitágoras.md","x":1120,"y":-17,"width":400,"height":400},
+		{"id":"9ed077dd9aa40b82","type":"file","file":"Presocráticos/Monismo Estático/Zenón de Elea.md","x":2560,"y":-480,"width":400,"height":400},
+		{"id":"52a59f6aba7d7442","type":"file","file":"Presocráticos/Demócrito y Leucipo.md","x":4200,"y":-80,"width":400,"height":400},
 		{"id":"e168952440f43b30","type":"file","file":"Presocráticos/Monismo Estático/Jenófanes.md","x":2560,"y":445,"width":400,"height":400},
 		{"id":"22addbace6b7e27a","type":"file","file":"Presocráticos/Monísmo Dinámico/Heráclito.md","x":1800,"y":-17,"width":400,"height":400},
-		{"id":"cc0dbba6c1035069","type":"file","file":"Presocráticos/Pitágoras.md","x":1120,"y":-17,"width":400,"height":400},
-		{"id":"52a59f6aba7d7442","x":4200,"y":-80,"width":400,"height":400,"type":"file","file":"Presocráticos/Demócrito y Leucipo.md"}
+		{"id":"09fded70a8d40e55","x":240,"y":1120,"width":400,"height":400,"type":"file","file":"Platón Autenticidad  Cronología y Obras.md"},
+		{"id":"8043443ada1bee24","type":"file","file":"Biografía Platón Fraile.md","x":240,"y":1800,"width":400,"height":400},
+		{"id":"cce023dc8caa9d6b","x":720,"y":1480,"width":400,"height":400,"type":"file","file":"Antes de leer platón.md"}
 	],
 	"edges":[
 		{"id":"8b2010bbfad17936","fromNode":"f4c1346690dcc662","fromSide":"left","toNode":"8718a3889bb87a42","toSide":"right"},
@@ -21,6 +24,9 @@
 		{"id":"d8ca9d6ff908617a","fromNode":"f4c1346690dcc662","fromSide":"right","toNode":"cc0dbba6c1035069","toSide":"left"},
 		{"id":"26e482e4af926439","fromNode":"8718a3889bb87a42","fromSide":"right","toNode":"cc0dbba6c1035069","toSide":"left"},
 		{"id":"a262ad3ec517c5f3","fromNode":"c96cfff203503518","fromSide":"right","toNode":"cc0dbba6c1035069","toSide":"left"},
-		{"id":"fec6033fe3018884","fromNode":"34fb3d656d867d39","fromSide":"right","toNode":"52a59f6aba7d7442","toSide":"bottom","color":"3"}
+		{"id":"fec6033fe3018884","fromNode":"34fb3d656d867d39","fromSide":"right","toNode":"52a59f6aba7d7442","toSide":"bottom","color":"3"},
+		{"id":"86eba77eb7bcf616","fromNode":"8043443ada1bee24","fromSide":"top","toNode":"09fded70a8d40e55","toSide":"bottom"},
+		{"id":"d3831fa5121effa5","fromNode":"09fded70a8d40e55","fromSide":"right","toNode":"cce023dc8caa9d6b","toSide":"left"},
+		{"id":"0e8038d725b7b730","fromNode":"8043443ada1bee24","fromSide":"right","toNode":"cce023dc8caa9d6b","toSide":"left"}
 	]
 }
