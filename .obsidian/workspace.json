@@ -53,23 +53,6 @@
             "id": "36061782bb824c98",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Canvas.canvas",
-                "viewState": {
-                  "x": 1118.9432862976714,
-                  "y": 1580.1093336609279,
-                  "zoom": -1.4073683306245068
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Canvas"
-            }
-          },
-          {
-            "id": "d7aa5603aa98bd67",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
                 "file": "Grados del Saber Platón.md",
@@ -79,9 +62,183 @@
               "icon": "lucide-file",
               "title": "Grados del Saber Platón"
             }
+          },
+          {
+            "id": "499b8c84ba3344a0",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Canvas.canvas",
+                "viewState": {
+                  "x": 2472.5,
+                  "y": 840,
+                  "zoom": -2.0373873302533947
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Canvas"
+            }
+          },
+          {
+            "id": "87a0d73134e9b4db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cosmogonía.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cosmogonía"
+            }
+          },
+          {
+            "id": "edd716025eafd4ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Antropología y Psicología.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Antropología y Psicología"
+            }
+          },
+          {
+            "id": "6b859cbc21636339",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ética Platón.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ética Platón"
+            }
+          },
+          {
+            "id": "b329bd287008125c",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Canvas.canvas",
+                "viewState": {
+                  "x": 2328.529987925614,
+                  "y": 2729.655454530789,
+                  "zoom": -2.979836307691236
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Canvas"
+            }
+          },
+          {
+            "id": "673e448b6e012fe0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Política Platón.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Política Platón"
+            }
+          },
+          {
+            "id": "789a8aa4319b8cd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Escuela Cirenaica.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Escuela Cirenaica"
+            }
+          },
+          {
+            "id": "6a2be725f3f9499f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Examen TCI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Examen TCI"
+            }
+          },
+          {
+            "id": "d7aa5603aa98bd67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Platón Autenticidad  Cronología y Obras.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Platón Autenticidad  Cronología y Obras"
+            }
+          },
+          {
+            "id": "984a9a5589c5bfc0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Evolución de la Teoría de las Ideas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Evolución de la Teoría de las Ideas"
+            }
+          },
+          {
+            "id": "fec59098b43eb968",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Problemas abiertos de la teoría de las Ideas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Problemas abiertos de la teoría de las Ideas"
+            }
+          },
+          {
+            "id": "8af14373ed06f193",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Idea de Bien.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Idea de Bien"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -149,25 +306,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8dbbb639eab0d39e",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Grados del Saber Platón.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Grados del Saber Platón"
-            }
-          },
-          {
             "id": "2bc6c25e78c301b3",
             "type": "leaf",
             "state": {
@@ -220,12 +358,33 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "8dbbb639eab0d39e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Problemas abiertos de la teoría de las Ideas.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Problemas abiertos de la teoría de las Ideas"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,33 +400,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d7aa5603aa98bd67",
+  "active": "6a2be725f3f9499f",
   "lastOpenFiles": [
-    "Teoría de las Ideas.md",
-    "Grados del Saber Platón.md",
     "Canvas.canvas",
-    "Antes de leer platón.md",
+    "Examen TCI.md",
+    "Escuela Cirenaica.md",
+    "Socrates/Critias.md",
+    "Untitled.md",
+    "Ex.md",
+    "Política Platón.md",
+    "Personal.md",
+    "Ética Platón.md",
+    "Antropología y Psicología.md",
+    "Cosmogonía.md",
+    "Teología Platón.md",
+    "Escuela Cínica.md",
+    "Grados del Saber Platón.md",
+    "Evolución de la Teoría de las Ideas.md",
+    "Problemas abiertos de la teoría de las Ideas.md",
+    "Idea de Bien.md",
     "Platón Autenticidad  Cronología y Obras.md",
+    "Antes de leer platón.md",
     "Biografía Platón Fraile.md",
+    "Teoría de las Ideas.md",
     "Aristóteles epistemología.md",
     "Aristotle Metaphysics.md",
     "Experimento UC-Ozono.md",
     "Escuela Megárica.md",
-    "Escuela Cirenaica.md",
-    "Escuela Cínica.md",
     "Astrofísica/CANVAS.canvas",
     "Socrates/Phaedrus.md",
-    "Untitled.md",
-    "Escuelas de Elis y Eritrea.md",
-    "Socrates/The Republic/Book IV.md",
-    "Socrates/The Republic/Book III.md",
-    "Socrates/Phaedo.md",
-    "tfg.md",
-    "Socrates/Critias.md",
-    "Socrates/Apología Socrates.md",
-    "Socrates/The Republic/Book I Thrasymachus.md",
-    "Astrofísica/Estrellas de neutrones.md",
-    "Astrofísica/Agujeros Negros.md",
     "Astrofísica/Pasted image 20251103192818.png",
     "Astrofísica/Pasted image 20251103192740.png",
     "Astrofísica/Pasted image 20251103192719.png",
@@ -278,8 +439,6 @@
     "Astrofísica/Pasted image 20251103192556.png",
     "Astrofísica/Pasted image 20251103192542.png",
     "Astrofísica/Pasted image 20251103192529.png",
-    "Astrofísica/Supernovas.md",
-    "Astrofísica/Evolución de estrellas intermedias.md",
     "Untitled",
     "Astrofísica/Nebulosa",
     "Astrofísica",

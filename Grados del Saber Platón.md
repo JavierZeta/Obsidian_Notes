@@ -95,9 +95,26 @@ Ambos procedimientos, análisis y síntesis, deben combinarse entre sí para
 llegar a la claridad de conceptos requerida por la Filosofía, la cual es la ciencia
 que «desentraña una idea única repartida
 
+
 Con este concepto de dialéctica puramente lógica ya resolvía el problema de la ciencia, elevando los conocimientos de su particularidad y movilidad ontológica al orden de la universalidad lógica que los dota de estabilidad necesaria para el conocimiento científico.
 
 SIn embargo, Platón no se queda aquí y le da un orden ontológico a la dialéctica, pues atribuye realidad ontológica a los conceptos abstractos que trata(Ideas). La verdadera ciencia se da acerca de las realiades puras(Ideas) y el entendimiento (nous) solo aplica cuando se trata del verdadero ser.
+
+
+
+#### **La Jerarquía Ontológica Definitiva**
+
+1. **Primer Grado (Supremo):** Ideas simples y sin mezcla de no-ser. El Bien (República), el Uno, el Ser.
+    
+2. **Segundo Grado (Pares de Opuestos/Géneros):** Mónada-Díada, Identidad-Diversidad, Quieto-Móvil.
+    
+3. **Tercer Grado (Ideas Compuestas Superiores):** Justicia, Virtud, Logos.
+    
+4. **Cuarto Grado (Ideas Matemáticas/Arquetipos):** Números ideales, Figuras perfectas, el "Viviente en sí".
+    
+5. **Quinto Grado (Especies Naturales):** Ideas de Hombre, Fuego, Agua (arquetipos de lo físico). --- _Frontera de los Mundos_ ---
+    
+6. **Mundo Físico (Cosmos):** Alma Cósmica -> Divinidades Astrales -> Almas Humanas -> Cuerpos -> Materia/Espacio (el no-ser).
 
 El flósofo se ocupa del ser mientras que el sofista del no-ser. 
 

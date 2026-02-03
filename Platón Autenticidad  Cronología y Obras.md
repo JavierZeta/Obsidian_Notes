@@ -78,7 +78,7 @@ _Foco: Definir virtudes, defensa de Sócrates y finales sin solución (aporétic
     
 9. **Hipias mayor:** Sobre la belleza.
     
-10. **Crátilo:** Sobre el **lenguaje**. ¿Las palabras reflejan la esencia o son convención?
+10. ==**Crátilo:** Sobre el **lenguaje**. ¿Las palabras reflejan la esencia o son convención? Analiza el lenguaje para concluir que sin objetos fijos (Ideas) no hay ciencia del lenguaje posible.==
     
 11. **Eutifrón:** Sobre la **piedad** religiosa.
     
@@ -108,13 +108,21 @@ _Fundación de la Academia. Elaboración de la Teoría de las Ideas._
 20. ==**República (II-X):** La gran obra política y ética sobre el Estado Ideal. <small>Concluida hacia 374.</small>==
     
 
-_(Transición a la etapa crítica)_ 21. **Menexeno:** Parodia de la retórica patriótica. 22. **Fedro:** Sobre el Amor y la Belleza. <small>"Compendio de filosofía platónica".</small> 23. **Teeteto:** Sobre la **Ciencia**. Contra el relativismo epistemológico. 24. **Parménides:** **Autocrítica feroz**. Revisa su propia Teoría de las Ideas y el monismo eleático.
+_(Transición a la etapa crítica)_ 
+21. **Menexeno:** Parodia de la retórica patriótica
+22. ==. **Fedro:** Sobre el Amor y la Belleza. <small>"Compendio de filosofía platónica".</small>==
+23. ==**Teeteto:** Sobre la **Ciencia**. Contra el relativismo epistemológico.== 
+24. ==**Parménides:_(Crucial)_ Platón realiza una **autocrítica implacable**. Plantea aporías sobre la relación Ideas-Cosas:
+
+- _Argumento del velo:_ Si la Idea está en muchas cosas, ¿se rompe o se multiplica?
+    
+- _Tercer Hombre:_ Si necesitamos una Idea para explicar la semejanza entre cosas, necesitaremos otra Idea para explicar la semejanza entre la Idea y la cosa, _ad infinitum_.
 
 #### III. Tercer Período: Dialéctico (366-361)
 
 _Obras técnicas y lógicas tras el segundo viaje a Sicilia._
 
-25. ==**Sofista:** Sobre el **Ser**. Continuación del Teeteto para resolver problemas del Parménides.==
+25. ==**Sofista:** Sobre el **Ser**. Continuación del Teeteto para resolver problemas del Parménides.==Comete "parricidio" contra el eleatismo inmóvil. Introduce el **no-ser relativo** (lo diverso) para explicar la pluralidad y el movimiento dentro del mundo de las Ideas.
     
 26. **Político:** Sobre las condiciones del gobernante. <small>Falta el diálogo "El Filósofo" que nunca escribió.</small>
     
@@ -125,7 +133,7 @@ _Predominio del Pitagorismo y Cosmología. Sócrates desaparece o es secundario.
 
 27. **Filebo:** Sobre el **Placer y el Bien**.
     
-28. ==**Timeo:** **Cosmología**. <small>El demiurgo y el alma del mundo.</small>==
+28. ==**Timeo:** **Cosmología**. <small>El demiurgo y el alma del mundo.</small>Consolida la teoría de la **Imitación** (mimesis) sobre la participación. El Demiurgo ordena el mundo copiando modelos eternos.==
     
 29. ==**Critias:** Mito de la **Atlántida**. <small>Inacabado.</small>==
     

@@ -16,10 +16,28 @@ llamada Potona, que fue madre de Espeusipo.</small>
 
 
 ==En Filosofía recibió sus primeras lecciones de Cratilo,==
-==mediocre seguidor de Heráclito. Pero lo que decidió su vocación como filósofo==
+==mediocre seguidor de Heráclito.
+<small>
+La influencia de Heráclito, a través de Cratilo, dejó para siempre en Platón
+un profundo sentimiento de la movilidad, la impermanencia, la contingencia y
+la no-realidad de las entidades del mundo físico. No es posible tener un
+conocimiento científico y cierto de semejantes entidades, porque la ciencia
+requiere objetos fijos, estables y permanentes por encima de toda mutación.
+Por esto los objetos de la ciencia no pueden ser conocidos por los sentidos, sino
+solamente por el entendimiento.</small>
+
+Pero lo que decidió su vocación como filósofo==
 ==fue su encuentro con Sócrates, cuando Platón contaba unos veinte años (hacia==
 ==407). Desde entonces permaneció en su compañía hasta la muerte del maestro,==
 ==más como amigo que como simple discípulo.==
+
+<small>Sócrates había hallado el verdadero camino para la solución del problema
+de la ciencia con su método inductivo, mediante el cual la inteligencia se eleva
+por encima de lo móvil lo particular y contingente, llegando a la formación de
+conceptos universales, los cuales, en el orden lógico, tienen la suficiente fijeza,
+firmeza, estabilidad y necesidad para constituir objetos de conocimiento
+verdaderamente científico. Este método lo usa en sus primeros diálogos y como su maestro a conceptos del orden moral/small>
+
 
 Después de la muerte de Sócrates (399), bien sea por correr peligro como
 amigo suyo o por sus relaciones con sus parientes Critias y Cármides, que
