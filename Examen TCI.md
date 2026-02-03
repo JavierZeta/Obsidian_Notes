@@ -1184,3 +1184,1224 @@ Propiedad de los términos de "estar en lugar de" un objeto en una proposición:
 - **Causalidad:** No es deducible. Solo conocemos la causa y el efecto por actos de experiencia independientes. No hay conexión racional necesaria.
     
 - **Materia:** Rechaza la materia como pura potencia; debe ser una realidad concreta.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Descartes 
+
+
+### 1. EL PROYECTO CARTESIANO: RACIONALISMO Y UNIDAD DEL SABER
+
+- **Crítica a la lógica tradicional:** El silogismo no sirve para aprender, sino para explicar lo que ya se sabe o hablar sin juicio de lo ignorado.
+    
+- **Unidad de la Sabiduría:** La sabiduría humana es una y la misma, independientemente de los objetos a los que se aplique.
+    
+- **Modelo Matemático:** Propone una **"Matemática Universal"** (_Mathesis Universalis_). Solo la matemática ofrece verdades evidentes; las otras ciencias son solo probables.
+    
+- **Racionalismo:** Exigencia de fundamentar el método en la **razón** y sus leyes antes de aplicarlo.
+    
+- **Luz Natural:** Capacidad natural de la razón para distinguir lo verdadero de lo falso. El conocimiento depende del entendimiento, no del objeto.
+    
+
+### 2. CARACTERIZACIÓN DEL MÉTODO (REGLAS Y OPERACIONES)
+
+#### 2.1. Las Cuatro Reglas (Caracterización Externa)
+
+1. **Evidencia:** No admitir nada que no sea **claro y distinto**. Evitar la precipitación y la prevención.
+    
+2. **Análisis:** Reducir los problemas complejos a sus elementos más simples.
+    
+3. **Síntesis:** Recomponer ordenadamente los elementos para ascender a lo complejo.
+    
+4. **Enumeración:** Revisar y comprobar todo el proceso para asegurar que no se ha omitido nada.
+    
+
+#### 2.2. Operaciones de la Mente (Caracterización Interna)
+
+- **Intuición:** Concepción de una mente pura y atenta, inmediata y libre de duda. Brota de la sola luz de la razón.
+    
+- **Deducción:** Inferencia necesaria a partir de hechos conocidos con certeza. Se define como una **"intuición sucesiva"**.
+    
+- **Inducción/Resolución:** Camino analítico hacia los primeros principios.
+    
+- **Síntesis/Composición:** Camino deductivo que siguen los geómetras.
+    
+
+### 3. LA DUDA METÓDICA Y EL COGITO
+
+- **Estrategia:** Rechazar como falso todo lo que ofrezca la menor duda para hallar una verdad absoluta.
+    
+- **Características de la duda:** Es **metódica** (instrumental), **radical** y **universal**.
+    
+
+#### 3.1. Los Cuatro Pasos de la Duda
+
+1. **Sentidos:** Engañosos y fluctuantes; no muestran la verdadera esencia.
+    
+2. **Confusión Sueño/Vigilia:** Imposibilidad de distinguir ambos estados con seguridad.
+    
+3. **Dios Engañador:** Hipótesis de que nuestra naturaleza nos obligue a errar sistemáticamente.
+    
+4. **Genio Maligno:** Radicalización máxima. Un demonio astuto que emplea su habilidad en engañarnos incluso en las matemáticas.
+    
+
+#### 3.2. La Primera Verdad: El _Cogito_
+
+- **Descubrimiento:** Para dudar o ser engañado, es necesario **pensar**.
+    
+- **_Cogito ergo sum_:** Verdad obtenida por **intuición**, no por deducción. Es el primer principio de la filosofía.
+    
+- **Naturaleza del Yo:** El sujeto es una **Res Cogitans** (cosa pensante). Definida como una cosa que duda, concibe, afirma, niega, quiere, imagina y siente.
+    
+
+### 4. CRITERIO DE VERDAD Y CLASIFICACIÓN DE LAS IDEAS
+
+- **El Criterio:** La **Evidencia**. Definida por dos notas:
+    
+    1. **Claridad:** Lo que está presente y manifiesto a una mente atenta.
+        
+    2. **Distinción:** Lo que está separado y delimitado de otros conocimientos.
+        
+- **Origen del Error:** Se produce porque la **voluntad** es más amplia que el entendimiento y se aplica a cosas que no comprende.
+    
+
+#### 4.1. Clases de Ideas
+
+1. **Adventicias:** Parecen provenir del mundo externo (inseguras).
+    
+2. **Facticias:** Construidas por la imaginación (quiméricas/arbitrarias).
+    
+3. **Innatas:** Impresas en el alma por Dios. Son el fundamento del conocimiento verdadero (ej: la idea de Dios).
+    
+
+### 5. DIOS Y EL MUNDO EXTERNO
+
+#### 5.1. Demostración de la existencia de Dios
+
+- **Argumento de la Idea de Infinito:** Un ser finito (yo) no puede causar la idea de un ser infinito (Dios). Solo Dios puede haberla puesto en mi mente.
+    
+- **Veracidad Divina:** Dios, al ser perfecto y bueno, no puede permitir que me engañe cuando uso bien mi razón.
+    
+
+#### 5.2. Garantía y Mundo Externo
+
+- **Función de Dios:** Garantiza la certeza de la **memoria** y la correspondencia entre mis ideas claras y la realidad.
+    
+- **Res Extensa:** Sustancia material caracterizada por la **extensión** (divisible, regida por las leyes de la física y la geometría).
+    
+- **Paralelismo (Metáfora del Espejo):** Dios hace que las estructuras del mundo se reflejen en las ideas de la razón sin necesidad de interacción física entre el alma y el cuerpo.
+
+
+
+
+
+### 1. CARACTERÍSTICAS DEL RACIONALISMO SPINOZISTA
+
+#### 1.1. Supuestos Básicos
+
+1. **Modelo Causal:** Solo es verdadero el conocimiento que da razón de las causas. Reducción de toda causalidad a la **causalidad inmanente**.
+    
+2. **Método Matemático (_More Geométrico_):** Aplicación del procedimiento deductivo de Euclides. La matemática es la norma de la verdad porque se ocupa de esencias y propiedades, no de fines.
+    
+3. **Fe en la Razón:** Unidad absoluta entre método y sistema. Identidad entre el **orden de las ideas** y el **orden de lo real**. El primer principio es Dios.
+    
+
+#### 1.2. Valor de la Demostración
+
+- **Crítica a Descartes:** Spinoza rechaza el método analítico (ascender del efecto a la causa) como prioritario. Prefiere el **método sintético** (deducir efectos de las causas) porque es gnoseológicamente productivo (_ars inveniendi_).
+    
+- **Certeza:** Si la definición de una idea clara y distinta es verdadera, las conclusiones lógicas son infalibles por naturaleza racional.
+    
+
+---
+
+### 2. DIOS Y EL MUNDO (METAFÍSICA DE LA UNIDAD)
+
+#### 2.1. Identidad vs. Dualismo
+
+- **Contra Descartes:** Spinoza elimina la distinción entre sustancia extensa (necesidad) y pensante (libertad). Ambas se identifican en Dios.
+    
+- **Fin de la Filosofía:** Conocimiento de la unidad de la mente con la totalidad de la naturaleza.
+    
+
+#### 2.2. Dios: La Sustancia Única
+
+- **Definición:** Lo que existe en sí y es concebido por sí. No necesita de otra realidad ni otro concepto.
+    
+- **Causa Sui:** Su esencia implica su existencia. Es la causa única, directa y necesaria de todo lo que existe.
+    
+- **_Deus sive Natura_:** Identificación total de Dios con la Naturaleza. Exclusión de causas finales y teleología.
+    
+
+#### 2.3. Atributos y Modos
+
+- **Atributo:** Lo que el entendimiento percibe de la sustancia como constitutivo de su esencia (ej: Pensamiento y Extensión).
+    
+- **Modo:** Afecciones de la sustancia; manifestaciones particulares de Dios.
+    
+- **_Natura naturans_** (Sustancia divina) vs. **_Natura naturata_** (Modos/manifestaciones particulares).
+    
+
+#### 2.4. Negación de la Creación y el Milagro
+
+- **No hay Creador:** La creación implicaría falta o necesidad en Dios, lo cual es absurdo. La "libertad" de Dios es su propia **necesidad**.
+    
+- **Determinismo:** Nada es contingente. Todo es necesario por la naturaleza de Dios.
+    
+- **Milagro:** Imposible. Es solo un fenómeno cuya causa natural ignoramos. El orden del mundo es un **orden geométrico**.
+    
+
+---
+
+### 3. EL CONOCIMIENTO Y LA IDEA ADECUADA
+
+#### 3.1. Reforma del Entendimiento (_De Intellectu Emendatione_)
+
+- **Objetivo:** Purificar el entendimiento para alcanzar la suprema perfección humana (felicidad).
+    
+- **Modos de Percepción:**
+    
+    1. De oídas (signos arbitrarios).
+        
+    2. Experiencia vaga (casual).
+        
+    3. Causas por efectos (Aristóteles/Descartes).
+        
+    4. **Conocimiento por sola esencia o causa próxima (Ideal).**
+        
+
+#### 3.2. La Idea Verdadera como _Index Sui_
+
+- **Autenticidad:** La verdad no es adecuación externa, sino una propiedad intrínseca de la idea. La idea verdadera se atestigua a sí misma.
+    
+- **Certeza:** Es la "esencia objetiva" (el modo en que sentimos la esencia formal).
+    
+
+#### 3.3. Idea Adecuada vs. Idea Clara/Distinta
+
+- **Adecuación:** Es el fundamento de la claridad y la distinción.
+    
+- **Definición:** Es una **idea expresiva**. Encierra el conocimiento de la **causa próxima** de la cosa.
+    
+- **Ejemplo:** Definir el círculo por su génesis (movimiento de una línea) es una idea adecuada; definirlo por sus propiedades geométricas es solo una idea clara.
+    
+
+---
+
+### 4. CONSTRUCCIÓN DEL SISTEMA Y PARALELISMO
+
+#### 4.1. El Axioma de Identidad
+
+- **Tesis:** "El orden y conexión de las ideas es el mismo que el orden y conexión de las cosas".
+    
+- **Deducción Metafísica:** La lógica es simultáneamente una ontología. Se debe empezar por lo anterior (Dios) para deducir lo finito.
+    
+
+#### 4.2. Consecuencias del Sistema
+
+1. **Argumento Ontológico:** Necesario para que Dios sea el primer principio del orden de las ideas.
+    
+2. **Exclusión de la Contingencia:** Al asimilar dependencia causal a dependencia lógica, se elimina la libertad de elección (libre albedrío). La libertad es ignorancia de las causas.
+    
+
+#### 4.3. Productividad de la Deducción
+
+- El método deductivo es el camino para adquirir nuevos conocimientos.
+    
+- Al partir de la idea de Dios (ser real), las ideas deducidas son **reproducciones de las cosas reales**. La producción de ideas es reproducción de la naturaleza.
+
+
+
+
+
+### 1. RUPTURA CON EL DETERMINISMO: DE SPINOZA A LEIBNIZ
+
+#### 1.1. Necesidad frente a Posibilidad
+
+- **Crítica a Spinoza:** La realidad no es una manifestación geométrica necesaria, sino el resultado de una **libre decisión divina**.
+    
+- **Categoría de la Posibilidad:** El ámbito de lo posible es más amplio que lo real. Lo real es una posibilidad elegida por ser "la mejor".
+    
+- **Razón Problemática:** La norma de la razón no es la necesidad geométrica, sino la **obligación moral**.
+    
+- **Análisis Infinito:** En las proposiciones contingentes (realidad), el análisis de la identidad no se alcanza nunca en el tiempo, solo en el infinito.
+    
+
+#### 1.2. Orden, Libertad y Finalidad
+
+- **Orden no necesario:** La necesidad pertenece a la lógica/matemática; el orden real es espontáneo y libre.
+    
+- **Causa del Universo (Dios):** Sustancia necesaria que actúa libremente de acuerdo con un **fin** (Causa final).
+    
+
+---
+
+### 2. TEORÍA DEL CONOCIMIENTO
+
+#### 2.1. Las dos clases de verdades
+
+1. **Verdades de Razón:**
+    
+    - **Naturaleza:** Necesarias e infalibles. No añaden información sobre la realidad (tautológicas).
+        
+    - **Principios:** Identidad (_Sujeto = Predicado_) y Contradicción (_Tercero excluido_).
+        
+    - **Origen:** Innatas (no derivan de la experiencia).
+        
+2. **Verdades de Hecho:**
+    
+    - **Naturaleza:** Contingentes. Se refieren a la realidad en acto. Su opuesto es posible.
+        
+    - **Principio de Razón Suficiente:** Nada ocurre sin una razón que determine por qué es así y no de otro modo. Es un principio de ordenación, no de necesidad mecánica.
+        
+
+#### 2.2. Conocimiento Divino frente a Humano
+
+- **Conocimiento Divino:** Capacidad de conocer en la idea de cada sustancia individual la razón suficiente de todos sus predicados (pasado, presente y futuro).
+    
+- **Conocimiento Humano:** Limitado; debe recurrir a la experiencia y la historia.
+    
+- **Teodicea:** La libertad humana radica en la **inconmensurabilidad** entre el punto de vista de Dios (certeza infalible) y el humano (contingencia moral).
+    
+
+#### 2.3. Formalización y Lógica Simbólica
+
+- **Proyecto de Carácter Calculístico:** Superar la ambigüedad del lenguaje ordinario mediante una lógica simbólica.
+    
+- **Combinatoria Universal:** Reducir los pensamientos a un número finito de elementos simples representados por signos. La argumentación se convierte en un **cálculo**.
+    
+
+---
+
+### 3. LA MONADOLOGÍA: EL SER COMO FUERZA
+
+#### 3.1. El concepto de Fuerza (_Vis_)
+
+- **Crítica a Descartes:** La materia no es solo _res extensa_ (extensión inerte). Es **vis (fuerza)** o _dynamis_.
+    
+- **Física Metafísica:** La fuerza es mv2 (masa por velocidad al cuadrado). El movimiento es relativo; la fuerza es la realidad sustancial.
+    
+- **Tipos de Fuerza:**
+    
+    1. **Pasiva:** Masa o resistencia a la penetración.
+        
+    2. **Activa:** _Conatus_ o impulso a la acción (Entelequia).
+        
+- **Naturaleza espiritual:** Todo el universo es un orden espiritual, contingente y libre.
+    
+
+#### 3.2. La Mónada (Átomo Espiritual)
+
+- **Definición:** Sustancia simple, sin partes, inextensa, indivisible y eterna.
+    
+- **Incomunicabilidad:** "No tienen ventanas". Nada entra ni sale; se modifican solo por un principio interno.
+    
+- **Identidad de los Indiscernibles:** No existen dos mónadas iguales; cada una tiene una diferencia interna exclusiva.
+    
+- **Microcosmos:** Cada mónada representa el universo entero desde una **perspectiva única**.
+    
+
+#### 3.3. Jerarquía y Dinámica de las Mónadas
+
+- **Gradación jerárquica:**
+    
+    1. **Dios:** Mónada divina, espíritu puro, perspectiva total.
+        
+    2. **Ángeles:** Mónadas vitales con cuerpos animados.
+        
+    3. **Hombres:** Mónadas espirituales (razón/apercepción).
+        
+    4. **Animales:** Mónadas sensibles (memoria/percepción).
+        
+    5. **Plantas/Inorgánicos:** Mónadas vegetativas o inanimadas (percepción confusa).
+        
+- **Actividad interna:**
+    
+    - **Percepción:** Representación de la multiplicidad en la unidad.
+        
+    - **Apercepción:** Conciencia de la percepción (propia de mónadas superiores).
+        
+    - **Apetición:** Impulso interno que produce el tránsito de una percepción a otra.
+        
+
+---
+
+### 4. ANTROPOLOGÍA Y ARMONÍA PREESTABLECIDA
+
+#### 4.1. Unión Cuerpo-Alma
+
+- **Materia Segunda:** Agregado de mónadas (cuerpo).
+    
+- **Mónada Dominante:** El alma.
+    
+- **Leyes Diferenciadas:** Los cuerpos se rigen por leyes mecánicas (causalidad eficiente); las almas por causas finales (espontaneidad).
+    
+
+#### 4.2. La Armonía Preestablecida
+
+- **Problema:** Si las mónadas son incomunicables, ¿cómo se coordinan alma y cuerpo?
+    
+- **Metáfora de los Relojes:** Dios (el relojero perfecto) sincronizó de antemano todas las sustancias en el acto creador.
+    
+- **Funcionamiento:** El alma actúa con espontaneidad y el cuerpo mecánicamente, pero ambos coinciden sin interactuar físicamente por el decreto divino original.
+    
+- **Acción y Pasión:** La acción es el desarrollo de percepciones claras; la pasión es el aumento de percepciones confusas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### 1. CARACTERIZACIÓN GENERAL DEL EMPIRISMO
+
+#### 1.1. Tesis Programáticas
+
+- **Origen cronológico y gnoseológico:** Todo conocimiento comienza en la **experiencia**. Las sensaciones son los contenidos primarios de la conciencia.
+    
+- **Relación de percepciones:** La conexión sujeto-predicado en las "cuestiones de hecho" se establece por la experiencia pasada, no por necesidad racional.
+    
+- **Método:** Basado en el control de la observación de hechos reales de la vida anímica.
+    
+
+#### 1.2. Marco Crítico
+
+- **Antiaristotelismo:** Rechazo de la abstracción como captación de esencias metafísicas.
+    
+- **Antirracionalismo:** Negación de las ideas innatas.
+    
+- **Giro Gnoseológico-Psicológico:** La validez del saber se juzga por su génesis en el alma. Se parte de los **datos de la conciencia** (punto común con el _cogito_ cartesiano).
+    
+
+---
+
+### 2. EL NUEVO CONCEPTO DE CIENCIA: BACON Y HOBBES
+
+#### 2.1. Francis Bacon: _Instauratio Magna_
+
+- **Finalidad:** Ciencia práctica dirigida al dominio de la naturaleza.
+    
+- **Crítica a la inducción aristotélica:** La tilda de "pueril" por ser una enumeración simple sin exclusiones.
+    
+- **Teoría de los Ídolos (Fuentes del error):**
+    
+    1. **Idola Tribus:** Inclinaciones naturales de la especie (antropomorfismo).
+        
+    2. **Idola Specus:** Disposiciones individuales (educación, carácter).
+        
+    3. **Idola Fori:** Ambigüedad del lenguaje y trato social.
+        
+    4. **Idola Theatri:** Dogmas de sistemas filosóficos antiguos.
+        
+- **Método de Tablas:** Presencia, Ausencia y Grados para descubrir la "forma" (ley física).
+    
+
+#### 2.2. Thomas Hobbes: Materialismo Mecanicista
+
+- **Ontología:** Negación de la sustancia espiritual. El hombre es un ser puramente corpóreo/sensible.
+    
+- **Psicología de la Asociación:** Las sensaciones son los únicos elementos de la conciencia. Memoria y pensamiento son combinaciones mecánicas de estas.
+    
+- **Naturalismo Ético:** El egoísmo y la autoconservación son los motores de la acción humana.
+    
+
+---
+
+### 3. JOHN LOCKE: CRÍTICA A LA METAFÍSICA Y ORIGEN DE LAS IDEAS
+
+#### 3.1. Epistemología Genética
+
+- **Tabula Rasa:** El alma es un papel en blanco. Rechazo del _consensus gentium_ como prueba de innatismo.
+    
+- **Fuentes de la Experiencia:**
+    
+    1. **Sensación:** Experiencia del sentido externo (cualidades sensibles).
+        
+    2. **Reflexión:** Experiencia del sentido interno (operaciones de la mente).
+        
+
+#### 3.2. Clasificación de las Ideas
+
+- **Ideas Simples:** Recibidas pasivamente (material básico del saber).
+    
+- **Ideas Complejas:** Formadas por la mente uniendo simples (Modos, Sustancias, Relaciones).
+    
+- **Abstracción:** Función simplificadora que separa una idea de sus circunstancias (tiempo/lugar) para convertirla en signo general.
+    
+
+#### 3.3. Crítica a los Conceptos Metafísicos
+
+- **Sustancia:** Idea compleja. Es el **"soporte desconocido"** (_I know not what_) que la mente postula por **costumbre** al ver cualidades que siempre coexisten.
+    
+- **Esencia Nominal vs. Real:**
+    
+    - **Nominal:** Conjunto de cualidades asociadas a un nombre (lo único cognoscible).
+        
+    - **Real:** Constitución interna de las partículas (incognoscible).
+        
+- **Identidad Personal:** Identidad de conciencia sustentada en la **memoria**, desvinculada de la sustancia (alma/cuerpo).
+    
+
+#### 3.4. Demostración de Dios (Certeza Demostrativa)
+
+Uso de la vía causal basada en la razón:
+
+1. **Certeza Intuitiva:** El sujeto sabe con evidencia que existe.
+    
+2. **Principio de Causalidad:** _Ex nihilo nihil fit_ (nada surge de la nada).
+    
+3. **Deducción:** Si algo existe, debe haber un **Ser Eterno**. Como somos seres inteligentes, la causa debe ser un **Ser Sapientísimo** y **Todopoderoso**.
+    
+
+---
+
+### 4. GEORGE BERKELEY: IDEALISMO INMATERIALISTA
+
+#### 4.1. El Principio _Esse est Percipi_
+
+- **Tesis:** La existencia de los cuerpos consiste en ser percibidos.
+    
+- **Negación de la Materia:** La "sustancia material" es una abstracción contradictoria e innecesaria. Los objetos son **colecciones de ideas**.
+    
+
+#### 4.2. Metafísica Espiritualista
+
+- **Sustancia Única:** El Espíritu (activo).
+    
+- **Dios como Creador de Percepciones:** Las ideas de los sentidos (mundo externo) no dependen de nuestra voluntad; son impuestas por Dios de forma ordenada.
+    
+- **Leyes de la Naturaleza:** Son la sucesión constante de ideas que Dios comunica a nuestras mentes.
+    
+
+#### 4.3. Crítica a la Abstracción
+
+- **Imposibilidad de ideas abstractas:** No se puede concebir un "triángulo general" que no sea isósceles ni escaleno.
+    
+- **Lenguaje:** Una idea es "general" solo porque funciona como **signo** de muchas ideas particulares similares.
+    
+
+#### 4.4. Cualidades Primarias y Secundarias
+
+- **Unificación:** Berkeley demuestra que las cualidades primarias (extensión, movimiento) son tan subjetivas y dependientes del observador como las secundarias (color, olor). Ambas residen solo en la mente.
+
+
+
+
+
+
+
+
+
+
+### . EL PROYECTO HUMEANO: CRÍTICA A LA METAFÍSICA
+
+- **Ruptura Drástica:** Hume rompe con la tradición que va desde Heráclito hasta Leibniz.
+    
+- **Motivación:** Considera la metafísica un esfuerzo infructuoso de la "vanidad humana" por penetrar en objetos inasequibles.
+    
+- **Propósito:** Inquirir el poder y la capacidad del entendimiento humano antes de filosofar.
+    
+- **Disolución de Pilares:** Su crítica disuelve los conceptos de **sustancia** y **causalidad**, considerándolos meras relaciones de ideas basadas en la suplantación de impresiones.
+    
+
+### 2. ELEMENTOS DEL CONOCIMIENTO (PERCEPCIONES)
+
+Hume sustituye la terminología de Locke por el término genérico **Percepción**, que se divide según su grado de fuerza y vivacidad:
+
+1. **Impresiones:**
+    
+    - Son las sensaciones o aprehensiones primeras.
+        
+    - Características: Más vivas, fuertes e inmediatas.
+        
+    - Origen: Percepción externa (sentidos) o interna (reflexión).
+        
+2. **Ideas:**
+    
+    - Imágenes débiles que conservan la memoria y la imaginación.
+        
+    - Son contenidos mediatos y reproducidos.
+        
+    - **Criterio de Verdad (El "Microscopio Humano"):** Una idea es válida solo si se puede señalar la **impresión** de la que deriva. Si no hay impresión, el término carece de significado.
+        
+
+### 3. LAS LEYES DE ASOCIACIÓN DE IDEAS
+
+Hume define el "cemento del universo" mental como un lazo secreto que junta ideas particulares:
+
+1. **Semejanza:** Un cuadro nos remite al hombre pintado. Es la base de la matemática.
+    
+2. **Contigüidad (espacio-temporal):** La mención de un lugar nos lleva a otro cercano o a un evento sucesivo.
+    
+3. **Causación (Causalidad):** La idea del hijo nos lleva al padre.
+    
+
+### 4. TIPOS DE CONOCIMIENTO (LA "HORQUILLA" DE HUME)
+
+Hume divide todos los objetos de la razón en dos clases:
+
+#### 4.1. Relaciones de Ideas (_Relations of Ideas_)
+
+- **Ámbito:** Geometría, Álgebra, Aritmética.
+    
+- **Naturaleza:** Proposiciones intuitivas o demostrativamente ciertas.
+    
+- **Criterio:** Se descubren por el solo funcionamiento de la mente. Su contrario es imposible porque implica **contradicción**. No dependen de la existencia de cosas en el mundo.
+    
+
+#### 4.2. Cuestiones de Hecho (_Matters of Fact_)
+
+- **Ámbito:** Realidad externa y experiencia.
+    
+- **Naturaleza:** Contingentes. Lo contrario de cualquier hecho es siempre posible (que el sol no salga mañana es una proposición inteligible).
+    
+- **Criterio:** Se basan en la relación de **causa y efecto**. No son demostrables _a priori_.
+    
+
+### 5. CRÍTICA A LOS CONCEPTOS FUNDAMENTALES
+
+#### 5.1. Crítica al Principio de Causalidad
+
+- **Inexistencia de Conexión Necesaria:** No percibimos el "vínculo" entre causa y efecto. Solo vemos la sucesión temporal (_post hoc_).
+    
+- **Mecanismo Psicológico:** La mente pasa del _post hoc_ al _propter hoc_ (causa) por la **Costumbre o Hábito**.
+    
+- **La Costumbre:** Es la repetición de ejemplos pasados la que genera una coacción interna para esperar el futuro. No es un principio racional, sino instintivo.
+    
+
+#### 5.2. Crítica a la Idea de Sustancia
+
+- **Inexistencia de Impresión:** No tenemos impresión de la sustancia, solo de cualidades particulares (color, sabor, etc.).
+    
+- **Explicación:** La sustancia es una "ficción" de la mente que agrupa cualidades coexistentes bajo un solo nombre por hábito asociativo.
+    
+
+#### 5.3. Crítica a la Identidad Personal (El Yo)
+
+- **Negación de la _Res Cogitans_:** Siempre que miramos dentro, encontramos percepciones (calor, amor, dolor), nunca un "yo" estable.
+    
+- **Haz de Percepciones:** El yo no es una sustancia, sino un **"haz o colección de diferentes percepciones"** en perpetuo flujo.
+    
+- **Metáfora del Teatro:** La mente es un teatro donde las percepciones pasan y se mezclan, pero no conocemos ni el lugar (escenario) ni el material de que está compuesto.
+    
+
+### 6. CRÍTICA A LA TEOLOGÍA NATURAL (DIOS)
+
+- **Ataque al Argumento del Diseño:** El argumento _a posteriori_ (el mundo es una máquina, luego tiene un autor inteligente) es inválido.
+    
+- **Falta de Semejanza:** Solo podemos inferir causas mediante la experiencia repetida. El universo es un objeto **único y sin paralelo**, por lo que no podemos aplicar el razonamiento experimental.
+    
+- **Proporcionalidad:** Si el efecto es finito e imperfecto (el mundo), no tenemos derecho a inferir una causa infinita y perfecta (Dios). Solo se podría inferir una causa finita proporcional al efecto.
+    
+
+### 7. CONCLUSIÓN: ESCEPTICISMO Y PRAGMATISMO
+
+- **Fenomenismo:** Solo conocemos las percepciones (fenómenos), no la realidad en sí.
+    
+- **Escepticismo Académico:** La razón es limitada y no puede alcanzar verdades absolutas sobre la existencia.
+    
+- **Pragmatismo:** Las creencias causales y las leyes naturales no son verdades necesarias, sino **hipótesis útiles** e instintos necesarios para sobrevivir.
+
+
+
+
+
+
+### 1. EL MARCO TRASCENDENTAL: LA REVOLUCIÓN COPERNICANA
+
+#### 1.1. Definición de Trascendental
+
+- **Concepto:** No se refiere a objetos, sino a nuestro **modo de conocerlos** a priori.
+    
+- **Sujeto Trascendental:** El sujeto no es una "sustancia" (alma), sino una **función pura de determinación**. Es la estructura que impone condiciones de posibilidad al objeto.
+    
+- **Trascendental vs. Trascendente:** * _Trascendental:_ Condiciones a priori dentro del límite de la experiencia.
+    
+    - _Trascendente:_ Lo que está más allá de toda experiencia posible (el Noúmeno).
+        
+
+#### 1.2. El Giro Copernicano
+
+- **Tesis:** Hasta Kant, se creía que el conocimiento se regía por los objetos. Kant propone que **los objetos deben regirse por nuestro conocimiento**. El sujeto es el legislador de la naturaleza.
+    
+
+---
+
+### 2. CLASIFICACIÓN DE LOS JUICIOS Y EL SABER CIENTÍFICO
+
+Kant busca fundamentar cómo son posibles los **Juicios Sintéticos a Priori** (base de la ciencia).
+
+- **Juicios Analíticos (a priori):** El predicado está contenido en el sujeto. Son universales y necesarios pero no aumentan el saber (tautológicos).
+    
+- **Juicios Sintéticos (a posteriori):** El predicado añade información nueva basada en la experiencia. Son contingentes.
+    
+- **Juicios Sintéticos a Priori:** El predicado añade información (sintético) pero su validez es independiente de la experiencia (a priori). Ejemplo: "La recta es la distancia más corta entre dos puntos".
+    
+
+---
+
+### 3. ESTÉTICA TRASCENDENTAL (NIVEL DE LA SENSIBILIDAD)
+
+- **Facultad:** La Sensibilidad (_Receptividad_).
+    
+- **Materia:** Sensaciones (caos informe).
+    
+- **Formas a Priori (Intuiciones Puras):** 1. **Espacio:** Forma del sentido externo. 2. **Tiempo:** Forma del sentido interno (más profunda, condición de todos los fenómenos).
+    
+- **Producto:** El **Fenómeno** (lo único que conocemos). Las cosas en sí (_Noúmenos_) permanecen incognoscibles.
+    
+
+---
+
+### 4. ANALÍTICA TRASCENDENTAL (NIVEL DEL ENTENDIMIENTO)
+
+- **Facultad:** El Entendimiento (_Espontaneidad_). "Pensar es juzgar".
+    
+- **Las Categorías (Conceptos Puros):** 12 funciones de síntesis que organizan las intuiciones.
+    
+    - **Deducción Metafísica:** Deriva las categorías de las formas lógicas del juicio (Cantidad, Cualidad, Relación, Modalidad).
+        
+    - **Deducción Trascendental:** Justifica el uso de categorías sobre los objetos de la experiencia.
+        
+
+#### 4.1. La Unidad Trascendental de la Apercepción (Yo Puro)
+
+- **El "Yo Pienso":** Debe acompañar a todas mis representaciones para que sean conocimiento. Es el principio supremo de síntesis y el nexo de validez lógica de todo el saber.
+    
+
+#### 4.2. El Esquematismo
+
+- **Problema:** ¿Cómo se aplican categorías (intelectuales) a intuiciones (sensibles)?
+    
+- **Solución:** El **Esquema Trascendental** (producto de la imaginación). Son determinaciones del **Tiempo** que sirven de puente.
+    
+    - _Ejemplo:_ La permanencia en el tiempo es el esquema de la **Sustancia**.
+        
+
+---
+
+### 5. DIALÉCTICA TRASCENDENTAL (NIVEL DE LA RAZÓN)
+
+- **Facultad:** La Razón. Su función es unificar los conocimientos del entendimiento bajo principios más altos.
+    
+- **Ilusión Trascendental:** La tendencia natural de la razón a aplicar las categorías más allá de la experiencia para buscar lo **incondicionado**.
+    
+
+#### 5.1. Las Ideas de la Razón
+
+La razón genera tres ideas absolutas que no tienen objeto en la experiencia:
+
+1. **Alma (Yo):** Unidad absoluta del sujeto pensante. Su estudio genera **Paralogismos** (sofismas).
+    
+2. **Mundo:** Unidad absoluta de la serie de condiciones de los fenómenos. Su estudio genera **Antinomias** (contradicciones irresolubles).
+    
+3. **Dios:** Unidad absoluta de todos los objetos del pensamiento (_Ens Realissimum_).
+    
+
+#### 5.2. Crítica de las Pruebas de la Existencia de Dios
+
+Kant desmonta los tres argumentos clásicos:
+
+- **Ontológico:** La existencia no es un predicado real que se deduzca de un concepto.
+    
+- **Cosmológico:** Se basa en el ontológico y aplica erróneamente la causalidad fuera del mundo sensible.
+    
+- **Físico-Teleológico:** Solo demostraría un "Arquitecto", no un Creador absoluto; además, depende de los anteriores.
+    
+
+#### 5.3. Uso Regulador de las Ideas
+
+Aunque las Ideas no proporcionan conocimiento objetivo (_uso constitutivo_), tienen un **uso regulador**: sirven como metas ideales para dar la máxima unidad y extensión posible a nuestro saber.
+
+
+
+
+## La _Dialéctica trascendental_ en Kant
+
+La **Dialéctica trascendental** constituye la **tercera gran parte** de la _Crítica de la razón pura_, tras la _Estética trascendental_ y la _Analítica trascendental_. Su función no es fundar conocimiento científico, sino **criticar un uso ilegítimo de la razón**: el uso **metafísico** que pretende ir más allá de la experiencia posible.
+
+Mientras que la Analítica muestra **cómo es posible el conocimiento objetivo** (mediante categorías aplicadas a la experiencia), la Dialéctica explica **por qué la razón cae necesariamente en errores** cuando intenta conocer lo incondicionado.
+
+---
+
+## 1. Función de la Dialéctica trascendental
+
+Kant usa el término _dialéctica_ en sentido **crítico y negativo** (a diferencia de Platón o Hegel):
+
+> Dialéctica = _lógica de la apariencia_ (_Logik des Scheins_).
+
+La Dialéctica trascendental tiene como objetivo:
+
+- **Descubrir las ilusiones necesarias de la razón**
+    
+- **Explicar su origen**
+    
+- **Mostrar por qué no pueden producir conocimiento**
+    
+
+No se trata de errores empíricos corregibles, sino de **ilusiones trascendentales**, inevitables, estructurales, propias de la razón misma.
+
+---
+
+## 2. Razón, entendimiento y experiencia
+
+Para entender la Dialéctica hay que distinguir:
+
+- **Entendimiento (Verstand)**:
+    
+    - Función: conocer objetos
+        
+    - Instrumentos: categorías
+        
+    - Límite: experiencia posible
+        
+- **Razón (Vernunft)**:
+    
+    - Función: buscar lo **incondicionado**
+        
+    - No conoce objetos
+        
+    - Produce **ideas**
+        
+
+La razón **no se contenta con lo condicionado** (fenómenos), sino que exige:
+
+> una totalidad absoluta, completa, incondicionada.
+
+Aquí comienza el problema.
+
+---
+
+## 3. Las ideas trascendentales
+
+La razón produce **ideas trascendentales**, que no proceden de la experiencia, sino de la exigencia de totalidad. Kant distingue **tres tipos**, correspondientes a las tres formas del silogismo:
+
+### a) Idea psicológica → el alma
+
+Busca el sujeto último de todos los estados psíquicos.  
+Produce la idea de un **yo simple, idéntico y sustancial**.
+
+### b) Idea cosmológica → el mundo
+
+Busca la totalidad absoluta de las condiciones de los fenómenos.  
+Produce las **antinomias** sobre el universo.
+
+### c) Idea teológica → Dios
+
+Busca la unidad suprema de toda la realidad.  
+Produce la idea de un **ser absolutamente necesario**.
+
+Estas ideas **no son falsas**, pero **no tienen objeto posible en la experiencia**.
+
+---
+
+## 4. La ilusión trascendental
+
+El error surge cuando la razón:
+
+- **Hipostatiza** sus ideas
+    
+- Las toma como **objetos reales**
+    
+- Pretende conocer lo que está **más allá de la experiencia**
+    
+
+Así nace la **metafísica dogmática** tradicional.
+
+Kant insiste:
+
+> la ilusión trascendental es inevitable, como una ilusión óptica.
+
+No puede eliminarse, solo **desenmascararse críticamente**.
+
+---
+
+## 5. Los paralogismos de la razón pura (el alma)
+
+En la psicología racional, la razón concluye falsamente que el _yo_ es:
+
+- sustancia
+    
+- simple
+    
+- idéntico
+    
+- inmortal
+    
+
+Kant demuestra que estas conclusiones se basan en un **uso ilegítimo de la categoría de sustancia**, aplicada **sin intuición empírica**.
+
+Resultado:
+
+- El _yo pienso_ es una **condición formal del conocimiento**
+    
+- No un objeto cognoscible
+    
+
+---
+
+## 6. Las antinomias de la razón pura (el mundo)
+
+Aquí Kant muestra el conflicto interno de la razón consigo misma.  
+Cada antinomia presenta:
+
+- una **tesis**
+    
+- una **antítesis**  
+    Ambas demostrables racionalmente, pero contradictorias.
+    
+
+Ejemplo:
+
+- El mundo tiene un comienzo en el tiempo
+    
+- El mundo es eterno
+    
+
+La solución kantiana:
+
+- El mundo como **totalidad en sí** no es objeto de experiencia
+    
+- Las categorías solo valen para fenómenos
+    
+- El conflicto surge por aplicar las categorías más allá de su ámbito legítimo
+    
+
+---
+
+## 7. El ideal de la razón pura (Dios)
+
+La razón construye el ideal de un **ser absolutamente necesario**.  
+Kant analiza y rechaza las tres pruebas clásicas de la existencia de Dios:
+
+- ontológica
+    
+- cosmológica
+    
+- físico-teológica
+    
+
+Conclusión:
+
+- La existencia no es un predicado
+    
+- No se puede demostrar la existencia de Dios teóricamente
+    
+
+Pero:
+
+- la idea de Dios tiene **función regulativa**
+    
+
+---
+
+## 8. Función regulativa de las ideas
+
+Aunque las ideas trascendentales no fundan conocimiento:
+
+- orientan la investigación científica
+    
+- promueven la unidad sistemática del saber
+    
+- evitan el caos empírico
+    
+
+La razón no es constitutiva, sino **regulativa**.
+
+---
+
+## 9. Sentido filosófico de la Dialéctica trascendental
+
+La Dialéctica trascendental cumple una función decisiva:
+
+- destruye la metafísica dogmática
+    
+- salva la legitimidad de la razón
+    
+- fija los límites del conocimiento humano
+    
+
+Kant no elimina la metafísica:
+
+> la **transforma** en crítica.
+
+---
+
+## Conclusión
+
+La _Dialéctica trascendental_ muestra que:
+
+- la razón tiende necesariamente a lo incondicionado
+    
+- esa tendencia genera ilusiones inevitables
+    
+- el conocimiento humano está limitado a la experiencia
+    
+- la metafísica como ciencia es imposible
+    
+- pero la razón conserva un papel orientador esencial
+    
+
+Así, Kant no niega la razón:  
+la **disciplinariza**, marcando el límite entre **conocer** y **pensar**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## La teoría aristotélica de las categorías
+
+La **teoría de las categorías** en Aristóteles es una **doctrina ontológico-lógica** que pretende responder a una pregunta fundamental:
+
+> **¿De cuántas maneras puede decirse el ser?**
+
+A diferencia de Platón, que sitúa la verdadera realidad en el mundo inteligible de las Ideas, Aristóteles parte de la **realidad sensible** y afirma que el ser se dice **de muchos modos**, aunque siempre en referencia a un sentido fundamental.
+
+---
+
+## 1. El problema del ser y la pluralidad de significados
+
+Aristóteles rechaza la idea de un ser único y homogéneo (como en Parménides) y afirma:
+
+> _“El ser se dice de muchas maneras”_ (_pollachôs légetai to ón_).
+
+Estas maneras no son arbitrarias, sino **formas fundamentales de predicación**, es decir, **modos básicos en los que algo puede ser o decirse de algo**.
+
+Las categorías son, por tanto:
+
+- **los géneros supremos del ser**
+    
+- **los tipos últimos de predicables**
+    
+- **las formas más generales de atribución**
+    
+
+---
+
+## 2. Categorías y lenguaje: ser y decir
+
+Las categorías surgen del análisis del **lenguaje predicativo**, pero no son meras categorías lingüísticas. Para Aristóteles:
+
+- el lenguaje refleja la estructura del ser
+    
+- lo que puede decirse verdaderamente de algo corresponde a cómo ese algo es
+    
+
+Por eso las categorías tienen un **doble estatuto**:
+
+- lógico-gramatical
+    
+- ontológico
+    
+
+---
+
+## 3. La lista de las diez categorías
+
+En la obra _Categorías_, Aristóteles enumera **diez categorías**:
+
+1. **Sustancia (ousía)**  
+    Aquello que existe en sí y no en otro.  
+    Ejemplo: _este hombre_, _este caballo_.
+    
+2. **Cantidad (posón)**  
+    Cuánto es algo.  
+    Ejemplo: _dos metros_, _tres kilos_.
+    
+3. **Cualidad (poión)**  
+    Cómo es algo.  
+    Ejemplo: _blanco_, _justo_, _valiente_.
+    
+4. **Relación (prós ti)**  
+    Referencia a otro.  
+    Ejemplo: _más grande que_, _padre de_.
+    
+5. **Lugar (poû)**  
+    Dónde está algo.  
+    Ejemplo: _en Atenas_.
+    
+6. **Tiempo (póte)**  
+    Cuándo es algo.  
+    Ejemplo: _ayer_, _mañana_.
+    
+7. **Posición (keîsthai)**  
+    Disposición corporal.  
+    Ejemplo: _sentado_, _tumbado_.
+    
+8. **Estado o posesión (échein)**  
+    Tener algo.  
+    Ejemplo: _armado_, _calzado_.
+    
+9. **Acción (poieîn)**  
+    Actuar sobre otro.  
+    Ejemplo: _cortar_, _enseñar_.
+    
+10. **Pasión (páschein)**  
+    Padecer una acción.  
+    Ejemplo: _ser cortado_, _ser enseñado_.
+    
+
+---
+
+## 4. Primacía de la sustancia
+
+La **sustancia** ocupa un lugar privilegiado:
+
+- Es **sujeto último de predicación**
+    
+- No se predica de otra cosa
+    
+- Todo lo demás se predica **de ella o en ella**
+    
+
+Sin sustancia:
+
+- no hay cualidades
+    
+- no hay cantidades
+    
+- no hay relaciones
+    
+
+Aristóteles distingue:
+
+- **sustancia primera**: el individuo concreto (_Sócrates_)
+    
+- **sustancia segunda**: la especie o el género (_hombre_, _animal_)
+    
+
+---
+
+## 5. Categorías y conocimiento
+
+Desde el punto de vista epistemológico:
+
+- conocer algo es saber **qué es** (sustancia)
+    
+- y **cómo es**, **cuánto es**, **dónde está**, etc. (accidentes)
+    
+
+Las categorías permiten:
+
+- ordenar el conocimiento
+    
+- evitar confusiones conceptuales
+    
+- delimitar tipos de predicación
+    
+
+Así, la teoría de las categorías es una **base del realismo aristotélico**:  
+el entendimiento no impone formas al ser, sino que **las abstrae de la experiencia**.
+
+---
+
+## 6. Diferencia con Platón y relevancia histórica
+
+Frente a Platón:
+
+- no hay Ideas separadas
+    
+- las formas están en las cosas
+    
+
+Las categorías:
+
+- sustituyen al mundo inteligible platónico
+    
+- explican la estructura del ser sensible
+    
+
+Su influencia es enorme:
+
+- escolástica medieval
+    
+- lógica tradicional
+    
+- metafísica clásica
+    
+- incluso Kant dialoga críticamente con Aristóteles al formular sus propias categorías
