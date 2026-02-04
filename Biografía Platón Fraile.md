@@ -105,7 +105,7 @@ hombres, apoderándose de Siracusa, e instaurando un gobierno de filósofos.
 Pero poco después fue asesinado por el platónico Callipos (354).</small>
 Platón ya no volvió a salir de Atenas. Desde 361 había dejado casi por
 completo la dirección de la Academia en manos de Heráclides de Ponto. Sus
-últimos años los consagró a la composición de Filebo, Tuneo, Cruitias y Leyes.
+últimos años los consagró a la composición de Filebo, Tuneo, Critias y Leyes.
 
 «Murió escribiendo», dice Cicerón. Falleció en el aniversario de su nacimiento,
 siendo enterrado en el jardín de la Academia.

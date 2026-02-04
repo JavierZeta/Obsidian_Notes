@@ -15,15 +15,15 @@
 		{"id":"8718a3889bb87a42","type":"file","file":"Presocráticos/Mileto/Anaximandro.md","x":-55,"y":245,"width":400,"height":400,"color":"6"},
 		{"id":"22addbace6b7e27a","type":"file","file":"Presocráticos/Monísmo Dinámico/Heráclito.md","x":1800,"y":-17,"width":400,"height":400},
 		{"id":"09fded70a8d40e55","type":"file","file":"Platón Autenticidad  Cronología y Obras.md","x":240,"y":1120,"width":400,"height":400},
-		{"id":"cce023dc8caa9d6b","type":"file","file":"Antes de leer platón.md","x":720,"y":1480,"width":303,"height":400},
 		{"id":"d3ac71bef7640579","type":"file","file":"Ética Platón.md","x":2920,"y":845,"width":400,"height":400},
 		{"id":"d89f3f6ad856b8d8","type":"file","file":"Teología Platón.md","x":2920,"y":1480,"width":400,"height":400},
 		{"id":"8243686976b482c1","type":"file","file":"Idea de Bien.md","x":2080,"y":1045,"width":400,"height":400},
 		{"id":"3846f0f5506a9c46","type":"file","file":"Política Platón.md","x":2920,"y":2160,"width":400,"height":400},
-		{"id":"a48f9bbd8a35cadd","type":"file","file":"Grados del Saber Platón.md","x":1200,"y":1480,"width":360,"height":400},
 		{"id":"f294911565ecff0c","type":"file","file":"Evolución de la Teoría de las Ideas.md","x":1680,"y":1480,"width":400,"height":400},
 		{"id":"8043443ada1bee24","type":"file","file":"Biografía Platón Fraile.md","x":240,"y":1800,"width":400,"height":400},
-		{"id":"24b65de4b2831ad6","type":"file","file":"Problemas abiertos de la teoría de las Ideas.md","x":2160,"y":2160,"width":400,"height":400}
+		{"id":"24b65de4b2831ad6","type":"file","file":"Problemas abiertos de la teoría de las Ideas.md","x":2160,"y":2160,"width":400,"height":400},
+		{"id":"cce023dc8caa9d6b","type":"file","file":"Antes de leer platón.md","x":740,"y":1360,"width":303,"height":400},
+		{"id":"a48f9bbd8a35cadd","type":"file","file":"Grados del Saber Platón.md","x":1180,"y":1280,"width":360,"height":400}
 	],
 	"edges":[
 		{"id":"8b2010bbfad17936","fromNode":"f4c1346690dcc662","fromSide":"left","toNode":"8718a3889bb87a42","toSide":"right"},
