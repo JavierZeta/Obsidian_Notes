@@ -213,6 +213,76 @@
             }
           },
           {
+            "id": "422db8aa0952127f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neuro/Free Energy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Free Energy"
+            }
+          },
+          {
+            "id": "b576e7d33e3f2485",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neuro/Free Energy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Free Energy"
+            }
+          },
+          {
+            "id": "f0f62472bc019838",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neuro/Free Energy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Free Energy"
+            }
+          },
+          {
+            "id": "e94901b14095c243",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neuro/Free Energy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Free Energy"
+            }
+          },
+          {
+            "id": "6a49897513c82e6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introduction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introduction"
+            }
+          },
+          {
             "id": "d7aa5603aa98bd67",
             "type": "leaf",
             "state": {
@@ -269,7 +339,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 18
       }
     ],
     "direction": "vertical"
@@ -430,34 +500,39 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0d2924eb80fbf884",
+  "active": "6a49897513c82e6a",
   "lastOpenFiles": [
-    "Canvas.canvas",
-    "Línea temporal.md",
-    "Personal.md",
-    "Autoformulada.md",
-    "Examen TCI.md",
-    "Escuela Cirenaica.md",
-    "Socrates/Critias.md",
+    "Introduction.md",
+    "Untitled.canvas",
+    "2026-03-03.md",
     "Untitled.md",
+    "Neuro/Free Energy.md",
+    "Neuro/Message passing in the Brain.md",
+    "Neuro/Free-Energy Framework.md",
+    "Neuro",
+    "Filosofía/Canvas.canvas",
+    "Astrofísica/Untitled.md",
+    "otros",
+    "otros/Personal.md",
     "Ex.md",
-    "Política Platón.md",
-    "Ética Platón.md",
-    "Antropología y Psicología.md",
-    "Cosmogonía.md",
-    "Teología Platón.md",
-    "Escuela Cínica.md",
-    "Grados del Saber Platón.md",
-    "Evolución de la Teoría de las Ideas.md",
-    "Problemas abiertos de la teoría de las Ideas.md",
-    "Idea de Bien.md",
-    "Platón Autenticidad  Cronología y Obras.md",
-    "Antes de leer platón.md",
-    "Biografía Platón Fraile.md",
-    "Teoría de las Ideas.md",
-    "Aristóteles epistemología.md",
-    "Aristotle Metaphysics.md",
-    "Experimento UC-Ozono.md",
+    "Filosofía",
+    "Filosofía/Línea temporal.md",
+    "Filosofía/Autoformulada.md",
+    "Filosofía/Examen TCI.md",
+    "Filosofía/Escuela Cirenaica.md",
+    "Filosofía/Socrates/Critias.md",
+    "Filosofía/Política Platón.md",
+    "Filosofía/Ética Platón.md",
+    "Filosofía/Antropología y Psicología.md",
+    "Filosofía/Cosmogonía.md",
+    "Filosofía/Teología Platón.md",
+    "Filosofía/Escuela Cínica.md",
+    "Filosofía/Grados del Saber Platón.md",
+    "Filosofía/Evolución de la Teoría de las Ideas.md",
+    "Filosofía/Problemas abiertos de la teoría de las Ideas.md",
+    "Filosofía/Idea de Bien.md",
+    "Filosofía/Platón Autenticidad  Cronología y Obras.md",
+    "Filosofía/Antes de leer platón.md",
     "Astrofísica/CANVAS.canvas",
     "Astrofísica/Pasted image 20251103192818.png",
     "Astrofísica/Pasted image 20251103192740.png",
@@ -469,16 +544,13 @@
     "Astrofísica/Pasted image 20251103192556.png",
     "Astrofísica/Pasted image 20251103192542.png",
     "Astrofísica/Pasted image 20251103192529.png",
-    "Untitled",
     "Astrofísica/Nebulosa",
     "Astrofísica",
-    "Socrates/The Republic",
+    "Filosofía/Socrates/The Republic",
     "Excalidraw",
     "Untitled.base",
-    "Presocráticos/Pluralismo heterogeneo",
+    "Filosofía/Presocráticos/Pluralismo heterogeneo",
     "Atomismo",
-    "copilot/copilot-custom-prompts",
-    "copilot",
     "Untitled 1.canvas"
   ]
 }
