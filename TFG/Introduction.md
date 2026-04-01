@@ -1,4 +1,4 @@
-﻿# PRELIMINARY MATERIAL
+# PRELIMINARY MATERIAL
 
 ## Dependency Map of Concepts
 
@@ -323,6 +323,12 @@ The remainder of this book constructs, step by step, the framework needed to for
 
 **Exercise 1.3.** Consider the Fock space $\mathcal{F} = \bigoplus_{n=0}^{\infty} \mathcal{H}_n$. If $|0\rangle$ is the vacuum state and $a^\dagger$ creates a particle, describe what the states $|0\rangle$, $a^\dagger|0\rangle$, $(a^\dagger)^2|0\rangle$ represent physically. How does this compare with the harmonic oscillator raising operator from QM I?
 
+
+
+Own conclusions:
+
+Fock space is an abstract Hilbert space containing all possible particle-number states of a field. The physical state is a vector in this space, and when the field operator acts on that state it can move it between the subspaces corresponding to different particle numbers.
+
 ---
 
 # Chapter 2: Special Relativity and Four-Vector Notation
@@ -365,6 +371,8 @@ The spacetime interval between two events is:
 
 $$ds^2 = dt^2 - dx^2 - dy^2 - dz^2$$
 
+
+![[Pasted image 20260303171549.png]]
 This is preserved by Lorentz transformations. We encode it in the **Minkowski metric tensor**:
 
 $$\eta_{\mu\nu} = \text{diag}(+1, -1, -1, -1) = \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & -1 & 0 & 0 \\ 0 & 0 & -1 & 0 \\ 0 & 0 & 0 & -1 \end{pmatrix}$$
@@ -402,9 +410,10 @@ The **spacetime interval** can be written as:
 $$ds^2 = \eta_{\mu\nu} dx^\mu dx^\nu = dx^\mu dx_\mu$$
 
 ## 2.6 Lorentz Transformations
+![[Pasted image 20260303171937.png]]
 
 A Lorentz transformation is a linear transformation $x^\mu \to x'^\mu = \Lambda^\mu_{\ \nu} x^\nu$ that preserves the spacetime interval:
-
+![[Pasted image 20260303172914.png]]
 $$\eta_{\mu\nu} \Lambda^\mu_{\ \alpha} \Lambda^\nu_{\ \beta} = \eta_{\alpha\beta}$$
 
 This defines the **Lorentz group**. It includes:
@@ -499,7 +508,7 @@ defined by $\epsilon^{0123} = +1$ and antisymmetric under exchange of any two in
 
 **Exercise 2.2.** Show that $\partial_\mu x^\nu = \delta^\nu_\mu$ (the Kronecker delta). Then compute $\partial_\mu(x^\nu x_\nu)$.
 
-**Exercise 2.3.** If $\phi(x)$ is a Lorentz scalar field and $A_\mu(x)$ is a Lorentz vector field, explain why $A^\mu \partial_\mu \phi$ is a Lorentz scalar but $A^\mu \partial^\nu \phi$ is a Lorentz tensor.
+**Exercise 2.3.** If $\phi(x)$ is a Lorentz scalar field and  $A_\mu(x)$ is a Lorentz vector field, explain why $A^\mu \partial_\mu \phi$ is a Lorentz scalar but $A^\mu \partial^\nu \phi$ is a Lorentz tensor.
 
 ---
 
@@ -1353,7 +1362,7 @@ This redundancy is the price we pay for a manifestly Lorentz-covariant descripti
 
 **Exercise 8.2.** Show that the mass term $\frac{1}{2}m^2 A_\mu A^\mu$ is not gauge-invariant. What would happen physically if the photon had a mass?
 
-**Exercise 8.3.** Starting from the Lagrangian for a complex scalar field $\mathcal{L} = (\partial_\mu\phi)^*(\partial^\mu\phi) - m^2|\phi|^2$, implement the gauge principle: replace $\partial_\mu \to D_\mu = \partial_\mu - iqA_\mu$. Write out the resulting Lagrangian and identify the interaction terms. How many different types of vertices appear?
+**Exercise 8.3.** Starting from the Lagrangian for a complex scalar field $\mathcal{L} = (\partial_\mu\phi)^*(\partial^\mu\phi) - m^2|\phi|^2$, implement the gauge principle: replace $\partial_\mu \to D_\mu = \partial_\mu - iqA_\mu$. Write out the resulting Lagrangian and identify *the interaction terms. How many different types of vertices appear?
 
 ---
 
@@ -1891,6 +1900,330 @@ All are determined by experiment, not by the theory.
 
 **Exercise 11.3.** Count the total number of gauge bosons in the Standard Model before and after electroweak symmetry breaking (where $W^\pm$, $Z^0$, and $\gamma$ emerge from the four electroweak gauge fields).
 
+
+Useful reminder of all with why fermions have masses
+
+# Mass Generation in the Standard Model
+
+This note explains the full logical chain connecting:
+
+- Relativity  
+- The Dirac equation  
+- The Dirac mass term  
+- Gauge symmetry in the Standard Model  
+- The Higgs mechanism  
+- Yukawa interactions  
+
+---
+
+# 1. Relativistic Origin of the Dirac Mass
+
+## 1.1 Relativistic Energy Relation
+
+Special relativity gives:
+
+$$
+E^2 = p^2 + m^2
+$$
+
+In quantum mechanics:
+
+$$
+E \to i\partial_t, 
+\qquad 
+p \to -i\nabla
+$$
+
+Substituting into the relativistic relation gives:
+
+$$
+(\Box + m^2)\psi = 0
+$$
+
+This is the Klein–Gordon equation.
+
+However, it does not properly describe spin-$\frac{1}{2}$ particles.
+
+---
+
+## 1.2 Dirac’s Construction
+
+Dirac searched for:
+
+- A relativistically invariant equation  
+- Linear in derivatives  
+- Consistent with $E^2 = p^2 + m^2$
+
+He proposed:
+
+$$
+(i\gamma^\mu \partial_\mu - m)\psi = 0
+$$
+
+Squaring this operator gives:
+
+$$
+(\Box + m^2)\psi = 0
+$$
+
+Thus the mass parameter $m$ appears because it is required to reproduce the relativistic dispersion relation.
+
+---
+
+# 2. Dirac Lagrangian in Quantum Field Theory
+
+In quantum field theory, equations of motion are derived from a Lagrangian via Euler–Lagrange equations.
+
+The Dirac Lagrangian is:
+
+$$
+\mathcal{L} 
+= \bar{\psi}(i\gamma^\mu \partial_\mu - m)\psi
+$$
+
+But this is just a lagrangian we made up in order to give as the dirac eq after Eurler-Lagrange. Applying the Euler–Lagrange equation to $\bar{\psi}$ gives:
+
+$$
+(i\gamma^\mu \partial_\mu - m)\psi = 0
+$$
+
+Important:
+
+- The mass term is already present in the Lagrangian.
+- Euler–Lagrange does not generate the mass.
+
+---
+
+# 3. Structure of the Dirac Mass Term
+
+The mass term is:
+
+$$
+m\bar{\psi}\psi
+$$
+
+Using chiral decomposition:
+
+$$
+\psi = \psi_L + \psi_R
+$$
+
+we obtain:
+
+$$
+\bar{\psi}\psi
+=
+\bar{\psi}_L\psi_R
++
+\bar{\psi}_R\psi_L
+$$
+
+A Dirac mass:
+
+- Mixes left- and right-handed components  
+- Is Lorentz invariant  
+- Has mass dimension 4 (renormalizable)
+
+It is the unique renormalizable Lorentz scalar bilinear without derivatives.
+
+---
+
+# 4. Gauge Symmetry in the Standard Model
+
+The Standard Model gauge group is:
+
+$$
+SU(3)_C \times SU(2)_L \times U(1)_Y
+$$
+
+In the SM:
+
+- Left-handed fermions transform as $SU(2)_L$ doublets.
+- Right-handed fermions transform as singlets.
+
+Example (quarks):
+
+$$
+Q_L =
+\begin{pmatrix}
+u_L \\
+d_L
+\end{pmatrix}
+$$
+
+Right-handed fields:
+
+$$
+u_R, \quad d_R
+$$
+
+---
+
+# 5. Why the Dirac Mass is Forbidden in the SM
+
+The Dirac mass term contains:
+
+$$
+\bar{\psi}_L \psi_R
+$$
+
+But:
+
+- $\psi_L$ transforms as a doublet.
+- $\psi_R$ transforms as a singlet.
+
+Therefore:
+
+$$
+\bar{\psi}_L \psi_R
+$$
+
+is not invariant under $SU(2)_L$.
+
+Hence:
+
+The direct Dirac mass term is forbidden by gauge symmetry.
+
+---
+
+# 6. Introduction of the Higgs Field
+
+To preserve gauge invariance while allowing masses, introduce a scalar doublet:
+
+$$
+H =
+\begin{pmatrix}
+H^+ \\
+H^0
+\end{pmatrix}
+$$
+
+with hypercharge:
+
+$$
+Y = +\frac{1}{2}
+$$
+
+---
+
+# 7. Yukawa Interactions
+
+A gauge-invariant term can be written:
+
+$$
+\mathcal{L}_{\text{Yukawa}}
+=
+- y_d \bar{Q}_L H d_R + \text{h.c.}
+$$
+
+This works because:
+
+- Doublet × Doublet → Singlet under $SU(2)$
+- Hypercharges cancel
+- The operator has dimension 4
+
+Thus it is allowed by symmetry and renormalizability.
+
+---
+
+# 8. Spontaneous Symmetry Breaking
+
+The Higgs potential:
+
+$$
+V(H)
+=
+-\mu^2 H^\dagger H
++
+\lambda (H^\dagger H)^2
+$$
+
+leads to a vacuum expectation value:
+
+$$
+\langle H \rangle
+=
+\begin{pmatrix}
+0 \\
+\frac{v}{\sqrt{2}}
+\end{pmatrix}
+$$
+
+Decompose the field:
+
+$$
+H(x)
+=
+\begin{pmatrix}
+0 \\
+\frac{v + h(x)}{\sqrt{2}}
+\end{pmatrix}
+$$
+
+---
+
+# 9. Emergence of the Dirac Mass
+
+Insert into the Yukawa term:
+
+$$
+- y_d \bar{Q}_L H d_R
+=
+- y_d \bar{d}_L \frac{v + h(x)}{\sqrt{2}} d_R
+$$
+
+Expanding:
+
+$$
+=
+- \frac{y_d v}{\sqrt{2}} \bar{d} d
+-
+\frac{y_d}{\sqrt{2}} h(x)\bar{d} d
+$$
+
+The first term is a Dirac mass term with:
+
+$$
+m_d
+=
+\frac{y_d v}{\sqrt{2}}
+$$
+
+---
+
+# 10. Complete Logical Flow
+
+1. Relativity requires $E^2 = p^2 + m^2$.
+2. Dirac constructs a linear relativistic equation with mass parameter $m$.
+3. In QFT, this equation follows from a Lagrangian containing $m\bar{\psi}\psi$.
+4. In the Standard Model, gauge symmetry forbids this term.
+5. Introduce the Higgs doublet.
+6. Write Yukawa interaction.
+7. Higgs acquires vacuum expectation value.
+8. Yukawa term becomes an effective Dirac mass term.
+
+---
+
+# 11. Conceptual Summary
+
+In a generic QFT:
+
+$$
+m = \text{fundamental parameter}
+$$
+
+In the Standard Model:
+
+$$
+m = y v
+$$
+
+Mass arises from:
+
+- A dimensionless Yukawa coupling $y$
+- The Higgs vacuum expectation value $v$
+
+Thus fermion mass is the result of interaction with a nonzero vacuum field.
 ---
 
 # Chapter 12: Quantum Chromodynamics
@@ -2088,8 +2421,11 @@ where $h(x)$ is a massive field (the "Higgs" mode, excitations along the radial 
 Now comes the brilliant part. When the broken symmetry is a **local (gauge) symmetry**, the Goldstone bosons do not appear as physical particles. Instead, they are "eaten" by the gauge bosons, which acquire mass. This is the **Higgs mechanism** (Englert, Brout, Higgs, 1964).
 
 ### 13.3.1 How It Works (Abelian Example)
+![[Pasted image 20260304175401.png]]
 
 Consider the U(1) gauge theory with a complex scalar:
+
+
 
 $$\mathcal{L} = (D_\mu\phi)^*(D^\mu\phi) - V(\phi) - \frac{1}{4}F_{\mu\nu}F^{\mu\nu}$$
 
@@ -2102,6 +2438,7 @@ $$\frac{1}{2}q^2v^2 A_\mu A^\mu$$
 This is a **mass term** for the gauge field! The gauge boson has acquired mass $m_A = qv$.
 
 The Goldstone boson $\xi(x)$ has been "gauged away" — it becomes the longitudinal polarization of the massive gauge boson. A massless spin-1 particle has 2 polarizations; a massive one has 3. The missing degree of freedom comes from the Goldstone boson.
+![[Pasted image 20260304180641.png]]
 
 ### 13.3.2 Counting Degrees of Freedom
 
@@ -2317,7 +2654,7 @@ The measured value of a coupling constant depends on the energy scale at which y
 
 - Regularization makes divergences mathematically tractable (cutoff or dimensional regularization).
 
-- Renormalization absorbs divergences into redefinitions of bare parameters (mass, coupling, field normalization).
+ - Renormalization absorbs divergences into redefinitions of bare parameters (mass, coupling, field normalization).
 
 - A theory is renormalizable if only finitely many types of counterterms are needed.
 
@@ -2655,7 +2992,7 @@ Fermi's theory is an EFT of the electroweak sector, valid for energies $E \ll m_
 
 2. **Predictive power:** At a given order in $1/\Lambda$, only a finite number of operators contribute. Measuring their Wilson coefficients gives predictions for all processes.
 
-3. **Systematic improvability:** Including higher-dimensional operators improves accuracy systematically.
+3. **Systematic improbability:** Including higher-dimensional operators improves accuracy systematically.
 
 4. **Renormalizability is not required:** The EFT is non-renormalizable, but this is fine — new divergences at each order in $1/\Lambda$ are absorbed by the operators already present at that order.
 

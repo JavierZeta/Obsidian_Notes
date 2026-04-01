@@ -4,277 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1c63e7a46488d6cd",
+        "id": "e2e11ff633c3144b",
         "type": "tabs",
         "children": [
           {
-            "id": "d556246f0c69c66c",
+            "id": "1a97ec27a0e66825",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teoría de las Ideas.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Teoría de las Ideas"
-            }
-          },
-          {
-            "id": "062e99ec1efaac5d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Platón Autenticidad  Cronología y Obras.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Platón Autenticidad  Cronología y Obras"
-            }
-          },
-          {
-            "id": "740e05aebcd18ea7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Antes de leer platón.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Antes de leer platón"
-            }
-          },
-          {
-            "id": "36061782bb824c98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Grados del Saber Platón.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Grados del Saber Platón"
-            }
-          },
-          {
-            "id": "499b8c84ba3344a0",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Canvas.canvas",
-                "viewState": {
-                  "x": 2472.5,
-                  "y": 840,
-                  "zoom": -2.0373873302533947
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Canvas"
-            }
-          },
-          {
-            "id": "87a0d73134e9b4db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cosmogonía.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cosmogonía"
-            }
-          },
-          {
-            "id": "edd716025eafd4ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Antropología y Psicología.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Antropología y Psicología"
-            }
-          },
-          {
-            "id": "6b859cbc21636339",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ética Platón.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Ética Platón"
-            }
-          },
-          {
-            "id": "b329bd287008125c",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Canvas.canvas",
-                "viewState": {
-                  "x": 2328.529987925614,
-                  "y": 2729.655454530789,
-                  "zoom": -2.979836307691236
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Canvas"
-            }
-          },
-          {
-            "id": "673e448b6e012fe0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Política Platón.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Política Platón"
-            }
-          },
-          {
-            "id": "789a8aa4319b8cd6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Escuela Cirenaica.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Escuela Cirenaica"
-            }
-          },
-          {
-            "id": "6a2be725f3f9499f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Examen TCI.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Examen TCI"
-            }
-          },
-          {
-            "id": "2fcef35dbed97a38",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Canvas.canvas",
-                "viewState": {
-                  "x": 3120,
-                  "y": 2360,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Canvas"
-            }
-          },
-          {
-            "id": "0d2924eb80fbf884",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Línea temporal.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Línea temporal"
-            }
-          },
-          {
-            "id": "422db8aa0952127f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Neuro/Free Energy.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Free Energy"
-            }
-          },
-          {
-            "id": "b576e7d33e3f2485",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Neuro/Free Energy.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Free Energy"
-            }
-          },
-          {
-            "id": "f0f62472bc019838",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Neuro/Free Energy.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Free Energy"
-            }
-          },
-          {
-            "id": "e94901b14095c243",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Neuro/Free Energy.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Free Energy"
-            }
-          },
-          {
-            "id": "6a49897513c82e6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Introduction.md",
+                "file": "TFG/Introduction.md",
                 "mode": "source",
                 "source": false
               },
@@ -283,63 +22,21 @@
             }
           },
           {
-            "id": "d7aa5603aa98bd67",
+            "id": "fc4760c0a40d87e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Platón Autenticidad  Cronología y Obras.md",
+                "file": "Neuro/Status.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Platón Autenticidad  Cronología y Obras"
-            }
-          },
-          {
-            "id": "984a9a5589c5bfc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Evolución de la Teoría de las Ideas.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Evolución de la Teoría de las Ideas"
-            }
-          },
-          {
-            "id": "fec59098b43eb968",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Problemas abiertos de la teoría de las Ideas.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Problemas abiertos de la teoría de las Ideas"
-            }
-          },
-          {
-            "id": "8af14373ed06f193",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Idea de Bien.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Idea de Bien"
+              "title": "Status"
             }
           }
         ],
-        "currentTab": 18
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -484,10 +181,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian42-brat:BRAT": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -500,13 +199,32 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a49897513c82e6a",
+  "active": "fc4760c0a40d87e9",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "Introduction.md",
-    "Untitled.md",
+    "Neuro/Status.md",
+    "On the Concept of the Absolute in Information Theory, Thermodynamics, Quantum Field Theory, and Neoplatonism.md",
+    "Neuron_Space_Precision_Learning_SFEC_Full_Derivation.md",
+    "Ne.md",
+    "TFG/Introduction.md",
+    "TFG/tfg.md",
+    "Mar 10 2026   Current State of Research.md",
+    "The Horizon of DIfference.md",
+    "Drawing 2026-03-03 19.29.32.excalidraw.md",
     "2026-03-03.md",
+    "Untitle.md",
+    "Untitled.md",
+    "Pasted image 20260313124552.png",
+    "On the Concept of the Absolute in Information Theory, Thermodynamics, Quantum Field Theory, and Neoplatonism.html",
+    "On the Concept of the Absolute in Information Theory, Thermodynamics, Quantum Field Theory, and Neoplatonism.docx",
+    "TFG",
     "Neuro/Free Energy.md",
+    "Pasted image 20260304180641.png",
+    "Pasted image 20260304175401.png",
+    "Pasted image 20260303171549.png",
+    "Pasted image 20260303172914.png",
+    "Pasted image 20260303171937.png",
+    "Pasted image 20260303171645.png",
+    "Untitled.canvas",
     "Neuro/Message passing in the Brain.md",
     "Neuro/Free-Energy Framework.md",
     "Neuro",
@@ -524,32 +242,14 @@
     "Filosofía/Política Platón.md",
     "Filosofía/Ética Platón.md",
     "Filosofía/Antropología y Psicología.md",
-    "Filosofía/Cosmogonía.md",
-    "Filosofía/Teología Platón.md",
-    "Filosofía/Escuela Cínica.md",
-    "Filosofía/Grados del Saber Platón.md",
-    "Filosofía/Evolución de la Teoría de las Ideas.md",
-    "Filosofía/Problemas abiertos de la teoría de las Ideas.md",
-    "Filosofía/Idea de Bien.md",
-    "Filosofía/Platón Autenticidad  Cronología y Obras.md",
     "Astrofísica/CANVAS.canvas",
     "Astrofísica/Pasted image 20251103192818.png",
     "Astrofísica/Pasted image 20251103192740.png",
     "Astrofísica/Pasted image 20251103192719.png",
-    "Astrofísica/Pasted image 20251103192657.png",
-    "Astrofísica/Pasted image 20251103192638.png",
-    "Astrofísica/Pasted image 20251103192620.png",
-    "Astrofísica/Pasted image 20251103192557.png",
-    "Astrofísica/Pasted image 20251103192556.png",
-    "Astrofísica/Pasted image 20251103192542.png",
-    "Astrofísica/Pasted image 20251103192529.png",
     "Astrofísica/Nebulosa",
     "Astrofísica",
     "Filosofía/Socrates/The Republic",
     "Excalidraw",
-    "Untitled.base",
-    "Filosofía/Presocráticos/Pluralismo heterogeneo",
-    "Atomismo",
     "Untitled 1.canvas"
   ]
 }

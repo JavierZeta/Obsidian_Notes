@@ -5,5 +5,8 @@
   "obsidian-excalidraw-plugin",
   "obsidian-git",
   "obsidian-latex-suite",
-  "obsidian-wrap-with-shortcuts"
+  "obsidian-wrap-with-shortcuts",
+  "obsidian-pandoc",
+  "obsidian42-brat",
+  "obsidian-substack-copy"
 ]
