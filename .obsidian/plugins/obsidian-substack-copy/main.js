@@ -78,34 +78,113 @@ var SubstackCopyPlugin = class extends import_obsidian.Plugin {
       if (!markdown) {
         markdown = editor.getValue();
       }
-      const container = document.createElement("div");
-      await import_obsidian.MarkdownRenderer.render(this.app, markdown, container, file.path, new import_obsidian.Component());
-      await this.replaceImagesWithBase64(container, file.path);
-      const html = container.innerHTML;
-      const plainText = container.innerText;
-      if (import_obsidian.Platform.isDesktopApp) {
-        const { clipboard } = require("electron");
-        clipboard.write({
-          text: plainText,
-          html
-        });
-      } else {
-        try {
-          const data = [new ClipboardItem({
-            "text/plain": new Blob([plainText], { type: "text/plain" }),
-            "text/html": new Blob([html], { type: "text/html" })
-          })];
-          await navigator.clipboard.write(data);
-        } catch (mobileError) {
-          console.error("Mobile Clipboard Error:", mobileError);
-          new import_obsidian.Notice("Mobile Copy Error: " + (mobileError.message || mobileError));
-          throw mobileError;
+      markdown = markdown.replace(/^---[\s\S]*?---\n?/, "");
+      markdown = markdown.replace(/(?<!\!)\[\[(?:[^|\]]*\|)?([^\]]+)\]\]/g, "$1");
+      const linkMap = {};
+      let linkIdx = 0;
+      markdown = markdown.replace(
+        /(?<!\!)\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,
+        (match, text, url) => {
+          const token = `SSTKLNK_${linkIdx}_SSTKEND`;
+          linkMap[token] = { text, url };
+          linkIdx++;
+          return token;
         }
+      );
+      if (import_obsidian.Platform.isDesktopApp) {
+        const container = document.createElement("div");
+        await import_obsidian.MarkdownRenderer.render(this.app, markdown, container, file.path, new import_obsidian.Component());
+        container.querySelectorAll(".markdown-embed-title").forEach((el) => el.remove());
+        this.restoreLinks(container, linkMap);
+        this.fixLinks(container);
+        this.sanitizeHtml(container);
+        await this.replaceImagesWithBase64(container, file.path);
+        const { clipboard } = require("electron");
+        clipboard.write({ text: container.innerText, html: container.innerHTML });
+        new import_obsidian.Notice("Copied for Substack!");
+      } else {
+        await this.mobileClipboardWrite(markdown, file.path, linkMap);
       }
-      new import_obsidian.Notice("Content copied for Substack!");
     } catch (error) {
       console.error("Substack Copy Error:", error);
-      new import_obsidian.Notice("Error copying content. Check console for details: " + (error.message || error));
+      new import_obsidian.Notice("Copy error: " + (error.message || error));
+    }
+  }
+  async mobileClipboardWrite(markdown, filePath, linkMap = {}) {
+    const self = this;
+    const app = this.app;
+    const prepareContainer = async () => {
+      const container2 = document.createElement("div");
+      await import_obsidian.MarkdownRenderer.render(app, markdown, container2, filePath, new import_obsidian.Component());
+      container2.querySelectorAll(".markdown-embed-title").forEach((el) => el.remove());
+      self.restoreLinks(container2, linkMap);
+      self.sanitizeStyles(container2);
+      self.fixLinks(container2);
+      self.sanitizeHtml(container2);
+      self.cleanupHtml(container2);
+      await self.replaceImagesWithBase64(container2, filePath);
+      return container2;
+    };
+    try {
+      const htmlBlob = prepareContainer().then((c) => new Blob([c.innerHTML], { type: "text/html" }));
+      const textBlob = prepareContainer().then((c) => new Blob([c.innerText], { type: "text/plain" }));
+      await navigator.clipboard.write([
+        new ClipboardItem({ "text/html": htmlBlob, "text/plain": textBlob })
+      ]);
+      new import_obsidian.Notice("Copied for Substack! (Rich Text + Images)");
+      return;
+    } catch (e1) {
+      console.warn("Stage 1 (ClipboardItem html) failed:", e1.message || e1);
+    }
+    const container = await prepareContainer();
+    const html = container.innerHTML;
+    const plainText = container.innerText;
+    try {
+      const editableDiv = document.createElement("div");
+      editableDiv.contentEditable = "true";
+      editableDiv.style.cssText = "position:fixed;top:-9999px;left:-9999px;width:1px;height:1px;overflow:hidden;opacity:0.01;";
+      editableDiv.innerHTML = html;
+      document.body.appendChild(editableDiv);
+      editableDiv.focus();
+      const range = document.createRange();
+      range.selectNodeContents(editableDiv);
+      const sel = window.getSelection();
+      if (sel) {
+        sel.removeAllRanges();
+        sel.addRange(range);
+      }
+      const success = document.execCommand("copy");
+      if (sel)
+        sel.removeAllRanges();
+      document.body.removeChild(editableDiv);
+      if (success) {
+        new import_obsidian.Notice("Copied for Substack! (Rich Text + Images)");
+        return;
+      }
+      throw new Error("execCommand returned false");
+    } catch (e2) {
+      console.warn("Stage 2 (contenteditable execCommand) failed:", e2.message || e2);
+    }
+    try {
+      await navigator.clipboard.writeText(plainText);
+      new import_obsidian.Notice("Copied as text (no formatting)");
+      return;
+    } catch (e3) {
+      console.warn("Stage 3 (writeText) failed:", e3.message || e3);
+    }
+    try {
+      const textArea = document.createElement("textarea");
+      textArea.value = plainText;
+      textArea.style.cssText = "position:fixed;top:-9999px;left:-9999px;";
+      document.body.appendChild(textArea);
+      textArea.focus();
+      textArea.select();
+      document.execCommand("copy");
+      document.body.removeChild(textArea);
+      new import_obsidian.Notice("Copied as text (Fallback)");
+    } catch (e4) {
+      console.error("Stage 4 failed:", e4.message || e4);
+      new import_obsidian.Notice("Failed to copy. Please try with the note open.");
     }
   }
   async replaceImagesWithBase64(container, sourcePath) {
@@ -152,5 +231,112 @@ var SubstackCopyPlugin = class extends import_obsidian.Plugin {
       default:
         return "application/octet-stream";
     }
+  }
+  // Restores tokenized external links to <a> tags without rewriting the whole HTML string.
+  restoreLinks(container, linkMap) {
+    var _a, _b;
+    const tokens = Object.keys(linkMap);
+    if (tokens.length === 0)
+      return;
+    const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT);
+    const textNodes = [];
+    let currentNode = walker.nextNode();
+    while (currentNode) {
+      textNodes.push(currentNode);
+      currentNode = walker.nextNode();
+    }
+    for (const textNode of textNodes) {
+      const value = (_a = textNode.nodeValue) != null ? _a : "";
+      if (!tokens.some((token) => value.includes(token)))
+        continue;
+      const fragment = document.createDocumentFragment();
+      let cursor = 0;
+      while (cursor < value.length) {
+        let nextToken = null;
+        let nextIndex = value.length;
+        for (const token of tokens) {
+          const index = value.indexOf(token, cursor);
+          if (index !== -1 && (index < nextIndex || index === nextIndex && (!nextToken || token.length > nextToken.length))) {
+            nextIndex = index;
+            nextToken = token;
+          }
+        }
+        if (!nextToken) {
+          fragment.appendChild(document.createTextNode(value.slice(cursor)));
+          break;
+        }
+        if (nextIndex > cursor) {
+          fragment.appendChild(document.createTextNode(value.slice(cursor, nextIndex)));
+        }
+        const { text, url } = linkMap[nextToken];
+        const anchor = document.createElement("a");
+        anchor.href = url;
+        anchor.target = "_blank";
+        anchor.rel = "noopener noreferrer";
+        anchor.textContent = text;
+        fragment.appendChild(anchor);
+        cursor = nextIndex + nextToken.length;
+      }
+      (_b = textNode.parentNode) == null ? void 0 : _b.replaceChild(fragment, textNode);
+    }
+  }
+  // Removes Obsidian's CSS variable references
+  sanitizeStyles(container) {
+    container.querySelectorAll("*").forEach((el) => {
+      el.removeAttribute("class");
+      el.removeAttribute("style");
+    });
+    container.style.color = "#000000";
+  }
+  sanitizeHtml(container) {
+    container.querySelectorAll("*").forEach((el) => {
+      const tagName = el.tagName.toLowerCase();
+      const allowedAttrs = /* @__PURE__ */ new Set();
+      if (tagName === "a") {
+        allowedAttrs.add("href");
+      } else if (tagName === "img") {
+        allowedAttrs.add("src");
+        allowedAttrs.add("alt");
+      }
+      Array.from(el.attributes).forEach((attr) => {
+        if (!allowedAttrs.has(attr.name.toLowerCase())) {
+          el.removeAttribute(attr.name);
+        }
+      });
+    });
+  }
+  // Reduces extra spacing from li > p etc.
+  cleanupHtml(container) {
+    container.querySelectorAll("li > p").forEach((p) => {
+      const parent = p.parentNode;
+      if (parent) {
+        while (p.firstChild) {
+          parent.insertBefore(p.firstChild, p);
+        }
+        parent.removeChild(p);
+      }
+    });
+    container.querySelectorAll("p, div").forEach((el) => {
+      if (!el.hasChildNodes() || el.innerHTML.trim() === "") {
+        el.remove();
+      }
+    });
+  }
+  // Fixes links after rendering
+  fixLinks(container) {
+    const links = container.querySelectorAll("a");
+    links.forEach((link) => {
+      var _a;
+      const href = link.getAttribute("href") || "";
+      const linkText = link.textContent || "";
+      if (href.startsWith("http://") || href.startsWith("https://")) {
+        link.setAttribute("href", href);
+        link.setAttribute("target", "_blank");
+        link.setAttribute("rel", "noopener noreferrer");
+      } else {
+        const text = document.createTextNode(linkText);
+        (_a = link.parentNode) == null ? void 0 : _a.replaceChild(text, link);
+      }
+    });
   }
 };

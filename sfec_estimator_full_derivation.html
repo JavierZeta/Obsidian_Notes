@@ -1,0 +1,744 @@
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+  :root {
+    --ink: var(--color-text-primary);
+    --ink2: var(--color-text-secondary);
+    --ink3: var(--color-text-tertiary);
+    --surf: var(--color-background-primary);
+    --surf2: var(--color-background-secondary);
+    --bd: var(--color-border-tertiary);
+    --bd2: var(--color-border-secondary);
+    --blue-fill: var(--color-background-info);
+    --blue-text: var(--color-text-info);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'EB Garamond', Georgia, serif; font-size: 17px; line-height: 1.85; color: var(--ink); max-width: 820px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+  h1 { font-size: 26px; font-weight: 500; margin-bottom: 0.3rem; line-height: 1.3; }
+  .subtitle { font-size: 15px; color: var(--ink2); font-family: var(--font-sans); margin-bottom: 2.5rem; }
+  h2 { font-size: 20px; font-weight: 500; margin: 2.8rem 0 0.7rem; border-bottom: 0.5px solid var(--bd2); padding-bottom: 0.4rem; }
+  h3 { font-size: 17px; font-weight: 500; margin: 1.8rem 0 0.5rem; color: var(--ink); }
+  h4 { font-size: 15px; font-weight: 500; margin: 1.4rem 0 0.4rem; color: var(--ink2); font-family: var(--font-sans); letter-spacing: 0.03em; text-transform: uppercase; }
+  p { margin-bottom: 1rem; }
+  .eq-block {
+    background: var(--surf2);
+    border-left: 3px solid var(--bd2);
+    border-radius: 0 var(--border-radius-md) var(--border-radius-md) 0;
+    padding: 0.9rem 1.2rem;
+    margin: 1.2rem 0;
+    overflow-x: auto;
+    font-size: 16px;
+  }
+  .eq-box {
+    background: var(--surf2);
+    border: 0.5px solid var(--bd2);
+    border-radius: var(--border-radius-md);
+    padding: 1rem 1.4rem;
+    margin: 1.2rem 0;
+    overflow-x: auto;
+  }
+  .boxed {
+    background: var(--blue-fill);
+    border: 0.5px solid var(--color-border-info);
+    border-radius: var(--border-radius-md);
+    padding: 1rem 1.4rem;
+    margin: 1.4rem 0;
+    overflow-x: auto;
+  }
+  .boxed .label { font-size: 12px; font-family: var(--font-sans); color: var(--blue-text); font-weight: 500; margin-bottom: 0.4rem; letter-spacing: 0.05em; text-transform: uppercase; }
+  .note {
+    border-left: 3px solid var(--bd2);
+    padding: 0.6rem 1rem;
+    margin: 1rem 0;
+    font-size: 15px;
+    color: var(--ink2);
+    font-style: italic;
+  }
+  .section-divider { border: none; border-top: 0.5px solid var(--bd); margin: 3rem 0; }
+  code { font-family: 'JetBrains Mono', monospace; font-size: 13px; background: var(--surf2); padding: 1px 5px; border-radius: 3px; }
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0; }
+  .mini-card { background: var(--surf2); border: 0.5px solid var(--bd); border-radius: var(--border-radius-md); padding: 0.8rem 1rem; }
+  .mini-card .label { font-size: 11px; font-family: var(--font-sans); color: var(--ink3); font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 0.3rem; }
+  .circuit-row { display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 1rem 0; }
+  .neuron-pill {
+    border: 0.5px solid var(--bd2);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 13px;
+    font-family: var(--font-sans);
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  .arrow { color: var(--ink3); font-size: 16px; align-self: center; }
+  @media (max-width: 560px) { .two-col { grid-template-columns: 1fr; } }
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-chtml.min.js"></script>
+
+<h1>Spiking Free-Energy State Estimator</h1>
+<p class="subtitle">Complete derivation from the free-energy principle through precision learning</p>
+
+<h2>1. Motivation and foundational idea</h2>
+<p>
+The free-energy principle holds that a self-organising system minimises a functional called variational free energy — a bound on the surprise of its sensory observations — by adjusting its internal states. In the computational neuroscience formulation this functional takes the form of a precision-weighted sum of prediction errors. When the internal states are represented by a <em>population of spiking neurons</em>, each spike must reduce free energy: a neuron fires when and only when doing so drives the free energy down. This is the Spiking Free-Energy Constrainer (SFEC) principle introduced by André et al.
+</p>
+<p>
+André's original construction couples the estimator to a control target, so the internal dynamics term conflates the quality of the state prediction with the progress toward a behavioural goal. The estimator derived here removes that coupling entirely. There is no target, no control output, and no cost on actions. The only objective is accurate state estimation.
+</p>
+
+<hr class="section-divider">
+
+<h2>2. System setup</h2>
+
+<h3>2.1 The plant</h3>
+<p>Consider a continuous-time linear plant with Euler-discretised or ZOH-discretised measurements:</p>
+
+<div class="eq-block">
+\[
+\dot{x} = A_{\mathrm{int}}\,x + d_w, \qquad y_t = C\,x_t + d_\eta
+\]
+</div>
+
+<p>where \(x \in \mathbb{R}^{n}\) is the hidden state, \(y_t \in \mathbb{R}^{m}\) is the observation at time \(t\), \(d_w \sim \mathcal{N}(0, Q_c\,dt)\) is process noise, and \(d_\eta \sim \mathcal{N}(0, R_c\,dt)\) is observation noise. The matrices \(Q_c\) and \(R_c\) are the true continuous-time noise covariances.</p>
+
+<h3>2.2 The neural code</h3>
+<p>The internal state estimate \(\boldsymbol{\mu} \in \mathbb{R}^n\) is represented as a weighted sum of decoder columns:</p>
+
+<div class="eq-block">
+\[
+\boldsymbol{\mu} = D\mathbf{r}, \qquad D \in \mathbb{R}^{n \times N}
+\]
+</div>
+
+<p>where \(\mathbf{r} \in \mathbb{R}^N\) is the vector of filtered spike counts (membrane traces) and \(D\) is the fixed decoder matrix. The network is <em>overcomplete</em>: \(N \gg n\). Each column \(D_i\) is the preferred decoding direction of neuron \(i\).</p>
+
+<p>Spike counts evolve according to leaky integration:</p>
+
+<div class="eq-block">
+\[
+\dot{\mathbf{r}} = -\tau\,\mathbf{r} + \mathbf{s}
+\]
+</div>
+
+<p>where \(\tau > 0\) is the membrane leak constant and \(\mathbf{s} \in \{0,1\}^N\) is the instantaneous spike vector.</p>
+
+<h3>2.3 The predictive prior</h3>
+<p>At the start of each timestep, the network forms a <em>predictive prior</em> by propagating the previous posterior estimate through the known discrete dynamics:</p>
+
+<div class="eq-block">
+\[
+\boldsymbol{\mu}_t^- = \Phi\,\boldsymbol{\mu}_{t-1}, \qquad \Phi = e^{A_{\mathrm{int}}\,\Delta t} \approx I + \Delta t\,A_{\mathrm{int}}
+\]
+</div>
+
+<p>This is the one-step prior mean. It is held constant during the inner spike-relaxation window of the current timestep, so \(\dot{\boldsymbol{\mu}}^- = 0\) within a step.</p>
+
+<div class="note">
+This is the fundamental difference from André's controller. André's dynamics term uses a target \(z_t\) to form \(A_{\mathrm{int}}\mu - \mu_{\mathrm{target}}\), mixing estimation with control. Here \(\boldsymbol{\mu}^-\) comes purely from the state-transition prediction, so the prior precision has a clean Bayesian meaning: how confident is the model in its own state-transition prediction?
+</div>
+
+<hr class="section-divider">
+
+<h2>3. The free-energy functional</h2>
+
+<p>The variational free energy for the estimator is a precision-weighted sum of two prediction errors plus an optional spike-cost term:</p>
+
+<div class="boxed">
+<div class="label">Estimator free energy</div>
+\[
+\mathcal{F}(\boldsymbol{\mu}, \mathbf{r}) =
+\underbrace{(\mathbf{y} - C\boldsymbol{\mu})^T \Pi_y (\mathbf{y} - C\boldsymbol{\mu})}_{\text{sensory error}} +
+\underbrace{(\boldsymbol{\mu} - \boldsymbol{\mu}^-)^T \Pi_\mu (\boldsymbol{\mu} - \boldsymbol{\mu}^-)}_{\text{transition prior error}} +
+\beta\,\mathbf{r}^T\mathbf{r}
+\]
+</div>
+
+<p>where \(\Pi_y \in \mathbb{R}^{m\times m}\) is the observation precision matrix, \(\Pi_\mu \in \mathbb{R}^{n\times n}\) is the prior precision matrix, and \(\beta \geq 0\) is the spike-cost coefficient. The matrices are related to the noise covariances through \(\Pi_y = R_d^{-1}\) and \(\Pi_\mu = (P_t^-)^{-1}\) where \(P_t^-\) is the one-step predictive error covariance.</p>
+
+<p>Define the combined precision-weighted measurement matrix:</p>
+<div class="eq-block">
+\[
+M = C^T \Pi_y C + \Pi_\mu
+\]
+</div>
+<p>and the combined precision-weighted target vector (the information-form right-hand side):</p>
+<div class="eq-block">
+\[
+\mathbf{q}_t = C^T \Pi_y \mathbf{y}_t + \Pi_\mu \boldsymbol{\mu}_t^-
+\]
+</div>
+<p>The exact minimiser of \(\mathcal{F}\) with respect to \(\boldsymbol{\mu}\) (setting \(\beta = 0\)) is:</p>
+<div class="eq-block">
+\[
+\boldsymbol{\mu}_t^\star = M^{-1}\mathbf{q}_t = (C^T\Pi_y C + \Pi_\mu)^{-1}(C^T\Pi_y\mathbf{y}_t + \Pi_\mu\boldsymbol{\mu}_t^-)
+\]
+</div>
+<p>This is exactly the information-form Bayesian fusion of measurement and prior — the same computation as one step of a Kalman filter with \(\Pi_y = R_d^{-1}\) and \(\Pi_\mu = (P_t^-)^{-1}\).</p>
+
+<hr class="section-divider">
+
+<h2>4. Deriving the spike condition</h2>
+
+<h3>4.1 Single-spike free-energy change</h3>
+<p>
+When neuron \(i\) fires, the spike count vector changes by one unit: \(\mathbf{r} \to \mathbf{r} + \mathbf{e}_i\), and so the estimate changes by the \(i\)-th decoder column: \(\boldsymbol{\mu} \to \boldsymbol{\mu} + D_i\). A spike is beneficial if and only if it strictly decreases the free energy:
+</p>
+
+<div class="eq-block">
+\[
+\Delta\mathcal{F}_i = \mathcal{F}(\boldsymbol{\mu} + D_i,\, \mathbf{r} + \mathbf{e}_i) - \mathcal{F}(\boldsymbol{\mu},\, \mathbf{r}) < 0
+\]
+</div>
+
+<h3>4.2 Expanding the sensory term</h3>
+<p>Let \(\boldsymbol{\epsilon}_y = \mathbf{y} - C\boldsymbol{\mu}\). After the spike, the sensory error becomes \(\boldsymbol{\epsilon}_y - CD_i\). The change in the sensory term is:</p>
+
+<div class="eq-block">
+\[
+(\boldsymbol{\epsilon}_y - CD_i)^T\Pi_y(\boldsymbol{\epsilon}_y - CD_i) - \boldsymbol{\epsilon}_y^T\Pi_y\boldsymbol{\epsilon}_y
+= -2\boldsymbol{\epsilon}_y^T\Pi_y C D_i + D_i^T C^T\Pi_y C\,D_i
+\]
+</div>
+
+<h3>4.3 Expanding the prior term</h3>
+<p>Let \(\boldsymbol{\epsilon}_\mu = \boldsymbol{\mu} - \boldsymbol{\mu}^-\). After the spike the prior error becomes \(\boldsymbol{\epsilon}_\mu + D_i\). The change in the prior term is:</p>
+
+<div class="eq-block">
+\[
+(\boldsymbol{\epsilon}_\mu + D_i)^T\Pi_\mu(\boldsymbol{\epsilon}_\mu + D_i) - \boldsymbol{\epsilon}_\mu^T\Pi_\mu\boldsymbol{\epsilon}_\mu
+= 2\boldsymbol{\epsilon}_\mu^T\Pi_\mu D_i + D_i^T\Pi_\mu D_i
+\]
+</div>
+
+<h3>4.4 Expanding the spike-cost term</h3>
+<p>The spike-cost contribution is:</p>
+<div class="eq-block">
+\[
+\beta\,(\mathbf{r}+\mathbf{e}_i)^T(\mathbf{r}+\mathbf{e}_i) - \beta\,\mathbf{r}^T\mathbf{r} = \beta\,(2r_i + 1)
+\]
+</div>
+
+<h3>4.5 Collecting all terms</h3>
+<p>Summing the three contributions:</p>
+
+<div class="eq-block">
+\[
+\Delta\mathcal{F}_i =
+-2D_i^T\!\left[C^T\Pi_y(\mathbf{y} - C\boldsymbol{\mu}) - \Pi_\mu(\boldsymbol{\mu} - \boldsymbol{\mu}^-)\right]
++ D_i^T M D_i + \beta(2r_i+1)
+\]
+</div>
+
+<p>Now simplify the bracket. Expanding the two inner terms:</p>
+
+<div class="eq-block">
+\[
+C^T\Pi_y(\mathbf{y} - C\boldsymbol{\mu}) - \Pi_\mu(\boldsymbol{\mu} - \boldsymbol{\mu}^-)
+= C^T\Pi_y\mathbf{y} + \Pi_\mu\boldsymbol{\mu}^- - (C^T\Pi_y C + \Pi_\mu)\boldsymbol{\mu}
+= \mathbf{q}_t - M\boldsymbol{\mu}
+= \mathbf{q}_t - MD\mathbf{r}
+\]
+</div>
+
+<p>Substituting back:</p>
+
+<div class="eq-block">
+\[
+\Delta\mathcal{F}_i = -2D_i^T(\mathbf{q}_t - MD\mathbf{r}) + D_i^T M D_i + \beta(2r_i+1)
+\]
+</div>
+
+<h3>4.6 The spike condition</h3>
+<p>For the spike to reduce free energy we need \(\Delta\mathcal{F}_i < 0\). Dividing by 2:</p>
+
+<div class="eq-block">
+\[
+D_i^T(\mathbf{q}_t - MD\mathbf{r}) - \tfrac{1}{2}D_i^T M D_i - \beta(r_i + \tfrac{1}{2}) > 0
+\]
+</div>
+
+<p>This defines a natural voltage and a natural threshold for neuron \(i\):</p>
+
+<div class="boxed">
+<div class="label">Spike rule — neuron \(i\) fires when \(v_i > T_i\)</div>
+\[
+v_i = D_i^T\!\left[\mathbf{q}_t - MD\mathbf{r}\right] = D_i^T(\mathbf{q}_t - M\boldsymbol{\mu})
+\]
+\[
+T_i = \tfrac{1}{2}\,D_i^T M D_i + \beta\!\left(r_i + \tfrac{1}{2}\right)
+\]
+</div>
+
+<hr class="section-divider">
+
+<h2>5. Vector form of the voltage</h2>
+
+<p>Writing the voltages of all neurons simultaneously, substitute \(\mathbf{q}_t = C^T\Pi_y\mathbf{y} + \Pi_\mu\boldsymbol{\mu}^-\):</p>
+
+<div class="eq-block">
+\[
+\mathbf{v} = D^T\mathbf{q}_t - D^T M D\mathbf{r}
+= D^T C^T\Pi_y\,\mathbf{y} + D^T\Pi_\mu\,\boldsymbol{\mu}^- - D^T M D\,\mathbf{r}
+\]
+</div>
+
+<p>Identifying the three weight matrices:</p>
+
+<div class="boxed">
+<div class="label">Voltage decomposition</div>
+\[
+\mathbf{v} = W_y\,\mathbf{y} + W_p\,\boldsymbol{\mu}^- - O\,\mathbf{r}
+\]
+\[
+W_y = D^T C^T \Pi_y \quad\text{(sensory feedforward)}
+\]
+\[
+W_p = D^T \Pi_\mu \quad\text{(predictive prior input)}
+\]
+\[
+O = D^T M D = D^T(C^T\Pi_y C + \Pi_\mu)D \quad\text{(recurrent inhibition)}
+\]
+</div>
+
+<div class="two-col">
+<div class="mini-card">
+<div class="label">Base threshold</div>
+\[T_i^{\mathrm{base}} = \tfrac{1}{2}\,O_{ii}\]
+</div>
+<div class="mini-card">
+<div class="label">Adaptive threshold</div>
+\[T_i = T_i^{\mathrm{base}} + \beta\!\left(r_i + \tfrac{1}{2}\right)\]
+</div>
+</div>
+
+<p>The threshold adapts with the neuron's own activity: neurons that have fired recently have a higher threshold, implementing automatic gain control and sparse representation.</p>
+
+<hr class="section-divider">
+
+<h2>6. Voltage dynamics</h2>
+
+<p>To derive how the voltage evolves between spikes, differentiate the voltage definition with respect to time, holding \(\mathbf{y}\) and \(\boldsymbol{\mu}^-\) constant during the inner ZOH window (since \(\dot{\boldsymbol{\mu}}^- = 0\) within a timestep):</p>
+
+<div class="eq-block">
+\[
+\dot{\mathbf{v}} = W_y\dot{\mathbf{y}} + W_p\dot{\boldsymbol{\mu}}^- - O\dot{\mathbf{r}}
+\]
+</div>
+
+<p>During the ZOH window, \(\dot{\boldsymbol{\mu}}^- = 0\). Substituting \(\dot{\mathbf{r}} = -\tau\mathbf{r} + \mathbf{s}\):</p>
+
+<div class="eq-block">
+\[
+\dot{\mathbf{v}} = W_y\dot{\mathbf{y}} - O(-\tau\mathbf{r} + \mathbf{s}) = W_y\dot{\mathbf{y}} + \tau O\mathbf{r} - O\mathbf{s}
+\]
+</div>
+
+<p>Now substitute back using \(\mathbf{v} = W_y\mathbf{y} + W_p\boldsymbol{\mu}^- - O\mathbf{r}\), so \(O\mathbf{r} = \mathbf{b} - \mathbf{v}\) where \(\mathbf{b} = W_y\mathbf{y} + W_p\boldsymbol{\mu}^-\) is the bias current:</p>
+
+<div class="eq-block">
+\[
+\dot{\mathbf{v}} = -\tau\mathbf{v} + \tau\mathbf{b} + \dot{\mathbf{b}} - O\mathbf{s}
+\]
+</div>
+
+<p>Under ZOH (\(\dot{\mathbf{b}} = 0\)), this simplifies to the canonical leaky-integrator form with recurrent inhibition:</p>
+
+<div class="boxed">
+<div class="label">Voltage dynamics (ZOH inner window)</div>
+\[
+\dot{\mathbf{v}} = -\tau\mathbf{v} + \tau(W_y\mathbf{y} + W_p\boldsymbol{\mu}^-) - O\mathbf{s}
+\]
+</div>
+
+<p>The positive-definite matrix \(O\) ensures that each spike immediately inhibits the whole network proportionally to the columns of \(D\). The leak term \(-\tau\mathbf{v}\) drives the voltage toward the current bias current. Together these implement a continuous relaxation toward the minimum of the free energy.</p>
+
+<div class="note">
+An important stability clarification: writing the dynamics in terms of \(\mathbf{r}\) gives an apparent \(+\tau O\mathbf{r}\) term which looks destabilising since \(O \succ 0\). But after rewriting in terms of \(\mathbf{v}\) the same system has the standard negative-leak \(-\tau\mathbf{v}\), which is stable. The positive-definiteness of \(O\) is not a stability problem — it is a coordinate artifact of the \(\mathbf{r}\)-representation.
+</div>
+
+<hr class="section-divider">
+
+<h2>7. Between-step prior update</h2>
+
+<p>At the transition between observation steps, the bias current \(\mathbf{b}\) changes because both \(\mathbf{y}\) and \(\boldsymbol{\mu}^-\) jump. This contributes an instantaneous voltage impulse equal to the change in bias:</p>
+
+<div class="eq-block">
+\[
+\mathbf{v}(t^+_{\mathrm{new}}) = \mathbf{v}(t^-_{\mathrm{old}}) + \Delta\mathbf{b}, \qquad \Delta\mathbf{b} = \mathbf{b}_{\mathrm{new}} - \mathbf{b}_{\mathrm{old}}
+\]
+</div>
+
+<p>where \(\mathbf{b}_{\mathrm{new}} = W_y\mathbf{y}_t + W_p\boldsymbol{\mu}_t^-\) uses the new observation and new prior, and \(\boldsymbol{\mu}_t^- = \Phi\boldsymbol{\mu}_{t-1}\). This step is implemented in code as <code>self.v += b_new - self.b</code>.</p>
+
+<hr class="section-divider">
+
+<h2>8. Complete estimator summary</h2>
+
+<div class="boxed">
+<div class="label">Full equations — target-free SFEC estimator</div>
+\[
+\textbf{Prior:}\quad \boldsymbol{\mu}_t^- = \Phi\,\boldsymbol{\mu}_{t-1}, \qquad \Phi \approx I + \Delta t\,A_{\mathrm{int}}
+\]
+\[
+\textbf{Information vector:}\quad \mathbf{q}_t = C^T\Pi_y\mathbf{y}_t + \Pi_\mu\boldsymbol{\mu}_t^-
+\]
+\[
+\textbf{Curvature:}\quad M = C^T\Pi_y C + \Pi_\mu, \qquad O = D^T M D
+\]
+\[
+\textbf{Voltage:}\quad v_i = D_i^T(\mathbf{q}_t - MD\mathbf{r})
+\]
+\[
+\textbf{Threshold:}\quad T_i = \tfrac{1}{2}O_{ii} + \beta(r_i + \tfrac{1}{2})
+\]
+\[
+\textbf{Dynamics:}\quad \dot{\mathbf{v}} = -\tau\mathbf{v} + \tau\mathbf{b} - O\mathbf{s}, \quad \mathbf{b} = W_y\mathbf{y} + W_p\boldsymbol{\mu}^-
+\]
+\[
+\textbf{Estimate:}\quad \boldsymbol{\mu} = D\mathbf{r}, \qquad \dot{\mathbf{r}} = -\tau\mathbf{r} + \mathbf{s}
+\]
+</div>
+
+<p>The exact Bayesian optimum (with \(\beta = 0\)) is \(\boldsymbol{\mu}^\star = M^{-1}\mathbf{q}_t\), recovering the information-form Kalman update. The spiking network approximates this solution through local threshold crossings.</p>
+
+<p>When \(C = I\) and both precisions are scalar (\(\Pi_y = \pi_y I\), \(\Pi_\mu = \pi_\mu I\)), the optimal estimate reduces to a precision-weighted mean:</p>
+
+<div class="eq-block">
+\[
+\boldsymbol{\mu}_t^\star = \frac{\pi_y\,\mathbf{y}_t + \pi_\mu\,\boldsymbol{\mu}_t^-}{\pi_y + \pi_\mu}
+= \frac{1}{1+\rho}\mathbf{y}_t + \frac{\rho}{1+\rho}\boldsymbol{\mu}_t^-, \qquad \rho = \frac{\pi_\mu}{\pi_y}
+\]
+</div>
+
+<p>The ratio \(\rho\) is therefore the core Bayesian quantity: it determines how much the estimator trusts its own prediction relative to the new observation. The theoretically optimal value is:</p>
+
+<div class="eq-block">
+\[
+\rho^\star = \frac{\mathrm{tr}(R_d)}{\mathrm{tr}(P_t^-)}, \qquad P_t^- = \Phi P_{t-1}\Phi^T + Q_d
+\]
+</div>
+
+<hr class="section-divider">
+
+<h2>9. Precision learning — motivation</h2>
+
+<p>
+The estimator above uses fixed precision matrices \(\Pi_y\) and \(\Pi_\mu\). In a real neural system, these quantities must be learned from local evidence: the system does not have access to the true noise covariances \(R_c\) and \(Q_c\). Two approaches are developed below, both derived from the free-energy principle and both strictly local in the sense that all computations happen within identifiable neural populations.
+</p>
+
+<p>Before presenting either approach, recall the key insight about common-scale cancellation. If both precisions are scaled by the same factor \(\alpha\):</p>
+
+<div class="eq-block">
+\[
+\Pi_y \to \alpha\Pi_y, \quad \Pi_\mu \to \alpha\Pi_\mu \implies M \to \alpha M,\; O \to \alpha O,\; T_i \to \alpha T_i,\; v_i \to \alpha v_i
+\]
+</div>
+
+<p>The spike condition \(v_i > T_i\) is invariant under common scaling (at \(\beta = 0\)). So the only quantity that matters for inference is the <em>ratio</em> \(\rho\), not the absolute scale. Any precision-learning rule that only changes the common scale learns nothing useful about the Bayesian tradeoff. This was the core problem with the earlier approach.</p>
+
+<hr class="section-divider">
+
+<h2>10. Precision learning: Method I — neuron-space ratio learner</h2>
+
+<h3>10.1 Conceptual basis</h3>
+
+<p>
+This method stays as close as possible to the existing spiking architecture. Each neuron \(i\) maintains a single local variable \(\xi_i\) — its log precision ratio — and uses it to modulate its own two input branches independently. No new neural populations are introduced.
+</p>
+
+<h3>10.2 Factorising the voltage into two branches</h3>
+
+<p>Decompose the voltage of neuron \(i\) into a sensory branch and a prior branch:</p>
+
+<div class="eq-block">
+\[
+I_i^y = \left(W_y^0\,\mathbf{y} - O^0_y\,\mathbf{r}\right)_i, \qquad W_y^0 = D^T C^T,\; O^0_y = D^T C^T C D
+\]
+</div>
+<div class="eq-block">
+\[
+I_i^\mu = \left(W_p^0\,\boldsymbol{\mu}^- - O^0_\mu\,\mathbf{r}\right)_i, \qquad W_p^0 = D^T,\; O^0_\mu = D^T D
+\]
+</div>
+
+<p>Both are computed at unit precision (\(\pi_y = \pi_\mu = 1\)). The full voltage is then:</p>
+
+<div class="eq-block">
+\[
+v_i = \pi_i^y\,I_i^y + \pi_i^\mu\,I_i^\mu
+\]
+</div>
+
+<p>and the threshold correspondingly:</p>
+
+<div class="eq-block">
+\[
+T_i = \tfrac{1}{2}\left(\pi_i^y\,(O^0_y)_{ii} + \pi_i^\mu\,(O^0_\mu)_{ii}\right) + \beta(r_i+\tfrac{1}{2})
+\]
+</div>
+
+<h3>10.3 Parameterisation via log-ratio and common gain</h3>
+
+<p>Introduce per-neuron log variables so that precisions are always positive:</p>
+
+<div class="eq-block">
+\[
+\pi_i^y = e^{g_i - \xi_i/2}, \qquad \pi_i^\mu = e^{g_i + \xi_i/2}
+\]
+</div>
+
+<p>where \(g_i\) is the common log-gain (fixed initially, or adapted homeostatically) and \(\xi_i\) is the log precision-ratio variable. The ratio is:</p>
+
+<div class="eq-block">
+\[
+\rho_i = \frac{\pi_i^\mu}{\pi_i^y} = e^{\xi_i}
+\]
+</div>
+
+<h3>10.4 Deriving the local learning rule from free energy</h3>
+
+<p>Include log-precision terms in the free energy to avoid the trivial collapse toward zero precision. For diagonal precisions and a single channel the relevant term is:</p>
+
+<div class="eq-block">
+\[
+\mathcal{F}_\lambda = e^\lambda\,a^2 - \lambda T
+\]
+</div>
+
+<p>where \(a^2\) is the squared local error current and \(T\) is the accumulation window length. This is the form used in the original precision-learning scheme. The gradient with respect to the log-precision \(\lambda\) is:</p>
+
+<div class="eq-block">
+\[
+\frac{\partial \mathcal{F}_\lambda}{\partial \lambda} = e^\lambda\,a^2 - T = \pi\,a^2 - T
+\]
+</div>
+
+<p>At equilibrium, \(\pi\,\overline{a^2} = 1\), i.e. the precision-weighted squared error equals unity. This is the <em>whitening condition</em>.</p>
+
+<p>For the ratio variable \(\xi_i\), the relevant free energy component is the difference of the two branch energies. Differentiating the total free energy with respect to \(\xi_i\) at fixed \(g_i\):</p>
+
+<div class="eq-block">
+\[
+\frac{\partial \mathcal{F}}{\partial \xi_i} = \tfrac{1}{2}\left(\pi_i^\mu\,\overline{(I_i^\mu)^2} - \pi_i^y\,\overline{(I_i^y)^2}\right)
+\]
+</div>
+
+<p>The resulting local ratio-update rule is:</p>
+
+<div class="boxed">
+<div class="label">Method I — log-ratio update (gradient descent on \(\mathcal{F}\))</div>
+\[
+\tau_\xi\,\dot{\xi}_i = \eta_\xi\!\left(\pi_i^y\,q_i^y - \pi_i^\mu\,q_i^\mu\right) - \kappa_\xi\,\xi_i
+\]
+\[
+\tau_q\,\dot{q}_i^y = -q_i^y + (I_i^y)^2, \qquad \tau_q\,\dot{q}_i^\mu = -q_i^\mu + (I_i^\mu)^2
+\]
+</div>
+
+<p>where \(q_i^y\) and \(q_i^\mu\) are slow low-pass squared-error traces. The decay term \(-\kappa_\xi\xi_i\) is a soft prior on \(\xi_i\) centered at zero (equal precisions), which prevents unbounded drift.</p>
+
+<h3>10.5 Equilibrium interpretation</h3>
+<p>At equilibrium \(\dot{\xi}_i = 0\):</p>
+
+<div class="eq-block">
+\[
+\pi_i^y\,\overline{(I_i^y)^2} = \pi_i^\mu\,\overline{(I_i^\mu)^2} \quad (\text{plus the regularisation term})
+\]
+</div>
+
+<p>The ratio shifts until the precision-weighted energy in the sensory branch equals the precision-weighted energy in the prior branch. Concretely:</p>
+
+<ul style="margin-left:1.5rem; margin-bottom:1rem; line-height:2">
+<li>If sensory errors dominate: \((I_i^y)^2 \gg (I_i^\mu)^2\) → \(\pi_i^y\) falls, \(\pi_i^\mu\) rises → estimator trusts the prior more.</li>
+<li>If prior errors dominate: \((I_i^\mu)^2 \gg (I_i^y)^2\) → \(\pi_i^\mu\) falls, \(\pi_i^y\) rises → estimator trusts the observation more.</li>
+</ul>
+
+<h3>10.6 Constraints and caveats</h3>
+
+<p>This method is fully local in neuron space: each neuron reads only its own branch currents, its own slow traces, and updates its own \(\xi_i\). However it learns a per-neuron ratio, not a per-state-channel ratio. For decoder columns that tile a shared state subspace (e.g. ±\(D_j\) pairs), the two members of a pair must share one \(\xi\) variable. Otherwise the asymmetric scaling breaks the bounding geometry of the SFEC spike condition.</p>
+
+<p>The common scale \(g_i\) can be adapted on a still-slower timescale toward a homeostatic target firing rate without affecting the ratio or the Bayesian inference quality.</p>
+
+<hr class="section-divider">
+
+<h2>11. Precision learning: Method II — factorised error-precision circuit</h2>
+
+<h3>11.1 Conceptual basis</h3>
+
+<p>
+Method I learns precision in neuron space and works well for overcomplete codes, but the learned quantity is a projection of the true precision onto individual neurons. Method II instead places the precision variable in the correct <em>channel space</em> — the observation space and the state space respectively — and implements this through dedicated neural sub-populations. The result is more interpretable and more consistent with the original Bayesian meaning of the precisions.
+</p>
+
+<p>The key insight is that the matrix notation hides local structure. Write the voltage as:</p>
+
+<div class="eq-block">
+\[
+v_i = D_i^T(\mathbf{q}_t - M\boldsymbol{\mu}) = \sum_l (CD)_{li}\,\pi_y^l\,\epsilon_y^l + \sum_k D_{ki}\,\pi_\mu^k\,\epsilon_\mu^k
+\]
+</div>
+
+<p>where \(\epsilon_y^l = y_l - (C\boldsymbol{\mu})_l\) is the residual in observation channel \(l\), and \(\epsilon_\mu^k = \mu_k^- - \mu_k\) is the residual in state channel \(k\). Each of these quantities can be computed locally by a small dedicated population.</p>
+
+<h3>11.2 Neural sub-populations</h3>
+
+<div class="circuit-row">
+<div class="neuron-pill">📍 Coding neurons \(\mathbf{r}\)</div>
+<div class="arrow">→</div>
+<div class="neuron-pill">👁 Sensory error \(\boldsymbol{\epsilon}_y\)</div>
+<div class="arrow">→</div>
+<div class="neuron-pill">⚖ Precision \(\pi_y^l\)</div>
+</div>
+<div class="circuit-row">
+<div class="neuron-pill">📍 Coding neurons \(\mathbf{r}\)</div>
+<div class="arrow">→</div>
+<div class="neuron-pill">🔮 Prior error \(\boldsymbol{\epsilon}_\mu\)</div>
+<div class="arrow">→</div>
+<div class="neuron-pill">⚖ Precision \(\pi_\mu^k\)</div>
+</div>
+
+<p>Concretely:</p>
+
+<div class="eq-block">
+\[
+\textbf{Sensory error neurons (dim }m\textbf{):}\quad \epsilon_y^l = y_l - \sum_i (CD)_{li}\,r_i
+\]
+</div>
+<div class="eq-block">
+\[
+\textbf{Prior error neurons (dim }n\textbf{):}\quad \epsilon_\mu^k = \mu_k^- - \sum_i D_{ki}\,r_i
+\]
+</div>
+<div class="eq-block">
+\[
+\textbf{Precision neurons (dim }m+n\textbf{):}\quad \pi_y^l = e^{\lambda_y^l}, \quad \pi_\mu^k = e^{\lambda_\mu^k}
+\]
+</div>
+
+<p>All matrices (\(CD\) and \(D\)) are fixed synaptic weights. The precision neurons are slow modulatory units that multiply the error-neuron signals before feeding back to the coding neurons. All computation is carried by identified neural populations — there is no external matrix algebra.</p>
+
+<h3>11.3 Voltage as local synaptic currents</h3>
+
+<p>The voltage of coding neuron \(i\) is now written as a sum of precision-gated local currents:</p>
+
+<div class="boxed">
+<div class="label">Method II — voltage as precision-gated currents</div>
+\[
+v_i = \sum_{l=1}^{m} (CD)_{li}\,\pi_y^l\,\epsilon_y^l \;+\; \sum_{k=1}^{n} D_{ki}\,\pi_\mu^k\,\epsilon_\mu^k
+\]
+</div>
+
+<p>The threshold is correspondingly:</p>
+
+<div class="eq-block">
+\[
+T_i = \frac{1}{2}\!\left(\sum_l \pi_y^l\,(CD)_{li}^2 + \sum_k \pi_\mu^k\,D_{ki}^2\right) + \beta\!\left(r_i + \tfrac{1}{2}\right)
+\]
+</div>
+
+<p>This is the self-effect of neuron \(i\)'s own spike propagating back through the same local loops — no global computation needed.</p>
+
+<h3>11.4 Free energy with log-precision terms</h3>
+
+<p>The full free energy to be minimised over both \(\boldsymbol{\mu}\) and the log-precisions is:</p>
+
+<div class="eq-block">
+\[
+\mathcal{F} = \sum_l \pi_y^l\,(\epsilon_y^l)^2 - \sum_l \log\pi_y^l + \sum_k \pi_\mu^k\,(\epsilon_\mu^k)^2 - \sum_k \log\pi_\mu^k + \beta\,\mathbf{r}^T\mathbf{r}
+\]
+</div>
+
+<p>The log-determinant terms \(-\log\pi\) prevent the trivial solution \(\pi \to 0\). Taking the gradient with respect to each log-precision:</p>
+
+<div class="eq-block">
+\[
+\frac{\partial \mathcal{F}}{\partial \lambda_y^l} = \pi_y^l\,(\epsilon_y^l)^2 - 1, \qquad \frac{\partial \mathcal{F}}{\partial \lambda_\mu^k} = \pi_\mu^k\,(\epsilon_\mu^k)^2 - 1
+\]
+</div>
+
+<h3>11.5 Local learning rules</h3>
+
+<p>Each precision neuron performs gradient descent on the free energy through its own slow trace:</p>
+
+<div class="boxed">
+<div class="label">Method II — precision learning rules (active-inference gradient descent)</div>
+\[
+\tau_q\,\dot{q}_y^l = -q_y^l + (\epsilon_y^l)^2, \qquad \tau_\lambda\,\dot{\lambda}_y^l = \eta_\lambda(1 - \pi_y^l\,q_y^l) - \kappa_\lambda(\lambda_y^l - \lambda_y^0)
+\]
+\[
+\tau_q\,\dot{q}_\mu^k = -q_\mu^k + (\epsilon_\mu^k)^2, \qquad \tau_\lambda\,\dot{\lambda}_\mu^k = \eta_\lambda(1 - \pi_\mu^k\,q_\mu^k) - \kappa_\lambda(\lambda_\mu^k - \lambda_\mu^0)
+\]
+</div>
+
+<p>where \(q_y^l\) and \(q_\mu^k\) are slow exponential moving averages of the squared channel errors, \(\eta_\lambda\) is the learning rate, and \(\kappa_\lambda(\lambda - \lambda_0)\) is a soft prior keeping precisions near a default value.</p>
+
+<h3>11.6 Equilibrium conditions</h3>
+
+<p>At equilibrium, \(\dot{\lambda} = 0\) gives the whitening conditions:</p>
+
+<div class="eq-block">
+\[
+\pi_y^l\,\overline{(\epsilon_y^l)^2} \approx 1 \quad \forall\,l, \qquad \pi_\mu^k\,\overline{(\epsilon_\mu^k)^2} \approx 1 \quad \forall\,k
+\]
+</div>
+
+<p>The precision neuron adjusts its gain until the precision-weighted squared error in its channel equals one — a local residual whitening criterion. This is the same condition that appears in variational Bayes and expectation-maximisation for Gaussian models.</p>
+
+<h3>11.7 Ratio extraction (for analysis)</h3>
+
+<p>For the case \(C = I\) and matched channels (\(m = n\)), the precision ratio for each state dimension \(k\) is directly readable from the two precision neurons:</p>
+
+<div class="eq-block">
+\[
+\rho_k(t) = \frac{\pi_\mu^k(t)}{\pi_y^k(t)} = e^{\lambda_\mu^k(t) - \lambda_y^k(t)}
+\]
+</div>
+
+<p>Under the whitening equilibrium conditions:</p>
+
+<div class="eq-block">
+\[
+\rho_k^\star \approx \frac{\overline{(\epsilon_y^k)^2}}{\overline{(\epsilon_\mu^k)^2}} = \frac{R_d^{kk}}{(P_t^-)^{kk}}
+\]
+</div>
+
+<p>matching the Kalman-optimal ratio for each diagonal channel separately. This is the precise formal sense in which Method II learns the "correct" Bayesian ratio.</p>
+
+<hr class="section-divider">
+
+<h2>12. Comparison of the two methods</h2>
+
+<div class="two-col">
+<div class="mini-card">
+<div class="label">Method I — neuron-space ratio</div>
+<p style="font-size:14px; margin:0.4rem 0 0; line-height:1.7">One \(\xi_i\) per coding neuron (or ± pair). Two branch currents per neuron. Learns a projected precision ratio in neuron space. Minimal additional population. Must share \(\xi\) across ± pairs. Stays closest to original SCN/SFEC architecture.</p>
+</div>
+<div class="mini-card">
+<div class="label">Method II — channel-space precision</div>
+<p style="font-size:14px; margin:0.4rem 0 0; line-height:1.7">Two dedicated sub-populations: error neurons (\(m+n\)) and precision neurons (\(m+n\)). Learns true channel-space precisions. Whitening condition is interpretable and testable. Larger circuit. Converges to Kalman-optimal ratio for diagonal case.</p>
+</div>
+</div>
+
+<p>In both methods the important timescale hierarchy must be respected: spiking inference (\(\tau \sim 0.1\)) is fastest, inner ZOH relaxation is next, then observation steps (\(\Delta t \sim 10^{-3}\) s), and precision learning is slowest (\(\tau_q \gg 1/\tau\)). If precision updates run at the same timescale as the inference dynamics, the bounding geometry of the SFEC condition changes during the relaxation, breaking the free-energy descent guarantee.</p>
+
+<h2>13. Expected effects on the controller</h2>
+
+<p>In the estimator-only design, the controller reads \(\boldsymbol{\mu} = D\mathbf{r}\) and produces control \(u_t = -K(\boldsymbol{\mu}_t - z_t)\). The controller is insulated from the precision-learning dynamics. Precision adaptation affects control only through the estimate quality.</p>
+
+<p>The effective observer gain in the scalar/isotropic case is:</p>
+
+<div class="eq-block">
+\[
+L_k(t) = \frac{\pi_y^k(t)}{\pi_y^k(t) + \pi_\mu^k(t)} = \frac{1}{1 + \rho_k(t)}
+\]
+</div>
+
+<p>When observation noise rises: residuals \((\epsilon_y^k)^2\) increase → \(\pi_y^k\) falls → \(L_k\) decreases → the estimator follows its prior more → control signal becomes smoother. When process noise or model mismatch rises: residuals \((\epsilon_\mu^k)^2\) increase → \(\pi_\mu^k\) falls → \(L_k\) increases → the estimator corrects faster from measurements → control reacts faster to disturbances.</p>
+
+<p>For the controller to be informed about self-generated motions, the predictor must include an efference copy of the motor command:</p>
+
+<div class="eq-block">
+\[
+\boldsymbol{\mu}_t^- = \Phi\,\boldsymbol{\mu}_{t-1} + \Gamma\,u_{t-1}
+\]
+</div>
+
+<p>Without this term, self-generated motion is misattributed to process noise, corrupting the learned prior precision.</p>

@@ -1,0 +1,119 @@
+### La cuestión previa: ¿qué es el escepticismo?![[mapa_escepticismos_antiguos.svg]]
+
+Antes de hablar de ningún autor, Spinelli insiste en que hay que definir con precisión qué se entiende por escepticismo, porque sin esa delimitación cualquier análisis histórico se vuelve estéril. Y la definición no es trivial: no basta con registrar la primera aparición del término técnico _skeptikos_ (que aparece en Filón de Alejandría en el siglo I a.C.), sino que hay que identificar una actitud filosófica con dos rasgos distintivos muy concretos.
+
+El primero es **perseverar sin descanso en la investigación permaneciendo en la aporía**, es decir, no llegar nunca a una conclusión definitiva, y asumir esa situación no como un fracaso sino casi como un fin en sí mismo. El segundo rasgo es la **capacidad de sostener esa apertura mental mediante la recopilación sistemática de argumentos** orientados a mostrar que ninguna pretensión cognoscitiva tiene fundamento suficiente para erigirse en dogma.
+
+Estos dos rasgos son los que permiten separar el escepticismo genuino de lo que Spinelli llama los "precursores": una larga lista de poetas y filósofos —Homero, Jenófanes, Parménides, Heráclito, Demócrito, Sócrates, Platón, Protágoras, Gorgias— que en algún momento expresaron duda, ignorancia o escepticismo sobre las capacidades humanas. Hay fuentes antiguas que los incluían en la genealogía escéptica para enriquecer su pedigree, pero Spinelli rechaza esta operación porque confunde pronunciamientos aislados y asistemáticos con una praxis filosófica sostenida. Hacer eso, dice, disolvería la especificidad del movimiento escéptico hasta volverlo irreconocible.
+
+Con esa depuración hecha, el campo queda acotado: el escepticismo genuino arranca en los **siglos IV-III a.C.**, con dos figuras que constituyen dos "padres fundadores" distintos y en muchos aspectos rivales: **Pirrón** por un lado y **Arcesilao** por otro. El hecho de que haya dos fundadores —y no uno— es la razón de que el texto hable de "escepticismos" en plural desde el título.
+
+---
+
+### La tradición pirrónica: de Pirrón a Agripa
+
+#### Pirrón de Élide (360–270 a.C.) y la paradoja del pirronismo de Pirrón
+
+La primera gran paradoja del texto es que Pirrón, el supuesto fundador del pirronismo, **no fue en sentido estricto un pirrónico**. Esta afirmación, que puede parecer absurda, se sostiene en un análisis cuidadoso de los testimonios disponibles, el más importante de los cuales es el de Aristocles (transmitido por Eusebio), que resume la posición de Pirrón a través de lo que su discípulo Timón decía de él.
+
+Según ese texto, Pirrón sostenía que las cosas carecen de diferencias, son inestables e indistintas. Por eso ni nuestras sensaciones ni nuestras opiniones son verdaderas o falsas, y la consecuencia práctica es que no conviene fiarse de ellas, sino permanecer "sin opiniones, sin inclinaciones, sin sobresaltos". El resultado de esta actitud es, primero, la afasia (no pronunciarse), y después la imperturbabilidad (ataraxia).
+
+El problema está en que Pirrón **afirma dogmáticamente** algo sobre la naturaleza de las cosas: que son indeterminadas, que carecen de estabilidad intrínseca. Esto no es suspender el juicio sobre la realidad, sino hacer una declaración metafísica —negativa, pero metafísica— sobre cómo son las cosas. En palabras de Spinelli, Pirrón tiende a una "metafísica negativa o indiferentista" que declara sin vacilación que nada puede conocerse, en lugar de limitarse a mostrar que no podemos saber si algo puede conocerse o no.
+
+Esto se confirma por el dato histórico de que la etiqueta "pirrónico" **no tuvo valor escéptico hasta el siglo I a.C.**: durante mucho tiempo, Pirrón fue clasificado entre los moralistas, no entre los escépticos. La conclusión de Jacques Brunschwig, que Spinelli adopta, es tajante: el primer pirrónico no fue Pirrón sino **Timón**, su discípulo más célebre.
+
+#### Timón de Fliunte (c. 320–230 a.C.)
+
+Timón es el "profeta" de la palabra pirrónica, el intermediario que reinterpreta a Pirrón y le da una orientación escéptica más reconocible. A él se deben los criterios interpretativos que tendían a presentar al maestro como portavoz de una sabiduría antisocraticamente entendida: una negación exasperada de cualquier acceso cognoscitivamente fundado a la realidad. Es probable que sea Timón, más que el propio Pirrón, quien introduce la lectura que después Enesidemo aprovechará para hacer de Pirrón el modelo de todo el pirronismo.
+
+Tras Timón, la tradición pirrónica se interrumpe. No hay continuidad textual ni institucional clara. Según el médico empírico Menodoto (s. II d.C.), Timón no tuvo ningún sucesor y la dirección (agoge) se interrumpió hasta que fue restablecida. Esta laguna durará hasta el siglo I a.C., y durante ese período la etiqueta "pirrónico" no funcionaba como designación de un escéptico sino de un moralista de orientación indiferentista.
+
+#### Enesidemo (siglo I a.C.) y el renacimiento pirrónico
+
+Enesidemo representa el momento de refundación del pirronismo. Su punto de partida es una ruptura polémica con la Academia de su tiempo —probablemente con Filón de Larisa—, a la que acusa de no ser verdaderamente escéptica sino de librar "una batalla de estoicos contra estoicos". Para Enesidemo, el verdadero escepticismo no estaba en la Academia sino en Pirrón, al que reinterpreta —probablemente revisando también la lectura de Timón— como portavoz de una filosofía completamente escéptica.
+
+Su aportación técnica fundamental es la sistematización de los **diez tropos** (modos, esquemas o razones) para la suspensión del juicio. No los inventó todos él —la tradición escéptica había elaborado argumentos similares antes—, pero fue el primero en organizarlos de forma coherente. Los tropos se ordenan de lo más específico a lo más general, y su función es mostrar sistemáticamente que entre el modo en que algo nos aparece (a la percepción sensorial o intelectual) y lo que ese algo es realmente en su naturaleza, existe siempre una brecha que no podemos salvar con certeza. Los diez tropos son: la diversidad entre los animales, la diversidad entre los seres humanos, las distintas constituciones de los sentidos, las circunstancias, las posiciones y distancias, las mezclas, las cantidades y modos de preparación, la relatividad, la mayor o menor frecuencia de los sucesos, y las formas de vida, costumbres, leyes y concepciones dogmáticas.
+
+Pero Enesidemo no se limita a los diez tropos. También desarrolla **ocho tropos anticausales**, específicamente dirigidos contra quienes pretenden ofrecer explicaciones causales de los fenómenos. Estos tropos no buscan demostrar que las explicaciones causales son falsas, sino que son injustificables: que nunca podemos saber cuál de las múltiples explicaciones posibles es la verdadera. El primer tropo ataca la pretensión de confirmar una causa no manifiesta mediante observaciones de lo que sí se manifiesta: no existe ninguna observación que pueda considerarse confirmación concordante de una causa oculta, porque el desacuerdo entre los dogmáticos muestra que ninguna explicación tiene fundamento unívoco. El segundo tropo señala que ante cualquier objeto no evidente siempre hay múltiples explicaciones igualmente convincentes, y que los dogmáticos eligen una de forma arbitraria. Spinelli nota aquí una proximidad con la tesis de Duhem y Quine sobre la subdeterminación de las teorías por los datos. El tercero va contra el atomismo: explicar hechos distintos recurriendo a causas últimas desordenadas no implica dar cuenta de su conexión en un todo ordenado. El cuarto critica la extrapolación del mundo fenoménico al mundo de lo no evidente: que algo suceda así entre las cosas que vemos no implica que suceda de la misma forma entre las cosas que no vemos. Los tropos quinto, sexto, séptimo y octavo atacan vicios metodológicos concretos de las ciencias dogmáticas: la lealtad acrítica a las propias hipótesis (quinto), la selección sesgada de hechos favorables ignorando los desfavorables (sexto), el recurso a causas que contradicen las propias hipótesis de partida (séptimo), y la pretensión de explicar lo oscuro por lo igualmente oscuro (octavo). El objetivo de todo esto no es la parálisis sino exactamente lo contrario: quien reconoce que no ha comprendido nada con certeza alcanza la felicidad a través de la imperturbabilidad, mientras que los dogmáticos se desgastan inútilmente en la angustia de creer que han comprendido lo que no han comprendido.
+
+#### Agripa (siglo I d.C.) y los cinco tropos
+
+De la vida y obra de Agripa no sabemos prácticamente nada, pero sí conocemos su aportación fundamental: cinco tropos pensados como una "red escéptica" que bloquea cualquier intento dogmático de justificar un conocimiento. Estos tropos son más abstractos y potentes que los de Enesidemo y funcionan de forma encadenada. El **tropo del desacuerdo** señala que sobre cualquier cuestión hay una divergencia insuperable de opiniones entre filósofos y entre la gente común, lo que impide elegir una posición sobre las demás. El **tropo del regreso al infinito** señala que cualquier prueba ofrecida para una tesis requiere a su vez una prueba, y así hasta el infinito, de modo que nunca encontramos un punto de partida firme. El **tropo de la relatividad** señala que la realidad siempre nos aparece en relación con quien juzga y con las condiciones de la percepción, sin que podamos decir nada sobre su naturaleza absoluta. El **tropo de la hipótesis** critica a quienes, para escapar del regreso al infinito, adoptan un punto de partida que simplemente asumen sin justificación. Y el **tropo del círculo vicioso** critica a quienes intentan demostrar algo recurriendo a lo que precisamente necesitaría ser demostrado por aquello. La combinación de estos cinco tropos forma una red argumental que, sea cual sea la estrategia que adopte el dogmático, lo lleva a la suspensión del juicio.
+
+---
+
+### La tradición académica: de Arcesilao a Filón
+
+#### Arcesilao (315–240 a.C.) y el escepticismo socrático-platónico
+
+La tradición académica del escepticismo arranca de forma independiente de la pirrónica, con raíces distintas y una sensibilidad filosófica diferente. Arcesilao no procede de Pirrón sino de Platón, y más concretamente del Platón de los diálogos aporético (Laques, Carmides, Eutifrón, el propio Teeteto): aquellos textos en que Sócrates examina las opiniones de sus interlocutores desde ángulos opuestos sin llegar nunca a una conclusión definitiva. Para Arcesilao, eso —discutir en un sentido y en el contrario— es la verdadera esencia del pensamiento filosófico, ya desde Sócrates.
+
+Su primera tesis es que **no hay nada que se pueda saber, ni siquiera lo que Sócrates había admitido** —el famoso "sé que no sé nada"—, porque incluso eso presupondría un acceso privilegiado a alguna verdad. Todas las cosas le parecen ocultas en la oscuridad, y de ahí concluye que la única actitud coherente del sabio es **suspender el juicio de forma generalizada** sobre todos los temas. No es que el escéptico diga "no sé": es que se abstiene de afirmar o negar cualquier cosa, manteniendo la mente abierta y sin inclinarse hacia ningún lado.
+
+Su principal blanco es el estoicismo, y en particular la teoría de la **representación aprehensiva** (phantasia kataleptike): la idea estoica de que existe un tipo especial de impresión sensorial que se distingue por sí misma de las falsas y que, cuando la mente la capta, produce un conocimiento seguro. Arcesilao ataca esto con una estrategia ad hominem: acepta provisionalmente la premisa estoica de que el sabio nunca debe emitir opiniones, y luego muestra que es imposible distinguir con seguridad entre representaciones verdaderas y falsas —usando ejemplos como gemelos, huevos indistinguibles, monedas con la misma acuñación, alucinaciones y sueños—. Si no puede hacerse esa distinción, entonces el sabio estoico, para no ser víctima de las opiniones, debe suspender el juicio ante toda representación. El estoicismo queda así derrotado con sus propias armas.
+
+Esto plantea una objeción inmediata: si uno suspende todo juicio, ¿cómo actúa? Los estoicos acusaban a Arcesilao de condenar al sabio a la inacción total (apraxia). Arcesilao responde con una teoría de la acción que prescinde del asentimiento cognitivo: la acción correcta nace de manera casi automática del impulso (hormê) que surge ante la representación de algo que nos es propio (oikeion), sin necesidad de que la mente dé su asentimiento explícito a una proposición. Una vez realizada, esa acción puede justificarse racionalmente con el criterio de lo razonable (eulogon), pero ese criterio funciona como justificación post factum, no como requisito previo a la acción.
+
+#### Carnéades (214–129 a.C.) y la probabilidad
+
+Carnéades es la segunda gran figura de la Academia escéptica y probablemente el filósofo más sofisticado de toda la tradición. Trabaja sobre el legado de Arcesilao pero lo modifica en un punto crucial: **no acepta la suspensión generalizada del juicio**. Admite que, al menos ocasionalmente, el sabio puede dar su asentimiento y formular opiniones, siempre que lo haga sobre una base adecuada.
+
+Esa base es lo que Carnéades llama lo **pithanon**: término griego que combina los significados de "probable" y "persuasivo". No se trata de afirmar que algo es verdadero, sino de guiarse por aquello que se presenta al juicio como convincente. Sobre esta noción construye una escala progresiva de representaciones: las meramente persuasivas, las persuasivas y no contradichas por otras informaciones disponibles, y finalmente las persuasivas, no contradichas y bien examinadas desde todos los ángulos posibles. Este último nivel es el más fiable para la práctica, aunque sin concederle valor absoluto.
+
+Con este instrumento, Carnéades esquiva la acusación de apraxia: el sabio puede actuar sirviéndose de las representaciones más persuasivas disponibles, ponderando con cuidado y sin precipitación todos los aspectos de la situación. No es un conocimiento cierto lo que guía la acción, sino una evaluación meticulosa de las probabilidades.
+
+El problema que esto plantea es ambiguo, y la ambigüedad es estructural: ¿está Carnéades formulando una alternativa positiva al escepticismo radical, o simplemente describiendo de forma dialéctica el único modo en que un ser humano puede funcionar sin por ello comprometerse dogmáticamente con la verdad? Esta ambigüedad queda abierta, y es la razón de que sus sucesores inmediatos se dividieran en dos lecturas incompatibles.
+
+#### La escisión: Clitómaco vs. Metrodoro, y la deriva de Filón de Larisa
+
+**Clitómaco** (187–110 a.C.) leyó a Carnéades como un escéptico radical cuya aportación fue puramente dialéctica: un combatiente que usaba la noción de lo pithanon como arma contra los estoicos, sin ningún compromiso positivo con ella. **Metrodoro de Estratonicea**, en cambio, estaba dispuesto a reconocer en la filosofía de Carnéades una vertiente positiva que permitía mitigar las conclusiones escépticas más extremas.
+
+Esta tensión desemboca en **Filón de Larisa** (154–83 a.C.), que representa un punto de inflexión importante: el progresivo aflojamiento de las posiciones escépticas de la Academia. Filón ya no acepta la tesis de la incomprensión radical. Su posición es que las cosas son, sí, incomprensibles si se aplica el criterio estoico de la representación aprehensiva, pero son comprensibles si atendemos a su naturaleza misma. Es un movimiento sutil pero decisivo: se está abriendo una grieta por la que el conocimiento puede volver a entrar por la puerta trasera. Este "debilitamiento" es lo que provoca dos reacciones: la vuelta al dogmatismo de **Antíoco de Ascalón**, y la refundación del pirronismo por parte de Enesidemo, que busca un escepticismo más radical del que ya no puede ofrecer la Academia.
+
+---
+
+### La síntesis: Sexto Empírico
+
+#### El gran canasto de las tradiciones
+
+Sexto Empírico (floruit 180–220 d.C.) es la última voz que nos ha llegado de la tradición pirrónica y, al mismo tiempo, la más comprehensiva. Su corpus de escritos es la _summa_ del pensamiento escéptico antiguo, y Spinelli lo llama "la punta del iceberg" de todas esas tradiciones: en él confluyen Pirrón y Timón, pero también Enesidemo (con quien mantiene además una relación de diálogo crítico y en muchos casos de claro disenso), Agripa, y elementos tomados del ámbito escéptico-académico —Arcesilao, Carnéades, Clitómaco, y de manera más mitigada Filón—. A esto se suman influencias de las sectas médicas escépticas, tanto la metódica como la empírica, vinculadas especialmente al nombre de Menodoto.
+
+Hay que abandonar la imagen, durante mucho tiempo dominante, de Sexto como mero copista o doxógrafo pasivo de tradiciones anteriores. Tiene una autonomía compositiva y teórica real. Sus dos grandes obras —los **Esbozos pirrónicos** (3 libros) y el **Adversus Mathematicos** (11 libros)— articulan una posición coherente y original: cuestionan no solo los tres campos tradicionales de la filosofía (lógica, física, ética), sino también la llamada cultura enciclopédica representada por gramáticos, retóricos, matemáticos, geómetras, astrólogos y músicos.
+
+#### La tripartición del campo filosófico
+
+Una de las contribuciones más nítidas de Sexto es su división de todas las filosofías en tres grandes familias. Los **dogmáticos positivos** —Aristóteles, Epicuro, los estoicos— son aquellos que afirman haber encontrado la verdad. Los **dogmáticos negativos** —Carnéades, Clitómaco y otros académicos— son aquellos que afirman no haber podido comprenderla: su declaración de incomprensión es en sí misma un dogma negativo, una afirmación de que el conocimiento es imposible. Los **escépticos genuinos** son quienes continúan investigando sin cerrarse ni en la afirmación ni en la negación: el pirronismo es la única filosofía que no adopta ninguna tesis definitiva ni siquiera sobre su propia situación epistémica.
+
+Esta tripartición tiene una consecuencia importante: Sexto separa radicalmente el pirronismo del escepticismo académico, que a su juicio no es verdadero escepticismo sino dogmatismo negativo disfrazado. Esta es la razón de que el texto hable de tradiciones no solo distintas sino "rivales".
+
+#### La esencia del pirronismo: la dynamis y la equipolencia
+
+La "esencia" del escepticismo genuino, según Sexto, es una **dynamis** —una habilidad o capacidad— que consiste en oponer, por todos los medios disponibles, discursos de igual fuerza a cualquier cosa que se afirme o se piense. El principio técnico que hace posible esta oposición es la **isostheneia** (equipolencia): la constatación de que, sobre cualquier cuestión filosófica, pueden formularse argumentos igualmente convincentes a favor y en contra. Cuando el escéptico reconoce esa equipolencia, la mente no puede inclinarse hacia ningún lado y se produce la **epoche**, la suspensión del juicio. Y de la epoche surge, de manera no buscada sino espontánea —"como la sombra sigue al cuerpo"—, la **ataraxia**, la imperturbabilidad.
+
+Esto explica también cómo nació históricamente el escepticismo según la reconstrucción de Sexto: hombres de noble carácter, angustiados por la confusión reinante sobre las cosas, se pusieron a investigar cuál era la verdad esperando que, encontrada esta, alcanzarían la paz de espíritu. Pero al investigar comprobaron que por cada argumento había otro de igual fuerza, y en lugar de la certeza encontraron la equipolencia. La epoche llegó entonces de manera involuntaria, y con ella, para su sorpresa, la serenidad que buscaban.
+
+#### El problema de la acción y el criterio del phainomenon
+
+El pirronismo enfrenta la misma acusación que Arcesilao: si no se afirma nada, si todo queda suspendido, ¿cómo actúa el escéptico? ¿No está condenado a la parálisis total (apraxia)?
+
+Sexto responde con el concepto del **phainomenon**: aquello que simplemente aparece, sin ningún compromiso sobre su naturaleza real. El escéptico no necesita afirmar nada sobre cómo son las cosas para orientarse en el mundo; le basta con atender a cómo se le presentan. Y esas apariencias están articuladas en cuatro guías prácticas que regulan la vida cotidiana de forma no dogmática: la guía de la **naturaleza** (que nos hace percibir y pensar), el **apremio de las pasiones** (el hambre nos lleva a comer, la sed a beber), la **tradición de las leyes y costumbres** (que nos dice qué considerar correcto o incorrecto en nuestra comunidad), y el **aprendizaje de las artes** (que nos permite ejercer oficios y técnicas). El escéptico sigue estas guías sin afirmar dogmáticamente que son las correctas o que corresponden a algo verdadero: simplemente las sigue porque aparecen ante él como orientaciones de la vida.
+
+El fin del escéptico está articulado en dos planos complementarios: en el plano de las opiniones, la **ataraxia** (imperturbabilidad total, ausencia de angustia dogmática); en el plano de las necesidades físicas ineludibles de la existencia humana —el hambre, el dolor, la enfermedad—, la **metriopatheia**, un sufrimiento moderado y aceptado que no genera el tormento adicional de las creencias sobre si ese sufrimiento es un mal en sí mismo.
+
+#### El lenguaje escéptico
+
+Sexto presta especial atención al uso del lenguaje. El escéptico no puede usar el lenguaje ordinario sin precauciones, porque el lenguaje ordinario está cargado de compromisos ontológicos. Las fórmulas escépticas características —"no es más que eso", "ni es ni no es", "y es y no es"— buscan registrar la apariencia sin afirmar nada sobre la realidad. Es un lenguaje que habla de lo que le sucede al que habla, no de cómo son las cosas. Y al mismo tiempo Sexto insiste en que el escéptico debe seguir el uso convencional del lenguaje de su comunidad, porque empeñarse en crear un lenguaje propio sería una forma de dogmatismo práctico igualmente inaceptable.
+
+#### La intención terapéutica y filantrópica
+
+El rasgo final, y quizás más sorprendente, del proyecto de Sexto es que su propósito no es destructivo sino **terapéutico**. El escéptico, dice Sexto al final de los Esbozos, es un filántropo que quiere curar la arrogancia y la precipitación de los dogmáticos. Como un buen médico que calibra la intensidad del remedio según la gravedad de la enfermedad, el escéptico usa argumentos más contundentes con quienes están muy aferrados a sus dogmas y argumentos más suaves con quienes padecen el dogmatismo en forma más leve. La metáfora médica no es casual: Sexto era probablemente médico, vinculado a la tradición del empirismo médico, y concibe la filosofía como una forma de cura del alma análoga a la medicina del cuerpo.
+
+Este legado es, para Spinelli, el más duradero de toda la tradición escéptica antigua: la idea de que el pirronismo no es una teoría sobre el conocimiento sino un **arte de la vida**, una práctica orientada a la felicidad que no busca la verdad porque ha comprendido que la búsqueda de certezas es precisamente la fuente principal de la angustia humana. La imperturbabilidad no se conquista sabiendo más, sino suspendiendo.
+
+---
+
+Una nota final que el texto subraya con fuerza: el escepticismo antiguo y el escepticismo moderno postcartesiano son **estructuralmente distintos** y no deben confundirse. El moderno arranca de Descartes y se pregunta si el mundo exterior existe, si los demás tienen mente, si el pasado es real: es un escepticismo sobre la existencia de objetos y sobre la posibilidad del conocimiento en general, con una carga epistémica muy pesada. El antiguo no es una teoría del conocimiento en ese sentido: es una actitud práctica ante la vida cuyo objetivo es la paz de espíritu, no la resolución de problemas epistemológicos abstractos. Confundir ambos —como tiende a hacer, por ejemplo, Gisela Fine— es uno de los errores historiográficos que Spinelli quiere corregir.
+
+
+
+

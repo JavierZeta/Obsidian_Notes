@@ -8,7 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1a97ec27a0e66825",
+            "id": "fc4760c0a40d87e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TFG/SMEFT_study_guide.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SMEFT_study_guide"
+            }
+          },
+          {
+            "id": "b17dc00176d21ce7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,21 +36,91 @@
             }
           },
           {
-            "id": "fc4760c0a40d87e9",
+            "id": "fc9db6f3117102e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Neuro/Status.md",
+                "file": "Untitled 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Status"
+              "title": "Untitled 1"
+            }
+          },
+          {
+            "id": "9f7b28c02242cee9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "otros/Personaje DnD.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Personaje DnD"
+            }
+          },
+          {
+            "id": "d7c29c7cf80ee1d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TFG/Introduction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introduction"
+            }
+          },
+          {
+            "id": "ce160203f3bc086e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Estoicismo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Estoicismo"
+            }
+          },
+          {
+            "id": "cb1dcc9bef953f5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Escépticos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Escépticos"
+            }
+          },
+          {
+            "id": "b9c2e57cc73a1254",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Am I sure?.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Am I sure?"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -199,25 +283,46 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fc4760c0a40d87e9",
+  "active": "b9c2e57cc73a1254",
   "lastOpenFiles": [
-    "Neuro/Status.md",
-    "On the Concept of the Absolute in Information Theory, Thermodynamics, Quantum Field Theory, and Neoplatonism.md",
-    "Neuron_Space_Precision_Learning_SFEC_Full_Derivation.md",
-    "Ne.md",
+    "Escépticos.md",
+    "Am I sure?.md",
+    "mapa_escepticismos_antiguos.svg",
+    "Estoicismo.md",
+    "mapa_conceptual_estoicismo.svg",
     "TFG/Introduction.md",
-    "TFG/tfg.md",
-    "Mar 10 2026   Current State of Research.md",
-    "The Horizon of DIfference.md",
+    "TFG/index.md",
+    "Z_AI-Workspace/SFEC_Code_vs_Derivation_Analysis.md",
+    "Z_AI-Workspace/AI-Rules/formatting_rules.md",
+    "Z_AI-Workspace/AI-Rules/extraction_rules.md",
+    "Neuro/Free Energy.md",
+    "otros/Personaje DnD.md",
+    "otros/Personal.md",
+    "Neuro/Status.md",
+    "CLAUDE.md",
+    "COntrollers.md",
     "Drawing 2026-03-03 19.29.32.excalidraw.md",
-    "2026-03-03.md",
-    "Untitle.md",
+    "Mar 10 2026   Current State of Research.md",
+    "Ne.md",
+    "Neuron_Space_Precision_Learning_SFEC_Full_Derivation.md",
+    "On the Concept of the Absolute in Information Theory, Thermodynamics, Quantum Field Theory, and Neoplatonism.md",
+    "Puntos.md",
+    "The Horizon of DIfference.md",
+    "Untitled 1.md",
+    "Pasted image 20260420180325.png",
     "Untitled.md",
+    "html-to-markdown.md.txt",
+    "sfec_estimator_full_derivation.html",
+    "Z_AI-Workspace/AI-Rules",
+    "Z_AI-Workspace",
+    "Untitled",
+    "TFG/SMEFT_study_guide.md",
+    "TFG/tfg.md",
+    "2026-03-03.md",
     "Pasted image 20260313124552.png",
     "On the Concept of the Absolute in Information Theory, Thermodynamics, Quantum Field Theory, and Neoplatonism.html",
     "On the Concept of the Absolute in Information Theory, Thermodynamics, Quantum Field Theory, and Neoplatonism.docx",
     "TFG",
-    "Neuro/Free Energy.md",
     "Pasted image 20260304180641.png",
     "Pasted image 20260304175401.png",
     "Pasted image 20260303171549.png",
@@ -225,31 +330,10 @@
     "Pasted image 20260303171937.png",
     "Pasted image 20260303171645.png",
     "Untitled.canvas",
-    "Neuro/Message passing in the Brain.md",
-    "Neuro/Free-Energy Framework.md",
     "Neuro",
     "Filosofía/Canvas.canvas",
-    "Astrofísica/Untitled.md",
     "otros",
-    "otros/Personal.md",
-    "Ex.md",
-    "Filosofía",
-    "Filosofía/Línea temporal.md",
-    "Filosofía/Autoformulada.md",
-    "Filosofía/Examen TCI.md",
-    "Filosofía/Escuela Cirenaica.md",
-    "Filosofía/Socrates/Critias.md",
-    "Filosofía/Política Platón.md",
-    "Filosofía/Ética Platón.md",
-    "Filosofía/Antropología y Psicología.md",
     "Astrofísica/CANVAS.canvas",
-    "Astrofísica/Pasted image 20251103192818.png",
-    "Astrofísica/Pasted image 20251103192740.png",
-    "Astrofísica/Pasted image 20251103192719.png",
-    "Astrofísica/Nebulosa",
-    "Astrofísica",
-    "Filosofía/Socrates/The Republic",
-    "Excalidraw",
     "Untitled 1.canvas"
   ]
 }
